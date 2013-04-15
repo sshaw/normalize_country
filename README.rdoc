@@ -1,0 +1,31 @@
+= NormalizeCountry
+
+Turn your unwieldy country names into something standard. 
+
+*Work* *in* *progress*
+
+=== Overview
+
+ require "normalize_country"
+
+ p NormalizeCountry("U.S.A.")  		         # "United States"
+ p NormalizeCountry("United States of America")  # "United States"
+ p NormalizeCountry("U.S.", :to => :iso2)        # "US"
+
+ # Or
+ p NormalizeCountry.normalize("U.S.", :to => :iso2)  # "US"
+ 
+ # Set the default
+ NormalizeCountry.to = :iso3 
+ p NormalizeCountry.normalize("United States")  # "USA"
+ p NormalizeCountry.aliases("United States")    # ["U.S.", "USA", "U.S.A.", ...]
+
+ NormalizeCountry::Countries::US.aliases << "U$A"
+ p NormalizeCountry.normalize("U$A")               # "USA"
+ p NormalizeCountry.normalize("U$A", :to => :iso)  # "United States"
+
+ # Add a named alias
+ NormalizeCountry::Countries::US[:pt] = "Os Estados Unidos"
+ p NormalizeCountry.normalize("Os Estados Unidos")  # "USA"
+ p NormalizeCountry.normalize("USA", :to => :pt)    # "Os Estados Unidos"
+
