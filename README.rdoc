@@ -1,6 +1,6 @@
 = NormalizeCountry
 
-Turn your unwieldy country names into something standard. 
+Convert country names and codes to a standard.
 
 *Work* *in* *progress*
 
@@ -8,24 +8,47 @@ Turn your unwieldy country names into something standard.
 
  require "normalize_country"
 
- p NormalizeCountry("U.S.A.")  		         # "United States"
- p NormalizeCountry("United States of America")  # "United States"
- p NormalizeCountry("U.S.", :to => :iso2)        # "US"
+ NormalizeCountry("America")                       # "United States"
+ NormalizeCountry("United States of America")      # "United States"
+ NormalizeCountry("USA",  :to => :official)        # "United States of America"
+ NormalizeCountry("US",   :to => :fifa)            # "USA"
+ NormalizeCountry("Iran", :to => :alpha3)          # "IRN"
+ NormalizeCountry("Iran", :to => :ioc)             # "IRI"
+ NormalizeCountry("Iran", :to => :official)        # "Islamic Republic of Iran"
+ NormalizeCountry("DPRK", :to => :simple)          # "North Korea"
+ NormalizeCountry("North Korea", :to => :iso_name) # "Korea, Democratic People's Republic Of"
 
  # Or
- p NormalizeCountry.normalize("U.S.", :to => :iso2)  # "US"
+ NormalizeCountry.normalize("U.S.", :to => :alpha2)  # "US"
  
  # Set the default
- NormalizeCountry.to = :iso3 
- p NormalizeCountry.normalize("United States")  # "USA"
- p NormalizeCountry.aliases("United States")    # ["U.S.", "USA", "U.S.A.", ...]
+ NormalizeCountry.to = :alpha3 
+ NormalizeCountry.normalize("Mexico")         # "MEX"
+ NormalizeCountry.normalize("United States")  # "USA"
 
- NormalizeCountry::Countries::US.aliases << "U$A"
- p NormalizeCountry.normalize("U$A")               # "USA"
- p NormalizeCountry.normalize("U$A", :to => :iso)  # "United States"
+=== Supported Conversions
 
- # Add a named alias
- NormalizeCountry::Countries::US[:pt] = "Os Estados Unidos"
- p NormalizeCountry.normalize("Os Estados Unidos")  # "USA"
- p NormalizeCountry.normalize("USA", :to => :pt)    # "Os Estados Unidos"
+In addition to trying to convert from common, non-standardized names and abbrivations, +NormalizeCountry+ 
+will convert to/from the following:
+
+[:alpha2] ISO 3166-1 alpha-2
+[:alpha3] ISO 3166-1 alpha-3
+[:fifa] FIFA (International Federation of Association Football)
+[:official] The country's official name
+[:ioc] International Olympic Committee 
+[:iso_name] Country name used by ISO 3166-1 
+[:short] A shortned version of the country's name, commonly used when speaking and/or writing in American English
+
+=== Faulty/Missing/Erroneous Country Names
+
+Please submit a patch or {open an issue}[https://github.com/sshaw/normalize_country/issues].
+
+=== Why?
+
+This code was -to some extent- part of a larger project that allowed users to perform a free-text search by country.
+The country names were stored in the DB by their ISO names. 
+
+Several years later at work we needed to use country names provided by an API that didn't standardize
+the names. Sometimes they sent UK, other times U.K. Thankfully the API was fixed but, nevertheless, 
+it occured to me that the code might be useful outside the project.
 

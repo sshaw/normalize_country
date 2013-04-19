@@ -1,56 +1,59 @@
-module NormalizeCountry  
+require "yaml"
+
+module NormalizeCountry
+  Countries = {}
+
   class << self
     attr_accessor :to
-    
+
     def to
       @to ||= :iso_name
     end
 
-    def aliases(name, options = {})
-      country = Countries[name.to_sym]
-      country ? country.aliases : []
-    end
-    
     def normalize(name, options = {})
-      country = Countries[name.to_sym]
+      country = country_for(name)
       return unless country
       country[ options[:to] || to ]
     end
+
+    private
+    def country_for(name)
+      name = name.to_s.downcase.strip.squeeze(" ")
+      return if name.empty?
+      Countries[name.to_sym]
+    end    
   end
-  
+
   class Country
-    def initialize(name, mapping = {})
-      @iso_name = name
-      @mapping  = mapping        
-      @mapping[:iso_name] = @iso_name
-    end
-    
-    def [](key)
-      @mapping[key]
+    def initialize(config)
+      raise ArgumentError, "country config must be a hash" unless Hash === config
+
+      @mapping = {}
+      config.each do |id, value|
+        @mapping[id.to_sym] = Array === value ?
+          value.map { |v| v } :
+          value
+      end
     end
 
-    def []=(key, value)
-      @mapping[key] = value
+    def [](id)
+      id = id.to_s
+      return if id.empty? or id.to_sym == :aliases
+      @mapping[id.to_sym]
     end
-    
+
     def names
-      @mapping.values.flatten.uniq.compact
+      @names ||= @mapping.values.flatten.uniq.compact
     end
-    
-    def aliases
-      @mapping[:aliases] ||= []
-    end
-    
-    def to_hash
-      hash = {}
-      names.each { |name| hash[name.to_sym] = self }
-      hash
-    end
+  end
+
+  data = YAML.load_file(File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml"))
+  data.values.each do |mapping|
+    country = Country.new(mapping)
+    country.names.map { |name| Countries[name.downcase.to_sym] = country }
   end
 end
 
 def NormalizeCountry(name, options = {})
   NormalizeCountry.normalize(name, options)
 end
-
-require "normalize_country/countries"

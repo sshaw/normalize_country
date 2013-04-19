@@ -1,0 +1,1868 @@
+--- 
+AD: 
+  alpha2: AD
+  alpha3: AND
+  ioc: AND
+  iso_name: Andorra
+  official: Principality of Andorra
+  aliases: 
+  - Principality of the Valleys of Andorra
+  fifa: AND
+AE: 
+  alpha2: AE
+  alpha3: ARE
+  ioc: UAE
+  iso_name: United Arab Emirates
+  aliases: 
+  - Emirates
+  - UAE
+  fifa: UAE
+AF: 
+  alpha2: AF
+  alpha3: AFG
+  ioc: AFG
+  fifa: AFG
+  iso_name: Afghanistan
+  official: Islamic Republic of Afghanistan
+AG: 
+  alpha2: AG
+  alpha3: ATG
+  ioc: ANT
+  iso_name: Antigua and Barbuda
+  fifa: ATG
+AI: 
+  alpha2: AI
+  alpha3: AIA
+  ioc: 
+  iso_name: Anguilla
+  fifa: 
+AL: 
+  alpha2: AL
+  alpha3: ALB
+  ioc: ALB
+  iso_name: Albania
+  official: Republic of Albania
+  fifa: ALB
+AM: 
+  alpha2: AM
+  alpha3: ARM
+  ioc: ARM
+  iso_name: Armenia
+  official: Republic of Armenia
+  fifa: ARM
+AN: 
+  alpha2: AN
+  alpha3: ANT
+  ioc: AHO
+  iso_name: Netherlands Antilles
+  aliases: 
+  - Dutch Antilles
+  fifa: ANT
+AO: 
+  alpha2: AO
+  alpha3: AGO
+  ioc: ANG
+  iso_name: Angola
+  official: Republic of Angola
+  fifa: ANG
+AQ: 
+  alpha2: AQ
+  alpha3: ATA
+  ioc: 
+  iso_name: Antarctica
+  fifa: 
+AR: 
+  alpha2: AR
+  alpha3: ARG
+  ioc: ARG
+  iso_name: Argentina
+  official: Argentine Republic
+  fifa: ARG
+AS: 
+  alpha2: AS
+  alpha3: ASM
+  ioc: ASA
+  iso_name: American Samoa
+  fifa: ASA
+AT: 
+  alpha2: AT
+  alpha3: AUT
+  ioc: AUT
+  iso_name: Austria
+  official: Republic of Austria
+  fifa: AUT
+AU: 
+  alpha2: AU
+  alpha3: AUS
+  ioc: AUS
+  iso_name: Australia
+  official: Commonwealth of Australia
+  fifa: AUS
+AW: 
+  alpha2: AW
+  alpha3: ABW
+  ioc: ARU
+  iso_name: Aruba
+  fifa: ARU
+AX: 
+  alpha2: AX
+  alpha3: ALA
+  ioc: 
+  iso_name: "\xC3\x85land Islands"
+  fifa: 
+AZ: 
+  alpha2: AZ
+  alpha3: AZE
+  ioc: AZE
+  iso_name: Azerbaijan
+  short: Azerbaijan
+  official: Republic of Azerbaijan
+  fifa: AZE
+BA: 
+  alpha2: BA
+  alpha3: BIH
+  ioc: BIH
+  iso_name: Bosnia and Herzegovina
+  short: Bosnia
+  aliases: 
+  - Bosnia-Herzegovina
+  fifa: BIH
+BB: 
+  alpha2: BB
+  alpha3: BRB
+  ioc: BAR
+  iso_name: Barbados
+  fifa: BRB
+BD: 
+  alpha2: BD
+  alpha3: BGD
+  ioc: BAN
+  iso_name: Bangladesh
+  official: People's Republic of Bangladesh
+  fifa: BAN
+BE: 
+  alpha2: BE
+  alpha3: BEL
+  ioc: BEL
+  iso_name: Belgium
+  official: Kingdom of Belgium
+  fifa: BEL
+BF: 
+  alpha2: BF
+  alpha3: BFA
+  ioc: BUR
+  iso_name: Burkina Faso
+  short: Burkina
+  fifa: BFA
+BG: 
+  alpha2: BG
+  alpha3: BGR
+  ioc: BUL
+  iso_name: Bulgaria
+  official: Republic of Bulgaria
+  fifa: BUL
+BH: 
+  alpha2: BH
+  alpha3: BHR
+  ioc: BRN
+  iso_name: Bahrain
+  official: Kingdom of Bahrain
+  fifa: BHR
+BI: 
+  alpha2: BI
+  alpha3: BDI
+  ioc: BDI
+  iso_name: Burundi
+  short: Burundi
+  official: Republic of Burundi
+  fifa: BDI
+BJ: 
+  alpha2: BJ
+  alpha3: BEN
+  ioc: BEN
+  iso_name: Benin
+  official: Republic of Benin
+  fifa: BEN
+BL: 
+  alpha2: BL
+  alpha3: BLM
+  ioc: 
+  iso_name: "Saint Barth\xC3\xA9lemy"
+  official: "Territorial Collectivity of Saint Barth\xC3\xA9lemy"
+  short: Saint Barths
+  aliases: 
+  - Saint Barts
+  - St. Barts
+  - St. Barths
+  fifa: 
+BM: 
+  alpha2: BM
+  alpha3: BMU
+  ioc: BER
+  iso_name: Bermuda
+  aliases: 
+  - Bermudas
+  - Somers Isles
+  - The Bermudas
+  - The Somers Isles
+  fifa: BER
+BN: 
+  alpha2: BN
+  alpha3: BRN
+  ioc: BRU
+  iso_name: Brunei Darussalam
+  short: Brunei
+  official: Nation of Brunei, Abode of Peace
+  fifa: BRU
+BO: 
+  alpha2: BO
+  alpha3: BOL
+  ioc: BOL
+  iso_name: Bolivia, Plurinational State of
+  short: Bolivia
+  official: Plurinational State of Bolivia
+  fifa: BOL
+BR: 
+  alpha2: BR
+  alpha3: BRA
+  ioc: BRA
+  iso_name: Brazil
+  official: Federative Republic of Brazil
+  fifa: BRA
+BS: 
+  alpha2: BS
+  alpha3: BHS
+  ioc: BAH
+  iso_name: Bahamas
+  official: Commonwealth of the Bahamas
+  fifa: BAH
+BT: 
+  alpha2: BT
+  alpha3: BTN
+  ioc: BHU
+  iso_name: Bhutan
+  official: Kingdom of Bhutan
+  fifa: BHU
+BV: 
+  alpha2: BV
+  alpha3: BVT
+  ioc: 
+  iso_name: Bouvet Island
+  short: Bouvet Island
+  fifa: 
+BW: 
+  alpha2: BW
+  alpha3: BWA
+  ioc: BOT
+  iso_name: Botswana
+  official: Republic of Botswana
+  fifa: BOT
+BY: 
+  alpha2: BY
+  alpha3: BLR
+  ioc: BLR
+  iso_name: Belarus
+  official: Republic of Belarus
+  fifa: BLR
+BZ: 
+  alpha2: BZ
+  alpha3: BLZ
+  ioc: BIZ
+  iso_name: Belize
+  fifa: BLZ
+CA: 
+  alpha2: CA
+  alpha3: CAN
+  ioc: CAN
+  iso_name: Canada
+  fifa: CAN
+CC: 
+  alpha2: CC
+  alpha3: CCK
+  ioc: 
+  iso_name: Cocos (Keeling) Islands
+  official: Territory of the Cocos (Keeling) Islands
+  aliases: 
+  - Cocos Islands
+  - Keeling Islands
+  fifa: 
+CD: 
+  alpha2: CD
+  alpha3: COD
+  ioc: COD
+  iso_name: Congo, The Democratic Republic Of The
+  official: Democratic Republic of the Congo
+  aliases: 
+  - Congo-Kinshasa
+  - DRC
+  - DR Congo
+  fifa: COD
+CF: 
+  alpha2: CF
+  alpha3: CAF
+  ioc: CAF
+  iso_name: Central African Republic
+  short: Central African Republic
+  fifa: CTA
+CG: 
+  alpha2: CG
+  alpha3: COG
+  ioc: CGO
+  iso_name: Congo
+  official: People's Republic of the Congo
+  aliases: 
+  - Congo-Brazzaville
+  fifa: CGO
+CH: 
+  alpha2: CH
+  alpha3: CHE
+  ioc: SUI
+  iso_name: Switzerland
+  official: Swiss Confederation
+  fifa: SUI
+CI: 
+  alpha2: CI
+  alpha3: CIV
+  ioc: CIV
+  iso_name: "C\xC3\xB4te D'Ivoire"
+  official: "Republic of C\xC3\xB4te D'Ivoire"
+  short: Ivory Coast
+  fifa: CIV
+CK: 
+  alpha2: CK
+  alpha3: COK
+  ioc: COK
+  iso_name: Cook Islands
+  fifa: COK
+CL: 
+  alpha2: CL
+  alpha3: CHL
+  ioc: CHI
+  iso_name: Chile
+  official: Republic of Chile
+  fifa: CHI
+CM: 
+  alpha2: CM
+  alpha3: CMR
+  ioc: CMR
+  iso_name: Cameroon
+  official: Republic of Cameroon
+  fifa: CMR
+CN: 
+  alpha2: CN
+  alpha3: CHN
+  ioc: CHN
+  iso_name: China
+  official: People's Republic of China
+  fifa: CHN
+CO: 
+  alpha2: CO
+  alpha3: COL
+  ioc: COL
+  iso_name: Colombia
+  official: Republic of Colombia
+  fifa: COL
+CR: 
+  alpha2: CR
+  alpha3: CRI
+  ioc: CRC
+  iso_name: Costa Rica
+  official: Republic of Costa Rica
+  fifa: CRC
+CU: 
+  alpha2: CU
+  alpha3: CUB
+  ioc: CUB
+  iso_name: Cuba
+  official: Republic of Cuba
+  fifa: CUB
+CV: 
+  alpha2: CV
+  alpha3: CPV
+  ioc: CPV
+  iso_name: Cape Verde
+  official: Republic of Cape Verde
+  fifa: CPV
+CX: 
+  alpha2: CX
+  alpha3: CXR
+  ioc: 
+  iso_name: Christmas Island
+  official: Territory of Christmas Island
+  fifa: 
+CY: 
+  alpha2: CY
+  alpha3: CYP
+  ioc: CYP
+  iso_name: Cyprus
+  official: Republic of Cyprus
+  fifa: CYP
+CZ: 
+  alpha2: CZ
+  alpha3: CZE
+  ioc: CZE
+  iso_name: Czech Republic
+  fifa: CZE
+DE: 
+  alpha2: DE
+  alpha3: DEU
+  ioc: GER
+  iso_name: Germany
+  official: Federal Republic of Germany
+  fifa: GER
+DJ: 
+  alpha2: DJ
+  alpha3: DJI
+  ioc: DJI
+  iso_name: Djibouti
+  official: Republic of Djibouti
+  fifa: DJI
+DK: 
+  alpha2: DK
+  alpha3: DNK
+  ioc: DEN
+  iso_name: Denmark
+  official: Kingdom of Denmark
+  fifa: DEN
+DM: 
+  alpha2: DM
+  alpha3: DMA
+  ioc: DMA
+  iso_name: Dominica
+  official: Commonwealth of Dominica
+  fifa: DMA
+DO: 
+  alpha2: DO
+  alpha3: DOM
+  ioc: DOM
+  iso_name: Dominican Republic
+  fifa: DOM
+DZ: 
+  alpha2: DZ
+  alpha3: DZA
+  ioc: ALG
+  fifa: ALG
+  iso_name: Algeria
+  official: People's Democratic Republic of Algeria
+EC: 
+  alpha2: EC
+  alpha3: ECU
+  ioc: ECU
+  iso_name: Ecuador
+  official: Republic of Ecuador
+  fifa: ECU
+EE: 
+  alpha2: EE
+  alpha3: EST
+  ioc: EST
+  iso_name: Estonia
+  official: Republic of Estonia
+  fifa: EST
+EG: 
+  alpha2: EG
+  alpha3: EGY
+  ioc: EGY
+  iso_name: Egypt
+  official: Arab Republic of Egypt
+  fifa: EGY
+EH: 
+  alpha2: EH
+  alpha3: ESH
+  ioc: 
+  iso_name: Western Sahara
+  fifa: 
+ER: 
+  alpha2: ER
+  alpha3: ERI
+  ioc: ERI
+  iso_name: Eritrea
+  official: State of Eritrea
+  fifa: ERI
+ES: 
+  alpha2: ES
+  alpha3: ESP
+  ioc: ESP
+  iso_name: Spain
+  official: Kingdom of Spain
+  fifa: ESP
+ET: 
+  alpha2: ET
+  alpha3: ETH
+  ioc: ETH
+  iso_name: Ethiopia
+  official: Federal Democratic Republic of Ethiopia
+  fifa: ETH
+FI: 
+  alpha2: FI
+  alpha3: FIN
+  ioc: FIN
+  iso_name: Finland
+  official: Republic of Finland
+  fifa: FIN
+FJ: 
+  alpha2: FJ
+  alpha3: FJI
+  ioc: FIJ
+  iso_name: Fiji
+  official: Republic of Fiji
+  fifa: FIJ
+FK: 
+  alpha2: FK
+  alpha3: FLK
+  ioc: 
+  iso_name: Falkland Islands (Malvinas)
+  official: Falkland Islands
+  aliases: 
+  - The Falklands
+  fifa: 
+FM: 
+  alpha2: FM
+  alpha3: FSM
+  ioc: FSM
+  iso_name: Micronesia, Federated States Of
+  official: Federated States of Micronesia
+  fifa: FSM
+FO: 
+  alpha2: FO
+  alpha3: FRO
+  ioc: FRO
+  iso_name: Faroe Islands
+  short: Faroe Islands
+  fifa: FRO
+FR: 
+  alpha2: FR
+  alpha3: FRA
+  ioc: FRA
+  iso_name: France
+  official: French Republic
+  fifa: FRA
+GA: 
+  alpha2: GA
+  alpha3: GAB
+  ioc: GAB
+  iso_name: Gabon
+  official: Gabonese Republic
+  fifa: GAB
+GB: 
+  alpha2: GB
+  alpha3: GBR
+  ioc: GBR
+  iso_name: United Kingdom
+  official: United Kingdom of Great Britain and Northern Ireland
+  aliases: 
+  - Britain
+  - U.K.
+  fifa: GBR
+GD: 
+  alpha2: GD
+  alpha3: GRD
+  ioc: GRN
+  iso_name: Grenada
+  fifa: GRN
+GE: 
+  alpha2: GE
+  alpha3: GEO
+  ioc: GEO
+  iso_name: Georgia
+  fifa: GEO
+GF: 
+  alpha2: GF
+  alpha3: GUF
+  ioc: 
+  iso_name: French Guiana
+  fifa: 
+GG: 
+  alpha2: GG
+  alpha3: GGY
+  ioc: 
+  iso_name: Guernsey
+  official: Bailiwick of Guernsey
+  fifa: 
+GH: 
+  alpha2: GH
+  alpha3: GHA
+  ioc: GHA
+  iso_name: Ghana
+  official: Republic of Ghana
+  fifa: GHA
+GI: 
+  alpha2: GI
+  alpha3: GIB
+  ioc: 
+  iso_name: Gibraltar
+  fifa: 
+GL: 
+  alpha2: GL
+  alpha3: GRL
+  ioc: 
+  iso_name: Greenland
+  fifa: 
+GM: 
+  alpha2: GM
+  alpha3: GMB
+  ioc: GAM
+  iso_name: Gambia
+  official: Republic of the Gambia
+  fifa: GAM
+GN: 
+  alpha2: GN
+  alpha3: GIN
+  ioc: GUI
+  iso_name: Guinea
+  official: Republic of Guinea
+  fifa: GUI
+GP: 
+  alpha2: GP
+  alpha3: GLP
+  ioc: 
+  iso_name: Guadeloupe
+  fifa: 
+GQ: 
+  alpha2: GQ
+  alpha3: GNQ
+  ioc: GEQ
+  iso_name: Equatorial Guinea
+  official: Republic of Equatorial Guinea
+  fifa: EQG
+GR: 
+  alpha2: GR
+  alpha3: GRC
+  ioc: GRE
+  iso_name: Greece
+  official: Hellenic Republic
+  fifa: GRE
+GS: 
+  alpha2: GS
+  alpha3: SGS
+  ioc: 
+  iso_name: South Georgia and the South Sandwich Islands
+  fifa: 
+GT: 
+  alpha2: GT
+  alpha3: GTM
+  ioc: GUA
+  iso_name: Guatemala
+  official: Republic of Guatemala
+  fifa: GUA
+GU: 
+  alpha2: GU
+  alpha3: GUM
+  ioc: GUM
+  iso_name: Guam
+  fifa: GUM
+GW: 
+  alpha2: GW
+  alpha3: GNB
+  ioc: GBS
+  iso_name: Guinea-Bissau
+  official: Republic of Guinea-Bissau
+  fifa: GNB
+GY: 
+  alpha2: GY
+  alpha3: GUY
+  ioc: GUY
+  iso_name: Guyana
+  official: Co-operative Republic of Guyana
+  fifa: GUY
+HK: 
+  alpha2: HK
+  alpha3: HKG
+  ioc: HKG
+  iso_name: Hong Kong
+  official: Hong Kong Special Administrative Region of the People's Republic of China
+  aliases: 
+  - Hong Kong Special Administrative Region
+  fifa: HKG
+HM: 
+  alpha2: HM
+  alpha3: HMD
+  ioc: 
+  iso_name: Heard and McDonald Islands
+  aliases: 
+  - HIMI
+  fifa: 
+HN: 
+  alpha2: HN
+  alpha3: HND
+  ioc: HON
+  iso_name: Honduras
+  official: Republic of Honduras
+  fifa: HON
+HR: 
+  alpha2: HR
+  alpha3: HRV
+  ioc: CRO
+  iso_name: Croatia
+  official: Republic of Croatia
+  fifa: CRO
+HT: 
+  alpha2: HT
+  alpha3: HTI
+  ioc: HAI
+  iso_name: Haiti
+  official: Republic of Haiti
+  fifa: HAI
+HU: 
+  alpha2: HU
+  alpha3: HUN
+  ioc: HUN
+  iso_name: Hungary
+  fifa: HUN
+ID: 
+  alpha2: ID
+  alpha3: IDN
+  ioc: INA
+  iso_name: Indonesia
+  official: Republic of Indonesia
+  fifa: IDN
+IE: 
+  alpha2: IE
+  alpha3: IRL
+  ioc: IRL
+  iso_name: Ireland
+  short: Ireland
+  fifa: IRL
+IL: 
+  alpha2: IL
+  alpha3: ISR
+  ioc: ISR
+  iso_name: Israel
+  official: State of Israel
+  fifa: ISR
+IM: 
+  alpha2: IM
+  alpha3: IMN
+  ioc: 
+  iso_name: Isle of Man
+  aliases: 
+  - Mann
+  fifa: 
+IN: 
+  alpha2: IN
+  alpha3: IND
+  ioc: IND
+  iso_name: India
+  official: Republic of India
+  fifa: IND
+IO: 
+  alpha2: IO
+  alpha3: IOT
+  ioc: 
+  iso_name: British Indian Ocean Territory
+  aliases: 
+  - BIOT
+  - Chagos Islands
+  fifa: 
+IQ: 
+  alpha2: IQ
+  alpha3: IRQ
+  ioc: IRQ
+  iso_name: Iraq
+  official: Republic of Iraq
+  fifa: IRQ
+IR: 
+  alpha2: IR
+  alpha3: IRN
+  ioc: IRI
+  iso_name: Iran, Islamic Republic Of
+  short: Iran
+  official: Islamic Republic of Iran
+  fifa: IRN
+IS: 
+  alpha2: IS
+  alpha3: ISL
+  ioc: ISL
+  iso_name: Iceland
+  fifa: ISL
+IT: 
+  alpha2: IT
+  alpha3: ITA
+  ioc: ITA
+  iso_name: Italy
+  official: Italian Republic
+  fifa: ITA
+JE: 
+  alpha2: JE
+  alpha3: JEY
+  ioc: 
+  iso_name: Jersey
+  official: Bailiwick of Jersey
+  fifa: 
+JM: 
+  alpha2: JM
+  alpha3: JAM
+  ioc: JAM
+  iso_name: Jamaica
+  short: Jamaica
+  fifa: JAM
+JO: 
+  alpha2: JO
+  alpha3: JOR
+  ioc: JOR
+  iso_name: Jordan
+  official: Hashemite Kingdom of Jordan
+  aliases: 
+  - Kingdom of Jordan
+  fifa: JOR
+JP: 
+  alpha2: JP
+  alpha3: JPN
+  ioc: JPN
+  iso_name: Japan
+  short: Japan
+  fifa: JPN
+KE: 
+  alpha2: KE
+  alpha3: KEN
+  ioc: KEN
+  iso_name: Kenya
+  official: Republic of Kenya
+  fifa: KEN
+KG: 
+  alpha2: KG
+  alpha3: KGZ
+  ioc: KGZ
+  iso_name: Kyrgyzstan
+  official: Kyrgyz Republic
+  fifa: KGZ
+KH: 
+  alpha2: KH
+  alpha3: KHM
+  ioc: CAM
+  iso_name: Cambodia
+  official: Kingdom of Cambodia
+  fifa: CAM
+KI: 
+  alpha2: KI
+  alpha3: KIR
+  ioc: KIR
+  iso_name: Kiribati
+  official: Republic of Kiribati
+  fifa: KIR
+KM: 
+  alpha2: KM
+  alpha3: COM
+  ioc: COM
+  iso_name: Comoros
+  official: Union of the Comoros
+  fifa: COM
+KN: 
+  alpha2: KN
+  alpha3: KNA
+  ioc: SKN
+  iso_name: Saint Kitts And Nevis
+  short: Saint Kitts And Nevis
+  official: Federation of Saint Kitts and Nevis
+  aliases: 
+  - Federation of Saint Christopher and Nevi
+  fifa: SKN
+KP: 
+  alpha2: KP
+  alpha3: PRK
+  ioc: PRK
+  iso_name: Korea, Democratic People's Republic Of
+  short: North Korea
+  official: Democratic People's Republic of Korea
+  aliases: 
+  - DPRK
+  - N Korea
+  - N. Korea
+  fifa: PRK
+KR: 
+  alpha2: KR
+  alpha3: KOR
+  ioc: KOR
+  iso_name: Korea, Republic of
+  short: South Korea
+  official: Republic of Korea
+  aliases: 
+  - S Korea
+  - S. Korea
+  fifa: KOR
+KW: 
+  alpha2: KW
+  alpha3: KWT
+  ioc: KUW
+  iso_name: Kuwait
+  official: State of Kuwait
+  fifa: KUW
+KY: 
+  alpha2: KY
+  alpha3: CYM
+  ioc: CAY
+  iso_name: Cayman Islands
+  aliases: 
+  - Caymans
+  fifa: CAY
+KZ: 
+  alpha2: KZ
+  alpha3: KAZ
+  ioc: KAZ
+  iso_name: Kazakhstan
+  official: Republic of Kazakhstan
+  fifa: KAZ
+LA: 
+  alpha2: LA
+  alpha3: LAO
+  ioc: LAO
+  iso_name: Lao People's Democratic Republic
+  official: Lao People's Democratic Republic
+  simple: Laos
+  fifa: LAO
+LB: 
+  alpha2: LB
+  alpha3: LBN
+  ioc: LIB
+  iso_name: Lebanon
+  official: Lebanese Republic
+  fifa: LIB
+LC: 
+  alpha2: LC
+  alpha3: LCA
+  ioc: LCA
+  iso_name: Saint Lucia
+  aliases: 
+  - St. Lucia
+  fifa: LCA
+LI: 
+  alpha2: LI
+  alpha3: LIE
+  ioc: LIE
+  iso_name: Liechtenstein
+  official: Principality of Liechtenstein
+  fifa: LIE
+LK: 
+  alpha2: LK
+  alpha3: LKA
+  ioc: SRI
+  iso_name: Sri Lanka
+  official: Democratic Socialist Republic of Sri Lanka
+  fifa: SRI
+LR: 
+  alpha2: LR
+  alpha3: LBR
+  ioc: LBR
+  iso_name: Liberia
+  official: Republic of Liberia
+  fifa: LBR
+LS: 
+  alpha2: LS
+  alpha3: LSO
+  ioc: LES
+  iso_name: Lesotho
+  official: Kingdom of Lesoth
+  fifa: LES
+LT: 
+  alpha2: LT
+  alpha3: LTU
+  ioc: LTU
+  iso_name: Lithuania
+  official: Republic of Lithuania
+  fifa: LTU
+LU: 
+  alpha2: LU
+  alpha3: LUX
+  ioc: LUX
+  iso_name: Luxembourg
+  official: Grand Duchy of Luxembourg
+  fifa: LUX
+LV: 
+  alpha2: LV
+  alpha3: LVA
+  ioc: LAT
+  iso_name: Latvia
+  official: Republic of Latvia
+  fifa: LVA
+LY: 
+  alpha2: LY
+  alpha3: LBY
+  ioc: LBA
+  iso_name: Libya
+  official: State of Libya
+  fifa: LBY
+MA: 
+  alpha2: MA
+  alpha3: MAR
+  ioc: MAR
+  iso_name: Morocco
+  official: Kingdom of Morocco
+  fifa: MAR
+MC: 
+  alpha2: MC
+  alpha3: MCO
+  ioc: MON
+  iso_name: Monaco
+  official: Principality of Monaco
+  fifa: MON
+MD: 
+  alpha2: MD
+  alpha3: MDA
+  ioc: MDA
+  iso_name: Moldova, Republic of
+  official: Republic of Moldova
+  fifa: MDA
+ME: 
+  alpha2: ME
+  alpha3: MNE
+  ioc: MNE
+  iso_name: Montenegro
+  fifa: MNE
+MF: 
+  alpha2: MF
+  alpha3: MAF
+  ioc: 
+  iso_name: Saint Martin
+  aliases: 
+  - St. Martin
+  fifa: 
+MG: 
+  alpha2: MG
+  alpha3: MDG
+  ioc: MAD
+  iso_name: Madagascar
+  official: Republic of Madagascar
+  fifa: MAD
+MH: 
+  alpha2: MH
+  alpha3: MHL
+  ioc: MHL
+  iso_name: Marshall Islands
+  official: Republic of the Marshall Islands
+  fifa: MHL
+MK: 
+  alpha2: MK
+  alpha3: MKD
+  ioc: MKD
+  iso_name: Macedonia, the Former Yugoslav Republic Of
+  short: Macedonia
+  official: Republic of Macedonia
+  fifa: MKD
+ML: 
+  alpha2: ML
+  alpha3: MLI
+  ioc: MLI
+  iso_name: Mali
+  official: Republic of Mali
+  fifa: MLI
+MM: 
+  alpha2: MM
+  alpha3: MMR
+  ioc: MYA
+  iso_name: Myanmar
+  official: Republic of the Union of Myanmar
+  aliases: 
+  - Burma
+  fifa: MYA
+MN: 
+  alpha2: MN
+  alpha3: MNG
+  ioc: MGL
+  iso_name: Mongolia
+  fifa: MGL
+MO: 
+  alpha2: MO
+  alpha3: MAC
+  ioc: 
+  iso_name: Macao
+  official: Macao Special Administrative Region of the People's Republic of China
+  aliases: 
+  - Macao
+  - Macao Special Administrative Region
+  fifa: 
+MP: 
+  alpha2: MP
+  alpha3: MNP
+  ioc: 
+  iso_name: Northern Mariana Islands
+  official: Commonwealth of the Northern Mariana Islands
+  aliases: 
+  - CNMI
+  fifa: 
+MQ: 
+  alpha2: MQ
+  alpha3: MTQ
+  ioc: 
+  iso_name: Martinique
+  fifa: 
+MR: 
+  alpha2: MR
+  alpha3: MRT
+  ioc: MTN
+  iso_name: Mauritania
+  official: Islamic Republic of Mauritania
+  fifa: MTN
+MS: 
+  alpha2: MS
+  alpha3: MSR
+  ioc: 
+  iso_name: Montserrat
+  fifa: 
+MT: 
+  alpha2: MT
+  alpha3: MLT
+  ioc: MLT
+  iso_name: Malta
+  official: Republic of Malta
+  fifa: MLT
+MU: 
+  alpha2: MU
+  alpha3: MUS
+  ioc: MRI
+  iso_name: Mauritius
+  official: Republic of Mauritius
+  fifa: MRI
+MV: 
+  alpha2: MV
+  alpha3: MDV
+  ioc: MDV
+  iso_name: Maldives
+  official: Republic of the Maldives
+  aliases: 
+  - Maldive Islands
+  fifa: MDV
+MW: 
+  alpha2: MW
+  alpha3: MWI
+  ioc: MAW
+  iso_name: Malawi
+  official: Republic of Malawi
+  fifa: MWI
+MX: 
+  alpha2: MX
+  alpha3: MEX
+  ioc: MEX
+  iso_name: Mexico
+  official: United Mexican States
+  fifa: MEX
+MY: 
+  alpha2: MY
+  alpha3: MYS
+  ioc: MAS
+  iso_name: Malaysia
+  short: Malaysia
+  fifa: MAS
+MZ: 
+  alpha2: MZ
+  alpha3: MOZ
+  ioc: MOZ
+  iso_name: Mozambique
+  short: Mozambique
+  fifa: MOZ
+NA: 
+  alpha2: NA
+  alpha3: NAM
+  ioc: NAM
+  iso_name: Namibia
+  short: Namibia
+  fifa: NAM
+NC: 
+  alpha2: NC
+  alpha3: NCL
+  ioc: 
+  iso_name: New Caledonia
+  short: New Caledonia
+  fifa: 
+NE: 
+  alpha2: NE
+  alpha3: NER
+  ioc: NIG
+  iso_name: Niger
+  official: Republic of Niger
+  fifa: NIG
+NF: 
+  alpha2: NF
+  alpha3: NFK
+  ioc: 
+  iso_name: Norfolk Island
+  short: Norfolk Island
+  official: Territory of Norfolk Island
+  fifa:
+NG: 
+  alpha2: NG
+  alpha3: NGA
+  ioc: NGR
+  iso_name: Nigeria
+  short: Nigeria
+  official: Federal Republic of Nigeria
+  fifa: NGA
+NI: 
+  alpha2: NI
+  alpha3: NIC
+  ioc: NCA
+  iso_name: Nicaragua
+  short: Nicaragua
+  official: Republic of Nicaragua
+  fifa: NCA
+NL: 
+  alpha2: NL
+  alpha3: NLD
+  ioc: NED
+  iso_name: Netherlands
+  short: Netherlands
+  fifa: NED
+"NO": 
+  alpha2: "NO"
+  alpha3: NOR
+  ioc: NOR
+  iso_name: Norway
+  official: Kingdom of Norway
+  fifa: NOR
+NP: 
+  alpha2: NP
+  alpha3: NPL
+  ioc: NEP
+  iso_name: Nepal
+  short: Nepal
+  official: Federal Democratic Republic of Nepal
+  fifa: NEP
+NR: 
+  alpha2: NR
+  alpha3: NRU
+  ioc: NRU
+  iso_name: Nauru
+  short: Nauru
+  official: Republic of Nauru
+  fifa: NRU
+NU: 
+  alpha2: NU
+  alpha3: NIU
+  ioc: 
+  iso_name: Niue
+  short: Niue
+  fifa: 
+NZ: 
+  alpha2: NZ
+  alpha3: NZL
+  ioc: NZL
+  iso_name: New Zealand
+  short: New Zealand
+  fifa: NZL
+OM: 
+  alpha2: OM
+  alpha3: OMN
+  ioc: OMA
+  iso_name: Oman
+  short: Oman
+  official: Sultanate of Oman
+  fifa: OMA
+PA: 
+  alpha2: PA
+  alpha3: PAN
+  ioc: PAN
+  iso_name: Panama
+  short: Panama
+  official: Republic of Panama
+  fifa: PAN
+PE: 
+  alpha2: PE
+  alpha3: PER
+  ioc: PER
+  iso_name: Peru
+  short: Peru
+  official: Republic of Peru
+  fifa: PER
+PF: 
+  alpha2: PF
+  alpha3: PYF
+  ioc: 
+  iso_name: French Polynesia
+  short: French Polynesia
+  fifa: 
+PG: 
+  alpha2: PG
+  alpha3: PNG
+  ioc: PNG
+  iso_name: Papua New Guinea
+  short: Papua New Guinea
+  official: Independent State of Papua New Guinea
+  fifa: PNG
+PH: 
+  alpha2: PH
+  alpha3: PHL
+  ioc: PHI
+  iso_name: Philippines
+  official: Republic of the Philippines
+  fifa: PHI
+PK: 
+  alpha2: PK
+  alpha3: PAK
+  ioc: PAK
+  iso_name: Pakistan
+  short: Pakistan
+  official: Islamic Republic of Pakistan
+  fifa: PAK
+PL: 
+  alpha2: PL
+  alpha3: POL
+  ioc: POL
+  iso_name: Poland
+  short: Poland
+  official: Republic of Poland
+  fifa: POL
+PM: 
+  alpha2: PM
+  alpha3: SPM
+  ioc: 
+  iso_name: Saint Pierre And Miquelon
+  short: Saint Pierre And Miquelon
+  fifa: 
+PN: 
+  alpha2: PN
+  alpha3: PCN
+  ioc: 
+  iso_name: Pitcairn
+  short: Pitcairn
+  official: Pitcairn, Henderson, Ducie and Oeno Islands
+  fifa: 
+PR: 
+  alpha2: PR
+  alpha3: PRI
+  ioc: PUR
+  iso_name: Puerto Rico
+  short: Puerto Rico
+  official: Commonwealth of Puerto Rico
+  fifa: PUR
+PS: 
+  alpha2: PS
+  alpha3: PSE
+  ioc: PLE
+  iso_name: Palestinian Territory, Occupied
+  fifa: PLE
+  short: Palestine
+  aliases:
+    - Palestinian Territories
+    - Palestinian Territory
+PT: 
+  alpha2: PT
+  alpha3: PRT
+  ioc: POR
+  iso_name: Portugal
+  official: Portuguese Republic
+  fifa: POR
+PW: 
+  alpha2: PW
+  alpha3: PLW
+  ioc: PLW
+  iso_name: Palau
+  short: Palau
+  official: Republic of Palau
+  fifa: PLW
+  aliases: 
+    - Belau
+    - Pelew
+PY: 
+  alpha2: PY
+  alpha3: PRY
+  ioc: PAR
+  iso_name: Paraguay  
+  short: Paraguay
+  official: Republic of Paraguay
+  fifa: PAR
+QA: 
+  alpha2: QA
+  alpha3: QAT
+  ioc: QAT
+  iso_name: Qatar
+  short: Qatar
+  official: State of Qatar
+  fifa: QAT
+RE: 
+  alpha2: RE
+  alpha3: REU
+  ioc: 
+  iso_name: "R\xC3\xA9union"
+  short: "R\xC3\xA9union"
+  official: "R\xC3\xA9union Island"
+  fifa: 
+RO: 
+  alpha2: RO
+  alpha3: ROU
+  ioc: ROU
+  iso_name: Romania
+  short: Romania
+  fifa: ROU
+RS: 
+  alpha2: RS
+  alpha3: SRB
+  ioc: SRB
+  iso_name: Serbia
+  short: Serbia
+  official: Republic of Serbia
+  fifa: SRB
+RU: 
+  alpha2: RU
+  alpha3: RUS
+  ioc: RUS
+  iso_name: Russian Federation
+  short: Russia
+  fifa: RUS
+RW: 
+  alpha2: RW
+  alpha3: RWA
+  ioc: RWA
+  iso_name: Rwanda
+  short: Rwanda
+  official: Republic of Rwanda
+  fifa: RWA
+SA: 
+  alpha2: SA
+  alpha3: SAU
+  ioc: KSA
+  iso_name: Saudi Arabia
+  official: Kingdom of Saudi Arabia
+  fifa: KSA
+SB: 
+  alpha2: SB
+  alpha3: SLB
+  ioc: SOL
+  iso_name: Solomon Islands
+  short: Solomon Islands
+  fifa: SOL
+SC: 
+  alpha2: SC
+  alpha3: SYC
+  ioc: SEY
+  iso_name: Seychelles
+  short: Seychelles
+  official: Republic of Seychelles
+  fifa: SEY
+SD: 
+  alpha2: SD
+  alpha3: SDN
+  ioc: SUD
+  iso_name: Sudan
+  short: Sudan
+  official: Republic of the Sudan
+  fifa: SDN
+SE: 
+  alpha2: SE
+  alpha3: SWE
+  ioc: SWE
+  iso_name: Sweden
+  official: Kingdom of Sweden
+  fifa: SWE
+SG: 
+  alpha2: SG
+  alpha3: SGP
+  ioc: SIN
+  iso_name: Singapore
+  short: Singapore
+  official: Republic of Singapore
+  fifa: SIN
+SH: 
+  alpha2: SH
+  alpha3: SHN
+  ioc: 
+  iso_name: Saint Helena
+  short: Saint Helena
+  fifa: 
+SI: 
+  alpha2: SI
+  alpha3: SVN
+  ioc: SLO
+  iso_name: Slovenia
+  short: Slovenia
+  official: Republic of Slovenia
+  fifa: SVN
+SJ: 
+  alpha2: SJ
+  alpha3: SJM
+  ioc: 
+  iso_name: Svalbard And Jan Mayen
+  short: Svalbard And Jan Mayen
+  fifa:
+SK: 
+  alpha2: SK
+  alpha3: SVK
+  ioc: SVK
+  iso_name: Slovakia
+  short: Slovakia
+  official: Slovak Republic
+  fifa: SVK
+SL: 
+  alpha2: SL
+  alpha3: SLE
+  ioc: SLE
+  iso_name: Sierra Leone
+  short: Sierra Leone
+  official: Republic of Sierra Leone
+  fifa: SLE
+SM: 
+  alpha2: SM
+  alpha3: SMR
+  ioc: SMR
+  iso_name: San Marino
+  short: San Marino
+  official: Republic of San Marino
+  fifa: SMR
+  aliases: 
+    - Most Serene Republic of San Marino
+SN: 
+  alpha2: SN
+  alpha3: SEN
+  ioc: SEN
+  iso_name: Senegal
+  short: Senegal
+  official: Republic of Senegal
+  fifa: SEN
+SO: 
+  alpha2: SO
+  alpha3: SOM
+  ioc: SOM
+  iso_name: Somalia
+  short: Somalia
+  official: Federal Republic of Somalia
+  fifa: SOM
+SR: 
+  alpha2: SR
+  alpha3: SUR
+  ioc: SUR
+  iso_name: Suriname
+  short: Suriname
+  official: Republic of Suriname
+  fifa: SUR
+  aliases:
+    - Surinam
+SS: 
+  alpha2: SS
+  alpha3: SSD
+  ioc: 
+  iso_name: South Sudan
+  short: South Sudan
+  official: Republic of South Sudan
+  fifa:
+  aliases:
+    - S. Sudan
+ST: 
+  alpha2: ST
+  alpha3: STP
+  ioc: STP
+  iso_name: Sao Tome and Principe
+  short: Sao Tome and Principe
+  official: "Democratic Republic of S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
+  fifa: STP
+  aliases:
+    - Democratic Republic of Sao Tome and Principe"
+    - "S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
+SV: 
+  alpha2: SV
+  alpha3: SLV
+  ioc: ESA
+  iso_name: El Salvador
+  official: Republic of El Salvador
+  fifa: SLV
+SY: 
+  alpha2: SY
+  alpha3: SYR
+  ioc: SYR
+  iso_name: Syrian Arab Republic
+  short: Syria
+  fifa: SYR
+SZ: 
+  alpha2: SZ
+  alpha3: SWZ
+  ioc: SWZ
+  iso_name: Swaziland
+  official: Kingdom of Swaziland
+  short: Swaziland
+  fifa: SWZ
+  aliases:
+    - Ngwane
+    - Swatini
+TC: 
+  alpha2: TC
+  alpha3: TCA
+  ioc: 
+  iso_name: Turks and Caicos Islands
+  short: Turks and Caicos Islands
+  fifa: 
+  aliases:
+    - TCI
+TD: 
+  alpha2: TD
+  alpha3: TCD
+  ioc: CHA
+  iso_name: Chad
+  short: Chad
+  official: Republic of Chad
+  fifa: CHA
+TF: 
+  alpha2: TF
+  alpha3: ATF
+  ioc: 
+  iso_name: French Southern Territories
+  short: French Southern Territories
+  official: Territory of the French Southern and Antarctic Land
+  fifa:
+  aliases:
+    - French Southern and Antarctic Lands 
+TG: 
+  alpha2: TG
+  alpha3: TGO
+  ioc: TOG
+  iso_name: Togo
+  short: Togo
+  official: Togolese Republic
+  fifa: TOG
+TH: 
+  alpha2: TH
+  alpha3: THA
+  ioc: THA
+  iso_name: Thailand
+  short: Thailand
+  official: Kingdom of Thailand
+  fifa: THA
+TJ: 
+  alpha2: TJ
+  alpha3: TJK
+  ioc: TJK
+  iso_name: Tajikistan
+  short: Tajikistan
+  official: Republic of Tajikistan
+  fifa: TJK
+TK: 
+  alpha2: TK
+  alpha3: TKL
+  ioc: 
+  iso_name: Tokelau
+  short: Tokelau
+  fifa: 
+TL: 
+  alpha2: TL
+  alpha3: TLS
+  ioc: TLS
+  iso_name: Timor-Leste
+  short: East Timor  
+  official: Democratic Republic of Timor-Leste
+  fifa: TLS
+TM: 
+  alpha2: TM
+  alpha3: TKM
+  ioc: TKM
+  iso_name: Turkmenistan
+  short: Turkmenistan
+  fifa: TKM
+TN: 
+  alpha2: TN
+  alpha3: TUN
+  ioc: TUN
+  iso_name: Tunisia
+  short: Tunisia
+  official: Republic of Tunisia
+  fifa: TUN
+TO: 
+  alpha2: TO
+  alpha3: TON
+  ioc: TGA
+  iso_name: Tonga
+  short: Tonga
+  official: Kingdom of Tonga
+  fifa: TGA
+TR: 
+  alpha2: TR
+  alpha3: TUR
+  ioc: TUR
+  iso_name: Turkey
+  short: Turkey
+  official: Republic of Turkey
+  fifa: TUR
+TT: 
+  alpha2: TT
+  alpha3: TTO
+  ioc: TRI
+  iso_name: Trinidad and Tobago
+  short: Trinidad and Tobago
+  official: Republic of Trinidad and Tobago
+  fifa: TRI
+TV: 
+  alpha2: TV
+  alpha3: TUV
+  ioc: TUV
+  iso_name: Tuvalu
+  short: Tuvalu
+  fifa: TUV
+TW: 
+  alpha2: TW
+  alpha3: TWN
+  ioc: TPE
+  iso_name: Taiwan, Republic Of China 
+  official: Republic of China
+  short: Taiwan
+  fifa: TPE
+  aliases:
+    - ROC
+TZ: 
+  alpha2: TZ
+  alpha3: TZA
+  ioc: TAN
+  iso_name: Tanzania, United Republic of
+  short: Tanzania
+  official: United Republic of Tanzania
+  fifa: TAN
+UA: 
+  alpha2: UA
+  alpha3: UKR
+  ioc: UKR
+  iso_name: Ukraine
+  short: Ukraine
+  fifa: UKR
+UG: 
+  alpha2: UG
+  alpha3: UGA
+  ioc: UGA
+  iso_name: Uganda
+  short: Uganda
+  official: Republic of Uganda
+  fifa: UGA
+UM: 
+  alpha2: UM
+  alpha3: UMI
+  ioc: 
+  iso_name: United States Minor Outlying Islands
+  short: United States Minor Outlying Islands
+  fifa: 
+US: 
+  alpha2: US
+  alpha3: USA
+  ioc: USA
+  iso_name: United States
+  official: United States of America
+  aliases: 
+  - America
+  - U.S.
+  - U.S.A.
+  fifa: USA
+UY: 
+  alpha2: UY
+  alpha3: URY
+  ioc: URU
+  iso_name: Uruguay
+  official: Oriental Republic of Uruguay
+  short: Uruguay
+  fifa: URU
+  aliases:
+    - Eastern Republic of Uruguay
+UZ: 
+  alpha2: UZ
+  alpha3: UZB
+  ioc: UZB
+  iso_name: Uzbekistan
+  short: Uzbekistan
+  official: Republic of Uzbekistan
+  fifa: UZB
+VA: 
+  alpha2: VA
+  alpha3: VAT
+  ioc: 
+  iso_name: Holy See (Vatican City State)
+  short: Vatican City
+  official: Vatican City State
+  fifa: 
+VC: 
+  alpha2: VC
+  alpha3: VCT
+  ioc: VIN
+  iso_name: Saint Vincent And The Grenadines
+  short: Saint Vincent And The Grenadines
+  fifa: VIN
+VE: 
+  alpha2: VE
+  alpha3: VEN
+  ioc: VEN
+  iso_name: Venezuela, Bolivarian Republic of
+  official: Bolivarian Republic of Venezuela
+  short: Venezuela
+  fifa: VEN
+VG: 
+  alpha2: VG
+  alpha3: VGB
+  ioc: IVB
+  iso_name: Virgin Islands, British
+  official: Virgin Islands
+  short: British Virgin Islands
+  fifa: VGB
+  aliases:
+    - BVI
+VI: 
+  alpha2: VI
+  alpha3: VIR
+  ioc: ISV
+  iso_name: Virgin Islands, U.S.
+  official: Virgin Islands of the United States
+  short: U.S. Virgin Islands
+  fifa: VIR
+  aliases:
+    - USVI
+    - US Virgin Islands
+    - United States Virgin Islands
+VN: 
+  alpha2: VN
+  alpha3: VNM
+  ioc: VIE
+  iso_name: Vietnam
+  official: Socialist Republic of Vietnam
+  fifa: VIE
+  aliases:
+    - Viet Nam
+VU: 
+  alpha2: VU
+  alpha3: VUT
+  ioc: VAN
+  iso_name: Vanuatu
+  short: Vanuatu
+  official: Republic of Vanuatu
+  fifa: VAN
+WF: 
+  alpha2: WF
+  alpha3: WLF
+  ioc: 
+  iso_name: Wallis and Futuna
+  short: Wallis and Futuna
+  official: Territory of the Wallis and Futuna Islands
+  fifa: 
+WS: 
+  alpha2: WS
+  alpha3: WSM
+  ioc: SAM
+  iso_name: Samoa
+  official: Independent State of Samoa
+  fifa: SAM
+YE: 
+  alpha2: YE
+  alpha3: YEM
+  ioc: YEM
+  iso_name: Yemen
+  short: Yemen
+  official: Republic of Yemen
+  fifa: YEM
+YT: 
+  alpha2: YT
+  alpha3: MYT
+  ioc: 
+  iso_name: Mayotte
+  short: Mayotte
+  official: Department of Mayotte
+  fifa: 
+ZA: 
+  alpha2: ZA
+  alpha3: ZAF
+  ioc: RSA
+  iso_name: South Africa
+  official: Republic of South Africa
+  fifa: RSA
+ZM: 
+  alpha2: ZM
+  alpha3: ZMB
+  ioc: ZAM
+  iso_name: Zambia
+  short: Zambia
+  official: Republic of Zambia
+  fifa: ZAM
+ZW: 
+  alpha2: ZW
+  alpha3: ZWE
+  ioc: ZIM
+  iso_name: Zimbabwe
+  short: Zimbabwe
+  official: Republic of Zimbabwe
+  fifa: ZIM
