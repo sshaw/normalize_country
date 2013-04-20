@@ -11,11 +11,12 @@ Convert country names and codes to a standard.
  NormalizeCountry("America")                       # "United States"
  NormalizeCountry("United States of America")      # "United States"
  NormalizeCountry("USA",  :to => :official)        # "United States of America"
+ NormalizeCountry("Iran", :to => :official)        # "Islamic Republic of Iran"
+ NormalizeCountry("U.S.", :to => :alpha2)          # "US"
  NormalizeCountry("US",   :to => :fifa)            # "USA"
  NormalizeCountry("Iran", :to => :alpha3)          # "IRN"
  NormalizeCountry("Iran", :to => :ioc)             # "IRI"
- NormalizeCountry("Iran", :to => :official)        # "Islamic Republic of Iran"
- NormalizeCountry("DPRK", :to => :simple)          # "North Korea"
+ NormalizeCountry("DPRK", :to => :short)           # "North Korea"
  NormalizeCountry("North Korea", :to => :iso_name) # "Korea, Democratic People's Republic Of"
 
  # Or
@@ -23,8 +24,8 @@ Convert country names and codes to a standard.
  
  # Set the default
  NormalizeCountry.to = :alpha3 
- NormalizeCountry.normalize("Mexico")         # "MEX"
- NormalizeCountry.normalize("United States")  # "USA"
+ NormalizeCountry.normalize("Mexico")                 # "MEX"
+ NormalizeCountry.normalize("United Mexican States")  # "MEX"
 
 === Supported Conversions
 
@@ -37,7 +38,7 @@ will convert to/from the following:
 [:official] The country's official name
 [:ioc] International Olympic Committee 
 [:iso_name] Country name used by ISO 3166-1 
-[:short] A shortned version of the country's name, commonly used when speaking and/or writing in American English
+[:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
 === Faulty/Missing/Erroneous Country Names
 
@@ -46,9 +47,9 @@ Please submit a patch or {open an issue}[https://github.com/sshaw/normalize_coun
 === Why?
 
 This code was -to some extent- part of a larger project that allowed users to perform a free-text search by country.
-The country names were stored in the DB by their ISO names. 
+Country names were stored in the DB by their ISO names.
 
-Several years later at work we needed to use country names provided by an API that didn't standardize
-the names. Sometimes they sent UK, other times U.K. Thankfully the API was fixed but, nevertheless, 
-it occured to me that the code might be useful outside the project.
+Several years later, while at work, we had to extract country names from a web service that didn't standardize
+them. Sometimes they used UK, other times U.K. It then occured to me that this code might be useful outside 
+the original project. The web service was fixed but, nevertheless...
 

@@ -8,6 +8,7 @@ AD:
   aliases: 
   - Principality of the Valleys of Andorra
   fifa: AND
+  short: Andorra
 AE: 
   alpha2: AE
   alpha3: ARE
@@ -17,6 +18,8 @@ AE:
   - Emirates
   - UAE
   fifa: UAE
+  short: United Arab Emirates
+  official: United Arab Emirates
 AF: 
   alpha2: AF
   alpha3: AFG
@@ -24,18 +27,23 @@ AF:
   fifa: AFG
   iso_name: Afghanistan
   official: Islamic Republic of Afghanistan
+  short: Afghanistan
 AG: 
   alpha2: AG
   alpha3: ATG
   ioc: ANT
   iso_name: Antigua and Barbuda
   fifa: ATG
+  short: Antigua and Barbuda
+  official: Antigua and Barbuda
 AI: 
   alpha2: AI
   alpha3: AIA
   ioc: 
   iso_name: Anguilla
   fifa: 
+  short: Anguilla
+  official: Anguilla
 AL: 
   alpha2: AL
   alpha3: ALB
@@ -43,6 +51,7 @@ AL:
   iso_name: Albania
   official: Republic of Albania
   fifa: ALB
+  short: Albania
 AM: 
   alpha2: AM
   alpha3: ARM
@@ -50,6 +59,7 @@ AM:
   iso_name: Armenia
   official: Republic of Armenia
   fifa: ARM
+  short: Armenia
 AN: 
   alpha2: AN
   alpha3: ANT
@@ -58,6 +68,8 @@ AN:
   aliases: 
   - Dutch Antilles
   fifa: ANT
+  short: Netherlands Antilles
+  official: Netherlands Antilles
 AO: 
   alpha2: AO
   alpha3: AGO
@@ -65,12 +77,15 @@ AO:
   iso_name: Angola
   official: Republic of Angola
   fifa: ANG
+  short: Angola
 AQ: 
   alpha2: AQ
   alpha3: ATA
   ioc: 
   iso_name: Antarctica
   fifa: 
+  short: Antarctica
+  official: Antarctica
 AR: 
   alpha2: AR
   alpha3: ARG
@@ -78,12 +93,15 @@ AR:
   iso_name: Argentina
   official: Argentine Republic
   fifa: ARG
+  short: Argentina
 AS: 
   alpha2: AS
   alpha3: ASM
   ioc: ASA
   iso_name: American Samoa
   fifa: ASA
+  short: American Samoa
+  official: American Samoa
 AT: 
   alpha2: AT
   alpha3: AUT
@@ -91,6 +109,7 @@ AT:
   iso_name: Austria
   official: Republic of Austria
   fifa: AUT
+  short: Austria
 AU: 
   alpha2: AU
   alpha3: AUS
@@ -98,18 +117,23 @@ AU:
   iso_name: Australia
   official: Commonwealth of Australia
   fifa: AUS
+  short: Australia
 AW: 
   alpha2: AW
   alpha3: ABW
   ioc: ARU
   iso_name: Aruba
   fifa: ARU
+  short: Aruba
+  official: Aruba
 AX: 
   alpha2: AX
   alpha3: ALA
   ioc: 
   iso_name: "\xC3\x85land Islands"
   fifa: 
+  short: "\xC3\x85land Islands"
+  official: "\xC3\x85land Islands"
 AZ: 
   alpha2: AZ
   alpha3: AZE
@@ -127,12 +151,15 @@ BA:
   aliases: 
   - Bosnia-Herzegovina
   fifa: BIH
+  official: Bosnia and Herzegovina
 BB: 
   alpha2: BB
   alpha3: BRB
   ioc: BAR
   iso_name: Barbados
   fifa: BRB
+  short: Barbados
+  official: Barbados
 BD: 
   alpha2: BD
   alpha3: BGD
@@ -140,6 +167,7 @@ BD:
   iso_name: Bangladesh
   official: People's Republic of Bangladesh
   fifa: BAN
+  short: Bangladesh
 BE: 
   alpha2: BE
   alpha3: BEL
@@ -147,6 +175,7 @@ BE:
   iso_name: Belgium
   official: Kingdom of Belgium
   fifa: BEL
+  short: Belgium
 BF: 
   alpha2: BF
   alpha3: BFA
@@ -154,6 +183,7 @@ BF:
   iso_name: Burkina Faso
   short: Burkina
   fifa: BFA
+  official: Burkina Faso
 BG: 
   alpha2: BG
   alpha3: BGR
@@ -161,6 +191,7 @@ BG:
   iso_name: Bulgaria
   official: Republic of Bulgaria
   fifa: BUL
+  short: Bulgaria
 BH: 
   alpha2: BH
   alpha3: BHR
@@ -168,6 +199,7 @@ BH:
   iso_name: Bahrain
   official: Kingdom of Bahrain
   fifa: BHR
+  short: Bahrain
 BI: 
   alpha2: BI
   alpha3: BDI
@@ -183,6 +215,7 @@ BJ:
   iso_name: Benin
   official: Republic of Benin
   fifa: BEN
+  short: Benin
 BL: 
   alpha2: BL
   alpha3: BLM
@@ -206,6 +239,8 @@ BM:
   - The Bermudas
   - The Somers Isles
   fifa: BER
+  short: Bermuda
+  official: Bermuda
 BN: 
   alpha2: BN
   alpha3: BRN
@@ -229,6 +264,7 @@ BR:
   iso_name: Brazil
   official: Federative Republic of Brazil
   fifa: BRA
+  short: Brazil
 BS: 
   alpha2: BS
   alpha3: BHS
@@ -236,6 +272,7 @@ BS:
   iso_name: Bahamas
   official: Commonwealth of the Bahamas
   fifa: BAH
+  short: Bahamas
 BT: 
   alpha2: BT
   alpha3: BTN
@@ -243,6 +280,7 @@ BT:
   iso_name: Bhutan
   official: Kingdom of Bhutan
   fifa: BHU
+  short: Bhutan
 BV: 
   alpha2: BV
   alpha3: BVT
@@ -250,6 +288,7 @@ BV:
   iso_name: Bouvet Island
   short: Bouvet Island
   fifa: 
+  official: Bouvet Island
 BW: 
   alpha2: BW
   alpha3: BWA
@@ -257,6 +296,7 @@ BW:
   iso_name: Botswana
   official: Republic of Botswana
   fifa: BOT
+  short: Botswana
 BY: 
   alpha2: BY
   alpha3: BLR
@@ -264,18 +304,23 @@ BY:
   iso_name: Belarus
   official: Republic of Belarus
   fifa: BLR
+  short: Belarus
 BZ: 
   alpha2: BZ
   alpha3: BLZ
   ioc: BIZ
   iso_name: Belize
   fifa: BLZ
+  short: Belize
+  official: Belize
 CA: 
   alpha2: CA
   alpha3: CAN
   ioc: CAN
   iso_name: Canada
   fifa: CAN
+  short: Canada
+  official: Canada
 CC: 
   alpha2: CC
   alpha3: CCK
@@ -286,6 +331,7 @@ CC:
   - Cocos Islands
   - Keeling Islands
   fifa: 
+  short: Cocos (Keeling) Islands
 CD: 
   alpha2: CD
   alpha3: COD
@@ -297,6 +343,7 @@ CD:
   - DRC
   - DR Congo
   fifa: COD
+  short: Congo, The Democratic Republic Of The
 CF: 
   alpha2: CF
   alpha3: CAF
@@ -304,6 +351,7 @@ CF:
   iso_name: Central African Republic
   short: Central African Republic
   fifa: CTA
+  official: Central African Republic
 CG: 
   alpha2: CG
   alpha3: COG
@@ -313,6 +361,7 @@ CG:
   aliases: 
   - Congo-Brazzaville
   fifa: CGO
+  short: Congo
 CH: 
   alpha2: CH
   alpha3: CHE
@@ -320,6 +369,7 @@ CH:
   iso_name: Switzerland
   official: Swiss Confederation
   fifa: SUI
+  short: Switzerland
 CI: 
   alpha2: CI
   alpha3: CIV
@@ -334,6 +384,8 @@ CK:
   ioc: COK
   iso_name: Cook Islands
   fifa: COK
+  short: Cook Islands
+  official: Cook Islands
 CL: 
   alpha2: CL
   alpha3: CHL
@@ -341,6 +393,7 @@ CL:
   iso_name: Chile
   official: Republic of Chile
   fifa: CHI
+  short: Chile
 CM: 
   alpha2: CM
   alpha3: CMR
@@ -348,6 +401,7 @@ CM:
   iso_name: Cameroon
   official: Republic of Cameroon
   fifa: CMR
+  short: Cameroon
 CN: 
   alpha2: CN
   alpha3: CHN
@@ -355,6 +409,7 @@ CN:
   iso_name: China
   official: People's Republic of China
   fifa: CHN
+  short: China
 CO: 
   alpha2: CO
   alpha3: COL
@@ -362,6 +417,7 @@ CO:
   iso_name: Colombia
   official: Republic of Colombia
   fifa: COL
+  short: Colombia
 CR: 
   alpha2: CR
   alpha3: CRI
@@ -369,6 +425,7 @@ CR:
   iso_name: Costa Rica
   official: Republic of Costa Rica
   fifa: CRC
+  short: Costa Rica
 CU: 
   alpha2: CU
   alpha3: CUB
@@ -376,6 +433,7 @@ CU:
   iso_name: Cuba
   official: Republic of Cuba
   fifa: CUB
+  short: Cuba
 CV: 
   alpha2: CV
   alpha3: CPV
@@ -383,6 +441,7 @@ CV:
   iso_name: Cape Verde
   official: Republic of Cape Verde
   fifa: CPV
+  short: Cape Verde
 CX: 
   alpha2: CX
   alpha3: CXR
@@ -390,6 +449,7 @@ CX:
   iso_name: Christmas Island
   official: Territory of Christmas Island
   fifa: 
+  short: Christmas Island
 CY: 
   alpha2: CY
   alpha3: CYP
@@ -397,12 +457,15 @@ CY:
   iso_name: Cyprus
   official: Republic of Cyprus
   fifa: CYP
+  short: Cyprus
 CZ: 
   alpha2: CZ
   alpha3: CZE
   ioc: CZE
   iso_name: Czech Republic
   fifa: CZE
+  short: Czech Republic
+  official: Czech Republic
 DE: 
   alpha2: DE
   alpha3: DEU
@@ -410,6 +473,7 @@ DE:
   iso_name: Germany
   official: Federal Republic of Germany
   fifa: GER
+  short: Germany
 DJ: 
   alpha2: DJ
   alpha3: DJI
@@ -417,6 +481,7 @@ DJ:
   iso_name: Djibouti
   official: Republic of Djibouti
   fifa: DJI
+  short: Djibouti
 DK: 
   alpha2: DK
   alpha3: DNK
@@ -424,6 +489,7 @@ DK:
   iso_name: Denmark
   official: Kingdom of Denmark
   fifa: DEN
+  short: Denmark
 DM: 
   alpha2: DM
   alpha3: DMA
@@ -431,12 +497,15 @@ DM:
   iso_name: Dominica
   official: Commonwealth of Dominica
   fifa: DMA
+  short: Dominica
 DO: 
   alpha2: DO
   alpha3: DOM
   ioc: DOM
   iso_name: Dominican Republic
   fifa: DOM
+  short: Dominican Republic
+  official: Dominican Republic
 DZ: 
   alpha2: DZ
   alpha3: DZA
@@ -444,6 +513,7 @@ DZ:
   fifa: ALG
   iso_name: Algeria
   official: People's Democratic Republic of Algeria
+  short: Algeria
 EC: 
   alpha2: EC
   alpha3: ECU
@@ -451,6 +521,7 @@ EC:
   iso_name: Ecuador
   official: Republic of Ecuador
   fifa: ECU
+  short: Ecuador
 EE: 
   alpha2: EE
   alpha3: EST
@@ -458,6 +529,7 @@ EE:
   iso_name: Estonia
   official: Republic of Estonia
   fifa: EST
+  short: Estonia
 EG: 
   alpha2: EG
   alpha3: EGY
@@ -465,12 +537,15 @@ EG:
   iso_name: Egypt
   official: Arab Republic of Egypt
   fifa: EGY
+  short: Egypt
 EH: 
   alpha2: EH
   alpha3: ESH
   ioc: 
   iso_name: Western Sahara
   fifa: 
+  short: Western Sahara
+  official: Western Sahara
 ER: 
   alpha2: ER
   alpha3: ERI
@@ -478,6 +553,7 @@ ER:
   iso_name: Eritrea
   official: State of Eritrea
   fifa: ERI
+  short: Eritrea
 ES: 
   alpha2: ES
   alpha3: ESP
@@ -485,6 +561,7 @@ ES:
   iso_name: Spain
   official: Kingdom of Spain
   fifa: ESP
+  short: Spain
 ET: 
   alpha2: ET
   alpha3: ETH
@@ -492,6 +569,7 @@ ET:
   iso_name: Ethiopia
   official: Federal Democratic Republic of Ethiopia
   fifa: ETH
+  short: Ethiopia
 FI: 
   alpha2: FI
   alpha3: FIN
@@ -499,6 +577,7 @@ FI:
   iso_name: Finland
   official: Republic of Finland
   fifa: FIN
+  short: Finland
 FJ: 
   alpha2: FJ
   alpha3: FJI
@@ -506,6 +585,7 @@ FJ:
   iso_name: Fiji
   official: Republic of Fiji
   fifa: FIJ
+  short: Fiji
 FK: 
   alpha2: FK
   alpha3: FLK
@@ -515,6 +595,7 @@ FK:
   aliases: 
   - The Falklands
   fifa: 
+  short: Falkland Islands (Malvinas)
 FM: 
   alpha2: FM
   alpha3: FSM
@@ -522,6 +603,7 @@ FM:
   iso_name: Micronesia, Federated States Of
   official: Federated States of Micronesia
   fifa: FSM
+  short: Micronesia, Federated States Of
 FO: 
   alpha2: FO
   alpha3: FRO
@@ -529,6 +611,7 @@ FO:
   iso_name: Faroe Islands
   short: Faroe Islands
   fifa: FRO
+  official: Faroe Islands
 FR: 
   alpha2: FR
   alpha3: FRA
@@ -536,6 +619,7 @@ FR:
   iso_name: France
   official: French Republic
   fifa: FRA
+  short: France
 GA: 
   alpha2: GA
   alpha3: GAB
@@ -543,6 +627,7 @@ GA:
   iso_name: Gabon
   official: Gabonese Republic
   fifa: GAB
+  short: Gabon
 GB: 
   alpha2: GB
   alpha3: GBR
@@ -553,24 +638,31 @@ GB:
   - Britain
   - U.K.
   fifa: GBR
+  short: United Kingdom
 GD: 
   alpha2: GD
   alpha3: GRD
   ioc: GRN
   iso_name: Grenada
   fifa: GRN
+  short: Grenada
+  official: Grenada
 GE: 
   alpha2: GE
   alpha3: GEO
   ioc: GEO
   iso_name: Georgia
   fifa: GEO
+  short: Georgia
+  official: Georgia
 GF: 
   alpha2: GF
   alpha3: GUF
   ioc: 
   iso_name: French Guiana
   fifa: 
+  short: French Guiana
+  official: French Guiana
 GG: 
   alpha2: GG
   alpha3: GGY
@@ -578,6 +670,7 @@ GG:
   iso_name: Guernsey
   official: Bailiwick of Guernsey
   fifa: 
+  short: Guernsey
 GH: 
   alpha2: GH
   alpha3: GHA
@@ -585,18 +678,23 @@ GH:
   iso_name: Ghana
   official: Republic of Ghana
   fifa: GHA
+  short: Ghana
 GI: 
   alpha2: GI
   alpha3: GIB
   ioc: 
   iso_name: Gibraltar
   fifa: 
+  short: Gibraltar
+  official: Gibraltar
 GL: 
   alpha2: GL
   alpha3: GRL
   ioc: 
   iso_name: Greenland
   fifa: 
+  short: Greenland
+  official: Greenland
 GM: 
   alpha2: GM
   alpha3: GMB
@@ -604,6 +702,7 @@ GM:
   iso_name: Gambia
   official: Republic of the Gambia
   fifa: GAM
+  short: Gambia
 GN: 
   alpha2: GN
   alpha3: GIN
@@ -611,12 +710,15 @@ GN:
   iso_name: Guinea
   official: Republic of Guinea
   fifa: GUI
+  short: Guinea
 GP: 
   alpha2: GP
   alpha3: GLP
   ioc: 
   iso_name: Guadeloupe
   fifa: 
+  short: Guadeloupe
+  official: Guadeloupe
 GQ: 
   alpha2: GQ
   alpha3: GNQ
@@ -624,6 +726,7 @@ GQ:
   iso_name: Equatorial Guinea
   official: Republic of Equatorial Guinea
   fifa: EQG
+  short: Equatorial Guinea
 GR: 
   alpha2: GR
   alpha3: GRC
@@ -631,12 +734,15 @@ GR:
   iso_name: Greece
   official: Hellenic Republic
   fifa: GRE
+  short: Greece
 GS: 
   alpha2: GS
   alpha3: SGS
   ioc: 
   iso_name: South Georgia and the South Sandwich Islands
   fifa: 
+  short: South Georgia and the South Sandwich Islands
+  official: South Georgia and the South Sandwich Islands
 GT: 
   alpha2: GT
   alpha3: GTM
@@ -644,12 +750,15 @@ GT:
   iso_name: Guatemala
   official: Republic of Guatemala
   fifa: GUA
+  short: Guatemala
 GU: 
   alpha2: GU
   alpha3: GUM
   ioc: GUM
   iso_name: Guam
   fifa: GUM
+  short: Guam
+  official: Guam
 GW: 
   alpha2: GW
   alpha3: GNB
@@ -657,6 +766,7 @@ GW:
   iso_name: Guinea-Bissau
   official: Republic of Guinea-Bissau
   fifa: GNB
+  short: Guinea-Bissau
 GY: 
   alpha2: GY
   alpha3: GUY
@@ -664,6 +774,7 @@ GY:
   iso_name: Guyana
   official: Co-operative Republic of Guyana
   fifa: GUY
+  short: Guyana
 HK: 
   alpha2: HK
   alpha3: HKG
@@ -673,6 +784,7 @@ HK:
   aliases: 
   - Hong Kong Special Administrative Region
   fifa: HKG
+  short: Hong Kong
 HM: 
   alpha2: HM
   alpha3: HMD
@@ -681,6 +793,8 @@ HM:
   aliases: 
   - HIMI
   fifa: 
+  short: Heard and McDonald Islands
+  official: Heard and McDonald Islands
 HN: 
   alpha2: HN
   alpha3: HND
@@ -688,6 +802,7 @@ HN:
   iso_name: Honduras
   official: Republic of Honduras
   fifa: HON
+  short: Honduras
 HR: 
   alpha2: HR
   alpha3: HRV
@@ -695,6 +810,7 @@ HR:
   iso_name: Croatia
   official: Republic of Croatia
   fifa: CRO
+  short: Croatia
 HT: 
   alpha2: HT
   alpha3: HTI
@@ -702,12 +818,15 @@ HT:
   iso_name: Haiti
   official: Republic of Haiti
   fifa: HAI
+  short: Haiti
 HU: 
   alpha2: HU
   alpha3: HUN
   ioc: HUN
   iso_name: Hungary
   fifa: HUN
+  short: Hungary
+  official: Hungary
 ID: 
   alpha2: ID
   alpha3: IDN
@@ -715,6 +834,7 @@ ID:
   iso_name: Indonesia
   official: Republic of Indonesia
   fifa: IDN
+  short: Indonesia
 IE: 
   alpha2: IE
   alpha3: IRL
@@ -722,6 +842,7 @@ IE:
   iso_name: Ireland
   short: Ireland
   fifa: IRL
+  official: Ireland
 IL: 
   alpha2: IL
   alpha3: ISR
@@ -729,6 +850,7 @@ IL:
   iso_name: Israel
   official: State of Israel
   fifa: ISR
+  short: Israel
 IM: 
   alpha2: IM
   alpha3: IMN
@@ -737,6 +859,8 @@ IM:
   aliases: 
   - Mann
   fifa: 
+  short: Isle of Man
+  official: Isle of Man
 IN: 
   alpha2: IN
   alpha3: IND
@@ -744,6 +868,7 @@ IN:
   iso_name: India
   official: Republic of India
   fifa: IND
+  short: India
 IO: 
   alpha2: IO
   alpha3: IOT
@@ -753,6 +878,8 @@ IO:
   - BIOT
   - Chagos Islands
   fifa: 
+  short: British Indian Ocean Territory
+  official: British Indian Ocean Territory
 IQ: 
   alpha2: IQ
   alpha3: IRQ
@@ -760,6 +887,7 @@ IQ:
   iso_name: Iraq
   official: Republic of Iraq
   fifa: IRQ
+  short: Iraq
 IR: 
   alpha2: IR
   alpha3: IRN
@@ -774,6 +902,8 @@ IS:
   ioc: ISL
   iso_name: Iceland
   fifa: ISL
+  short: Iceland
+  official: Iceland
 IT: 
   alpha2: IT
   alpha3: ITA
@@ -781,6 +911,7 @@ IT:
   iso_name: Italy
   official: Italian Republic
   fifa: ITA
+  short: Italy
 JE: 
   alpha2: JE
   alpha3: JEY
@@ -788,6 +919,7 @@ JE:
   iso_name: Jersey
   official: Bailiwick of Jersey
   fifa: 
+  short: Jersey
 JM: 
   alpha2: JM
   alpha3: JAM
@@ -795,6 +927,7 @@ JM:
   iso_name: Jamaica
   short: Jamaica
   fifa: JAM
+  official: Jamaica
 JO: 
   alpha2: JO
   alpha3: JOR
@@ -804,6 +937,7 @@ JO:
   aliases: 
   - Kingdom of Jordan
   fifa: JOR
+  short: Jordan
 JP: 
   alpha2: JP
   alpha3: JPN
@@ -811,6 +945,7 @@ JP:
   iso_name: Japan
   short: Japan
   fifa: JPN
+  official: Japan
 KE: 
   alpha2: KE
   alpha3: KEN
@@ -818,6 +953,7 @@ KE:
   iso_name: Kenya
   official: Republic of Kenya
   fifa: KEN
+  short: Kenya
 KG: 
   alpha2: KG
   alpha3: KGZ
@@ -825,6 +961,7 @@ KG:
   iso_name: Kyrgyzstan
   official: Kyrgyz Republic
   fifa: KGZ
+  short: Kyrgyzstan
 KH: 
   alpha2: KH
   alpha3: KHM
@@ -832,6 +969,7 @@ KH:
   iso_name: Cambodia
   official: Kingdom of Cambodia
   fifa: CAM
+  short: Cambodia
 KI: 
   alpha2: KI
   alpha3: KIR
@@ -839,6 +977,7 @@ KI:
   iso_name: Kiribati
   official: Republic of Kiribati
   fifa: KIR
+  short: Kiribati
 KM: 
   alpha2: KM
   alpha3: COM
@@ -846,6 +985,7 @@ KM:
   iso_name: Comoros
   official: Union of the Comoros
   fifa: COM
+  short: Comoros
 KN: 
   alpha2: KN
   alpha3: KNA
@@ -886,6 +1026,7 @@ KW:
   iso_name: Kuwait
   official: State of Kuwait
   fifa: KUW
+  short: Kuwait
 KY: 
   alpha2: KY
   alpha3: CYM
@@ -894,6 +1035,8 @@ KY:
   aliases: 
   - Caymans
   fifa: CAY
+  short: Cayman Islands
+  official: Cayman Islands
 KZ: 
   alpha2: KZ
   alpha3: KAZ
@@ -901,6 +1044,7 @@ KZ:
   iso_name: Kazakhstan
   official: Republic of Kazakhstan
   fifa: KAZ
+  short: Kazakhstan
 LA: 
   alpha2: LA
   alpha3: LAO
@@ -909,6 +1053,7 @@ LA:
   official: Lao People's Democratic Republic
   simple: Laos
   fifa: LAO
+  short: Lao People's Democratic Republic
 LB: 
   alpha2: LB
   alpha3: LBN
@@ -916,6 +1061,7 @@ LB:
   iso_name: Lebanon
   official: Lebanese Republic
   fifa: LIB
+  short: Lebanon
 LC: 
   alpha2: LC
   alpha3: LCA
@@ -924,6 +1070,8 @@ LC:
   aliases: 
   - St. Lucia
   fifa: LCA
+  short: Saint Lucia
+  official: Saint Lucia
 LI: 
   alpha2: LI
   alpha3: LIE
@@ -931,6 +1079,7 @@ LI:
   iso_name: Liechtenstein
   official: Principality of Liechtenstein
   fifa: LIE
+  short: Liechtenstein
 LK: 
   alpha2: LK
   alpha3: LKA
@@ -938,6 +1087,7 @@ LK:
   iso_name: Sri Lanka
   official: Democratic Socialist Republic of Sri Lanka
   fifa: SRI
+  short: Sri Lanka
 LR: 
   alpha2: LR
   alpha3: LBR
@@ -945,6 +1095,7 @@ LR:
   iso_name: Liberia
   official: Republic of Liberia
   fifa: LBR
+  short: Liberia
 LS: 
   alpha2: LS
   alpha3: LSO
@@ -952,6 +1103,7 @@ LS:
   iso_name: Lesotho
   official: Kingdom of Lesoth
   fifa: LES
+  short: Lesotho
 LT: 
   alpha2: LT
   alpha3: LTU
@@ -959,6 +1111,7 @@ LT:
   iso_name: Lithuania
   official: Republic of Lithuania
   fifa: LTU
+  short: Lithuania
 LU: 
   alpha2: LU
   alpha3: LUX
@@ -966,6 +1119,7 @@ LU:
   iso_name: Luxembourg
   official: Grand Duchy of Luxembourg
   fifa: LUX
+  short: Luxembourg
 LV: 
   alpha2: LV
   alpha3: LVA
@@ -973,6 +1127,7 @@ LV:
   iso_name: Latvia
   official: Republic of Latvia
   fifa: LVA
+  short: Latvia
 LY: 
   alpha2: LY
   alpha3: LBY
@@ -980,6 +1135,7 @@ LY:
   iso_name: Libya
   official: State of Libya
   fifa: LBY
+  short: Libya
 MA: 
   alpha2: MA
   alpha3: MAR
@@ -987,6 +1143,7 @@ MA:
   iso_name: Morocco
   official: Kingdom of Morocco
   fifa: MAR
+  short: Morocco
 MC: 
   alpha2: MC
   alpha3: MCO
@@ -994,6 +1151,7 @@ MC:
   iso_name: Monaco
   official: Principality of Monaco
   fifa: MON
+  short: Monaco
 MD: 
   alpha2: MD
   alpha3: MDA
@@ -1001,12 +1159,15 @@ MD:
   iso_name: Moldova, Republic of
   official: Republic of Moldova
   fifa: MDA
+  short: Moldova, Republic of
 ME: 
   alpha2: ME
   alpha3: MNE
   ioc: MNE
   iso_name: Montenegro
   fifa: MNE
+  short: Montenegro
+  official: Montenegro
 MF: 
   alpha2: MF
   alpha3: MAF
@@ -1015,6 +1176,8 @@ MF:
   aliases: 
   - St. Martin
   fifa: 
+  short: Saint Martin
+  official: Saint Martin
 MG: 
   alpha2: MG
   alpha3: MDG
@@ -1022,6 +1185,7 @@ MG:
   iso_name: Madagascar
   official: Republic of Madagascar
   fifa: MAD
+  short: Madagascar
 MH: 
   alpha2: MH
   alpha3: MHL
@@ -1029,6 +1193,7 @@ MH:
   iso_name: Marshall Islands
   official: Republic of the Marshall Islands
   fifa: MHL
+  short: Marshall Islands
 MK: 
   alpha2: MK
   alpha3: MKD
@@ -1044,6 +1209,7 @@ ML:
   iso_name: Mali
   official: Republic of Mali
   fifa: MLI
+  short: Mali
 MM: 
   alpha2: MM
   alpha3: MMR
@@ -1053,12 +1219,15 @@ MM:
   aliases: 
   - Burma
   fifa: MYA
+  short: Myanmar
 MN: 
   alpha2: MN
   alpha3: MNG
   ioc: MGL
   iso_name: Mongolia
   fifa: MGL
+  short: Mongolia
+  official: Mongolia
 MO: 
   alpha2: MO
   alpha3: MAC
@@ -1069,6 +1238,7 @@ MO:
   - Macao
   - Macao Special Administrative Region
   fifa: 
+  short: Macao
 MP: 
   alpha2: MP
   alpha3: MNP
@@ -1078,12 +1248,15 @@ MP:
   aliases: 
   - CNMI
   fifa: 
+  short: Northern Mariana Islands
 MQ: 
   alpha2: MQ
   alpha3: MTQ
   ioc: 
   iso_name: Martinique
   fifa: 
+  short: Martinique
+  official: Martinique
 MR: 
   alpha2: MR
   alpha3: MRT
@@ -1091,12 +1264,15 @@ MR:
   iso_name: Mauritania
   official: Islamic Republic of Mauritania
   fifa: MTN
+  short: Mauritania
 MS: 
   alpha2: MS
   alpha3: MSR
   ioc: 
   iso_name: Montserrat
   fifa: 
+  short: Montserrat
+  official: Montserrat
 MT: 
   alpha2: MT
   alpha3: MLT
@@ -1104,6 +1280,7 @@ MT:
   iso_name: Malta
   official: Republic of Malta
   fifa: MLT
+  short: Malta
 MU: 
   alpha2: MU
   alpha3: MUS
@@ -1111,6 +1288,7 @@ MU:
   iso_name: Mauritius
   official: Republic of Mauritius
   fifa: MRI
+  short: Mauritius
 MV: 
   alpha2: MV
   alpha3: MDV
@@ -1120,6 +1298,7 @@ MV:
   aliases: 
   - Maldive Islands
   fifa: MDV
+  short: Maldives
 MW: 
   alpha2: MW
   alpha3: MWI
@@ -1127,6 +1306,7 @@ MW:
   iso_name: Malawi
   official: Republic of Malawi
   fifa: MWI
+  short: Malawi
 MX: 
   alpha2: MX
   alpha3: MEX
@@ -1134,6 +1314,7 @@ MX:
   iso_name: Mexico
   official: United Mexican States
   fifa: MEX
+  short: Mexico
 MY: 
   alpha2: MY
   alpha3: MYS
@@ -1141,6 +1322,7 @@ MY:
   iso_name: Malaysia
   short: Malaysia
   fifa: MAS
+  official: Malaysia
 MZ: 
   alpha2: MZ
   alpha3: MOZ
@@ -1148,6 +1330,7 @@ MZ:
   iso_name: Mozambique
   short: Mozambique
   fifa: MOZ
+  official: Mozambique
 NA: 
   alpha2: NA
   alpha3: NAM
@@ -1155,6 +1338,7 @@ NA:
   iso_name: Namibia
   short: Namibia
   fifa: NAM
+  official: Namibia
 NC: 
   alpha2: NC
   alpha3: NCL
@@ -1162,6 +1346,7 @@ NC:
   iso_name: New Caledonia
   short: New Caledonia
   fifa: 
+  official: New Caledonia
 NE: 
   alpha2: NE
   alpha3: NER
@@ -1169,6 +1354,7 @@ NE:
   iso_name: Niger
   official: Republic of Niger
   fifa: NIG
+  short: Niger
 NF: 
   alpha2: NF
   alpha3: NFK
@@ -1176,7 +1362,7 @@ NF:
   iso_name: Norfolk Island
   short: Norfolk Island
   official: Territory of Norfolk Island
-  fifa:
+  fifa: 
 NG: 
   alpha2: NG
   alpha3: NGA
@@ -1200,6 +1386,7 @@ NL:
   iso_name: Netherlands
   short: Netherlands
   fifa: NED
+  official: Netherlands
 "NO": 
   alpha2: "NO"
   alpha3: NOR
@@ -1207,6 +1394,7 @@ NL:
   iso_name: Norway
   official: Kingdom of Norway
   fifa: NOR
+  short: Norway
 NP: 
   alpha2: NP
   alpha3: NPL
@@ -1230,6 +1418,7 @@ NU:
   iso_name: Niue
   short: Niue
   fifa: 
+  official: Niue
 NZ: 
   alpha2: NZ
   alpha3: NZL
@@ -1237,6 +1426,7 @@ NZ:
   iso_name: New Zealand
   short: New Zealand
   fifa: NZL
+  official: New Zealand
 OM: 
   alpha2: OM
   alpha3: OMN
@@ -1268,6 +1458,7 @@ PF:
   iso_name: French Polynesia
   short: French Polynesia
   fifa: 
+  official: French Polynesia
 PG: 
   alpha2: PG
   alpha3: PNG
@@ -1283,6 +1474,7 @@ PH:
   iso_name: Philippines
   official: Republic of the Philippines
   fifa: PHI
+  short: Philippines
 PK: 
   alpha2: PK
   alpha3: PAK
@@ -1306,6 +1498,7 @@ PM:
   iso_name: Saint Pierre And Miquelon
   short: Saint Pierre And Miquelon
   fifa: 
+  official: Saint Pierre And Miquelon
 PN: 
   alpha2: PN
   alpha3: PCN
@@ -1329,9 +1522,10 @@ PS:
   iso_name: Palestinian Territory, Occupied
   fifa: PLE
   short: Palestine
-  aliases:
-    - Palestinian Territories
-    - Palestinian Territory
+  aliases: 
+  - Palestinian Territories
+  - Palestinian Territory
+  official: Palestinian Territory, Occupied
 PT: 
   alpha2: PT
   alpha3: PRT
@@ -1339,6 +1533,7 @@ PT:
   iso_name: Portugal
   official: Portuguese Republic
   fifa: POR
+  short: Portugal
 PW: 
   alpha2: PW
   alpha3: PLW
@@ -1348,13 +1543,13 @@ PW:
   official: Republic of Palau
   fifa: PLW
   aliases: 
-    - Belau
-    - Pelew
+  - Belau
+  - Pelew
 PY: 
   alpha2: PY
   alpha3: PRY
   ioc: PAR
-  iso_name: Paraguay  
+  iso_name: Paraguay
   short: Paraguay
   official: Republic of Paraguay
   fifa: PAR
@@ -1381,6 +1576,7 @@ RO:
   iso_name: Romania
   short: Romania
   fifa: ROU
+  official: Romania
 RS: 
   alpha2: RS
   alpha3: SRB
@@ -1396,6 +1592,7 @@ RU:
   iso_name: Russian Federation
   short: Russia
   fifa: RUS
+  official: Russian Federation
 RW: 
   alpha2: RW
   alpha3: RWA
@@ -1411,6 +1608,7 @@ SA:
   iso_name: Saudi Arabia
   official: Kingdom of Saudi Arabia
   fifa: KSA
+  short: Saudi Arabia
 SB: 
   alpha2: SB
   alpha3: SLB
@@ -1418,6 +1616,7 @@ SB:
   iso_name: Solomon Islands
   short: Solomon Islands
   fifa: SOL
+  official: Solomon Islands
 SC: 
   alpha2: SC
   alpha3: SYC
@@ -1441,6 +1640,7 @@ SE:
   iso_name: Sweden
   official: Kingdom of Sweden
   fifa: SWE
+  short: Sweden
 SG: 
   alpha2: SG
   alpha3: SGP
@@ -1456,6 +1656,7 @@ SH:
   iso_name: Saint Helena
   short: Saint Helena
   fifa: 
+  official: Saint Helena
 SI: 
   alpha2: SI
   alpha3: SVN
@@ -1470,7 +1671,8 @@ SJ:
   ioc: 
   iso_name: Svalbard And Jan Mayen
   short: Svalbard And Jan Mayen
-  fifa:
+  fifa: 
+  official: Svalbard And Jan Mayen
 SK: 
   alpha2: SK
   alpha3: SVK
@@ -1496,7 +1698,7 @@ SM:
   official: Republic of San Marino
   fifa: SMR
   aliases: 
-    - Most Serene Republic of San Marino
+  - Most Serene Republic of San Marino
 SN: 
   alpha2: SN
   alpha3: SEN
@@ -1521,8 +1723,8 @@ SR:
   short: Suriname
   official: Republic of Suriname
   fifa: SUR
-  aliases:
-    - Surinam
+  aliases: 
+  - Surinam
 SS: 
   alpha2: SS
   alpha3: SSD
@@ -1530,9 +1732,9 @@ SS:
   iso_name: South Sudan
   short: South Sudan
   official: Republic of South Sudan
-  fifa:
-  aliases:
-    - S. Sudan
+  fifa: 
+  aliases: 
+  - S. Sudan
 ST: 
   alpha2: ST
   alpha3: STP
@@ -1541,9 +1743,9 @@ ST:
   short: Sao Tome and Principe
   official: "Democratic Republic of S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
   fifa: STP
-  aliases:
-    - Democratic Republic of Sao Tome and Principe"
-    - "S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
+  aliases: 
+  - Democratic Republic of Sao Tome and Principe"
+  - "S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
 SV: 
   alpha2: SV
   alpha3: SLV
@@ -1551,6 +1753,7 @@ SV:
   iso_name: El Salvador
   official: Republic of El Salvador
   fifa: SLV
+  short: El Salvador
 SY: 
   alpha2: SY
   alpha3: SYR
@@ -1558,6 +1761,7 @@ SY:
   iso_name: Syrian Arab Republic
   short: Syria
   fifa: SYR
+  official: Syrian Arab Republic
 SZ: 
   alpha2: SZ
   alpha3: SWZ
@@ -1566,9 +1770,9 @@ SZ:
   official: Kingdom of Swaziland
   short: Swaziland
   fifa: SWZ
-  aliases:
-    - Ngwane
-    - Swatini
+  aliases: 
+  - Ngwane
+  - Swatini
 TC: 
   alpha2: TC
   alpha3: TCA
@@ -1576,8 +1780,9 @@ TC:
   iso_name: Turks and Caicos Islands
   short: Turks and Caicos Islands
   fifa: 
-  aliases:
-    - TCI
+  aliases: 
+  - TCI
+  official: Turks and Caicos Islands
 TD: 
   alpha2: TD
   alpha3: TCD
@@ -1593,9 +1798,9 @@ TF:
   iso_name: French Southern Territories
   short: French Southern Territories
   official: Territory of the French Southern and Antarctic Land
-  fifa:
-  aliases:
-    - French Southern and Antarctic Lands 
+  fifa: 
+  aliases: 
+  - French Southern and Antarctic Lands
 TG: 
   alpha2: TG
   alpha3: TGO
@@ -1627,12 +1832,13 @@ TK:
   iso_name: Tokelau
   short: Tokelau
   fifa: 
+  official: Tokelau
 TL: 
   alpha2: TL
   alpha3: TLS
   ioc: TLS
   iso_name: Timor-Leste
-  short: East Timor  
+  short: East Timor
   official: Democratic Republic of Timor-Leste
   fifa: TLS
 TM: 
@@ -1642,6 +1848,7 @@ TM:
   iso_name: Turkmenistan
   short: Turkmenistan
   fifa: TKM
+  official: Turkmenistan
 TN: 
   alpha2: TN
   alpha3: TUN
@@ -1681,16 +1888,17 @@ TV:
   iso_name: Tuvalu
   short: Tuvalu
   fifa: TUV
+  official: Tuvalu
 TW: 
   alpha2: TW
   alpha3: TWN
   ioc: TPE
-  iso_name: Taiwan, Republic Of China 
+  iso_name: Taiwan, Republic Of China
   official: Republic of China
   short: Taiwan
   fifa: TPE
-  aliases:
-    - ROC
+  aliases: 
+  - ROC
 TZ: 
   alpha2: TZ
   alpha3: TZA
@@ -1706,6 +1914,7 @@ UA:
   iso_name: Ukraine
   short: Ukraine
   fifa: UKR
+  official: Ukraine
 UG: 
   alpha2: UG
   alpha3: UGA
@@ -1721,6 +1930,7 @@ UM:
   iso_name: United States Minor Outlying Islands
   short: United States Minor Outlying Islands
   fifa: 
+  official: United States Minor Outlying Islands
 US: 
   alpha2: US
   alpha3: USA
@@ -1732,6 +1942,7 @@ US:
   - U.S.
   - U.S.A.
   fifa: USA
+  short: United States
 UY: 
   alpha2: UY
   alpha3: URY
@@ -1740,8 +1951,8 @@ UY:
   official: Oriental Republic of Uruguay
   short: Uruguay
   fifa: URU
-  aliases:
-    - Eastern Republic of Uruguay
+  aliases: 
+  - Eastern Republic of Uruguay
 UZ: 
   alpha2: UZ
   alpha3: UZB
@@ -1765,6 +1976,7 @@ VC:
   iso_name: Saint Vincent And The Grenadines
   short: Saint Vincent And The Grenadines
   fifa: VIN
+  official: Saint Vincent And The Grenadines
 VE: 
   alpha2: VE
   alpha3: VEN
@@ -1781,8 +1993,8 @@ VG:
   official: Virgin Islands
   short: British Virgin Islands
   fifa: VGB
-  aliases:
-    - BVI
+  aliases: 
+  - BVI
 VI: 
   alpha2: VI
   alpha3: VIR
@@ -1791,10 +2003,10 @@ VI:
   official: Virgin Islands of the United States
   short: U.S. Virgin Islands
   fifa: VIR
-  aliases:
-    - USVI
-    - US Virgin Islands
-    - United States Virgin Islands
+  aliases: 
+  - USVI
+  - US Virgin Islands
+  - United States Virgin Islands
 VN: 
   alpha2: VN
   alpha3: VNM
@@ -1802,8 +2014,9 @@ VN:
   iso_name: Vietnam
   official: Socialist Republic of Vietnam
   fifa: VIE
-  aliases:
-    - Viet Nam
+  aliases: 
+  - Viet Nam
+  short: Vietnam
 VU: 
   alpha2: VU
   alpha3: VUT
@@ -1827,6 +2040,7 @@ WS:
   iso_name: Samoa
   official: Independent State of Samoa
   fifa: SAM
+  short: Samoa
 YE: 
   alpha2: YE
   alpha3: YEM
@@ -1850,6 +2064,7 @@ ZA:
   iso_name: South Africa
   official: Republic of South Africa
   fifa: RSA
+  short: South Africa
 ZM: 
   alpha2: ZM
   alpha3: ZMB
