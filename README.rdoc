@@ -2,8 +2,6 @@
 
 Convert country names and codes to a standard.
 
-*Work* *in* *progress*
-
 === Overview
 
  require "normalize_country"
@@ -20,12 +18,12 @@ Convert country names and codes to a standard.
  NormalizeCountry("North Korea", :to => :iso_name) # "Korea, Democratic People's Republic Of"
 
  # Or
- NormalizeCountry.normalize("U.S.", :to => :alpha2)  # "US"
+ NormalizeCountry.convert("U.S.", :to => :alpha2)  # "US"
  
  # Set the default
  NormalizeCountry.to = :alpha3 
- NormalizeCountry.normalize("Mexico")                 # "MEX"
- NormalizeCountry.normalize("United Mexican States")  # "MEX"
+ NormalizeCountry.convert("Mexico")                 # "MEX"
+ NormalizeCountry.convert("United Mexican States")  # "MEX"
 
 === Supported Conversions
 
@@ -49,7 +47,14 @@ Please submit a patch or {open an issue}[https://github.com/sshaw/normalize_coun
 This code was -to some extent- part of a larger project that allowed users to perform a free-text search by country.
 Country names were stored in the DB by their ISO names.
 
-Several years later, while at work, we had to extract country names from a web service that didn't standardize
-them. Sometimes they used UK, other times U.K. It then occured to me that this code might be useful outside 
-the original project. The web service was fixed but, nevertheless...
+Several years later while at work, we had to extract country names from a web service that didn't standardize
+them. Sometimes they used UK, other times U.K. It then occured to me that this code could be useful outside 
+of the original project. The web service was fixed but, nevertheless...
 
+=== Similar Gems
+
+Upon further investigation I've found the following:
+
+* {Carmen}[https://github.com/jim/carmen]: Lookup countries and their states/providences by ISO name/code 
+* {i18n_data}[https://github.com/grosser/i18n_data]: ISO country names in different languages, includes alpha codes
+* {ModelUN}[https://github.com/uhhuhyeah/model_un]: Similar to this gem but with less naming support, it does include US states

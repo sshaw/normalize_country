@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.date        = Date.today
   s.summary     = "Convert country names and codes to a standard"
   s.description =<<-DESC
-    Converts country names and codes from standardized and non-standardized names and abbreviations into one of the following:
+    Converts country names and codes from standardized and non-standardized names and abbreviations to one of the following:
     ISO 3166-1 (code/name), FIFA, IOC, a country's official name or shortened name.
   DESC
   s.authors     = ["Skye Shaw"]

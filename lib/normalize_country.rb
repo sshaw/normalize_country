@@ -11,7 +11,7 @@ module NormalizeCountry
       @to ||= :iso_name
     end
 
-    def normalize(name, options = {})
+    def convert(name, options = {})
       country = country_for(name)
       return unless country
       country[ options[:to] || to ]
@@ -57,5 +57,5 @@ module NormalizeCountry
 end
 
 def NormalizeCountry(name, options = {})
-  NormalizeCountry.normalize(name, options)
+  NormalizeCountry.convert(name, options)
 end
