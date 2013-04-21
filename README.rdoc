@@ -47,14 +47,16 @@ Please submit a patch or {open an issue}[https://github.com/sshaw/normalize_coun
 This code was -to some extent- part of a larger project that allowed users to perform a free-text search by country.
 Country names were stored in the DB by their ISO names.
 
-Several years later while at work, we had to extract country names from a web service that didn't standardize
+Several years later at work we had to extract country names from a web service that didn't standardize
 them. Sometimes they used UK, other times U.K. It then occured to me that this code could be useful outside 
 of the original project. The web service was fixed but, nevertheless...
 
-=== Similar Gems
+=== Somewhat Similar Gems
 
 Upon further investigation I've found the following:
 
-* {Carmen}[https://github.com/jim/carmen]: Lookup countries and their states/providences by ISO name/code 
+* {Carmen}[https://github.com/jim/carmen]: ISO country names and states/subdivisions
+* {countries}[https://github.com/hexorx/countries] ISO country names, states/subdivisions, currency, E.164 phone numbers and language translations
+* {country_codes}[https://github.com/SunDawg/country_codes] ISO country names and currency data
 * {i18n_data}[https://github.com/grosser/i18n_data]: ISO country names in different languages, includes alpha codes
-* {ModelUN}[https://github.com/uhhuhyeah/model_un]: Similar to this gem but with less naming support, it does include US states
+* {ModelUN}[https://github.com/uhhuhyeah/model_un]: Similar to this gem but with less support for conversion, it does include US states

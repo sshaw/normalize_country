@@ -32,15 +32,16 @@ module NormalizeCountry
       @mapping = {}
       config.each do |id, value|
         @mapping[id.to_sym] = Array === value ?
-          value.map { |v| v } :
-          value
+          value.compact.map { |v| v.squeeze(" ").strip } :
+          value ? value.squeeze(" ").strip : value
       end
     end
 
     def [](id)
       id = id.to_s
       return if id.empty? or id.to_sym == :aliases
-      @mapping[id.to_sym]
+      name = @mapping[id.to_sym]
+      return name.dup if name
     end
 
     def names
@@ -48,7 +49,7 @@ module NormalizeCountry
     end
   end
 
-  path = ENV["NORMALIZE_COUNTRY_DATAFILE"] || File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml")
+  path = File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml")
   data = YAML.load_file(path)
   data.values.each do |mapping|
     country = Country.new(mapping)
