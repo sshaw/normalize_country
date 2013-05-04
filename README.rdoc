@@ -11,6 +11,7 @@ Convert country names and codes to a standard.
  NormalizeCountry("USA",  :to => :official)        # "United States of America"
  NormalizeCountry("Iran", :to => :official)        # "Islamic Republic of Iran"
  NormalizeCountry("U.S.", :to => :alpha2)          # "US"
+ NormalizeCountry("U.S.", :to => :numeric)         # "840"
  NormalizeCountry("US",   :to => :fifa)            # "USA"
  NormalizeCountry("Iran", :to => :alpha3)          # "IRN"
  NormalizeCountry("Iran", :to => :ioc)             # "IRI"
@@ -36,6 +37,7 @@ will convert to/from the following:
 [:official] The country's official name
 [:ioc] International Olympic Committee 
 [:iso_name] Country name used by ISO 3166-1 
+[:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
 === Faulty/Missing/Erroneous Country Names
