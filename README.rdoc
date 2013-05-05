@@ -40,6 +40,30 @@ will convert to/from the following:
 [:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
+=== Conversion Utility
+
+A small script is included that can convert country names contained in a DB table or a set of XML or CSV files
+
+  shell > normalize_country -h
+  usage: normalize_country [options] SOURCE
+      -h, --help                       Show this message
+      -f, --format FORMAT              The format of SOURCE
+      -t, --to CONVERSION              Convert country names to this format (see docs for valid formats)
+      -l, --location LOCATION          The location of the conversion
+	
+Some examples
+
+ normalize_country -t alpha2 -l 'Country Name' -f csv data.csv
+ normalize_country -t numeric -l countries.code -f db postgres://usr:pass@localhost/conquests
+ normalize_country -t fifa -l /teams[@sport = 'fútbol americano']//country -f xml data.xml
+
+If the format is +xml+ or +csv+ you can spefify a directory instead of a filename
+
+ normalize_country -t alpha2 -l 'Country Name' -f csv /home/sshaw/capital-losses/2008
+
+With a format of +csv+ this will read all files with an extension of +csv+ or +tsv+. For the format +xml+ it 
+reads all files with an +xml+ extension.
+
 === Faulty/Missing/Erroneous Country Names
 
 Please submit a patch or {open an issue}[https://github.com/sshaw/normalize_country/issues].

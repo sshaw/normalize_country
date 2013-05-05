@@ -1,0 +1,105 @@
+#!/usr/bin/env ruby
+
+require "normalize_country"
+require "optparse"
+
+class NormalizeXML
+  def initialize(to, xpath)
+    @to = to
+    @xpath = xpath
+  end
+
+  def normalize(path)
+    paths = File.directory?(path) ? Dir["#{path}/*.xml"] : [path]
+    paths.each do |path|
+      doc = REXML::Document.new(path)
+      doc.get_elements(@xpath) do |e|
+        e.text = NormalizeCountry(e.text, :to => @to)
+        # save...
+      end
+    end
+  end
+end
+
+class NormalizeDB
+  def initialize(to, table)
+    @to = to
+    @table = table
+  end
+
+  def normalize(dsn)
+    rs = connect(dsn)
+    rs.select.limit(10,20).each { |row| }
+  end
+
+  def connect
+    db = Sequel.connect(dsn)
+    raise "database has no table named '#@table'" unless db.table_exists?(@table)
+    raise "table '#@table' has no column named '#@column'" unless db[@table].columns.include?(@column.to_sym)
+    db[@table]
+  end
+
+end
+
+class NormalizeCSV
+  def initialize(to, column)
+    @to = to
+    @column = column
+  end
+
+  def normalize(path)
+    paths = File.directory?(path) ? Dir["#{path}/*.[tc]sv"] : [path]
+    paths.each do |path|
+      rows = CSV.read(path)
+    end
+  end
+end
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "usage: #{File.basename($0)} [options] SOURCE"
+
+  opts.on("-h", "--help", "Show this message") do
+    puts opts
+    exit 2
+  end
+
+  opts.on "-f", "--format FORMAT", "The format of SOURCE" do |format|
+    options[:format] = format.to_sym
+  end
+
+  opts.on "-t", "--to CONVERSION", "Convert country names to this format (see docs for valid formats)" do |to|
+    options[:to] = to
+  end
+
+  opts.on "-l", "--location LOCATION ", "The location of the conversion" do |source|
+    options[:source] = source
+  end
+end.parse!
+
+abort "source option required" unless ARGV.any?
+# other required options...
+
+klass = case options[:format]
+  when :csv
+    require "csv"
+    NormalizeCSV
+  when :db
+    begin
+      require "sequel"
+    rescue LoadError => e
+      abort "the db format requires the Sequel ruby gem, you can install it via `gem sequel`"
+    end
+    NormalizeDB
+  when :xml
+    require "rexml/document"
+    NormalizeXML
+  else
+    abort "don't know how to normalize the format '#{options[:format]}'"
+end
+
+begin
+  klass.new(options[:to], options[:source]).normalize(ARGV[0])
+rescue => e
+  abort "normalization failed: #{e}"
+end
