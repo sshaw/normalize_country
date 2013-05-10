@@ -40,6 +40,13 @@ will convert to/from the following:
 [:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
+=== Obtaining an Array or Hash
+
+ NormalizeCountry.to_a		   		    # Defaults to NormalizeCountry.to
+ NormalizeCountry.to_a(:ioc)			    # Array of IOC codes in ascending order
+ NormalizeCountry.to_h(:ioc)			    # :ioc => NormalizeCountry.to
+ NormalizeCountry.to_h(:ioc, :to => :numeric)       # :ioc => :numeric
+
 === Conversion Utility
 
 A small script is included that can convert country names contained in a DB table or a set of XML or CSV files

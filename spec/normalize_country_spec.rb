@@ -19,21 +19,92 @@ describe NormalizeCountry do
     %w[America U.S. U.S.A.].each { |v| NormalizeCountry.convert(v).must_equal("United States") }
   end
 
-  {:alpha2 => "US", :alpha3 => "USA", :ioc => "USA", :iso_name => "United States", :numeric => "840", :official => "United States of America", :fifa => "USA"}.each do |spec, expect| 
+  {:alpha2 => "US", :alpha3 => "USA", :ioc => "USA", :iso_name => "United States", :numeric => "840", :official => "United States of America", :fifa => "USA"}.each do |spec, expect|
     it "normalizes to #{spec}" do
       NormalizeCountry.convert("America", :to => spec).must_equal(expect)
     end
   end
- 
+
   it "returns nil if the normalization target is unknown" do
     NormalizeCountry.convert("USA", :to => :wtf).must_be_nil
+  end
+
+
+  describe "#to_h" do
+    before { NormalizeCountry.to = :numeric }
+    after  { NormalizeCountry.to = :iso_name }
+    
+    describe "without a :to option" do
+      it "uses the format option as the key and the default :to option as the value" do
+        hash = NormalizeCountry.to_h(:alpha3)
+        hash.must_be_instance_of Hash
+        hash["USA"].must_equal "840"
+        hash["GBR"].must_equal "826"
+        hash.size.must_be :>, 2
+      end
+    end
+    
+    describe "with a :to option" do 
+      it "uses the format option as the key and the :to option as the value" do
+        hash = NormalizeCountry.to_h(:alpha3, :to => :alpha2)
+        hash.must_be_instance_of Hash
+        hash["USA"].must_equal "US"
+        hash["GBR"].must_equal "GB"
+        hash.size.must_be :>, 2
+      end
+    end
+
+    describe "with an unknown format argument" do
+      it "returns an empty Hash" do
+        hash = NormalizeCountry.to_h(:wtf)
+        hash.must_be_instance_of Hash
+        hash.must_be_empty
+
+        hash = NormalizeCountry.to_h(:alpha2, :to => :wtf)
+        hash.must_be_instance_of Hash
+        hash.must_be_empty
+      end      
+    end
+  end
+  
+  describe "#to_a" do
+    describe "without a format argument" do
+      before { NormalizeCountry.to = :numeric }
+      after  { NormalizeCountry.to = :iso_name }
+
+      it "returns an Array of countries in the default format" do
+        list = NormalizeCountry.to_a
+        list.must_be_instance_of Array
+        list.must_include "840" # US
+        list.must_include "826" # GB
+        list.size.must_be :>, 2
+      end
+    end
+
+    describe "with a format argument" do
+      it "returns an Array of countries in the given format" do
+        list = NormalizeCountry.to_a(:alpha3)
+        list.must_be_instance_of Array
+        list.must_include "USA"
+        list.must_include "GBR"
+        list.size.must_be :>, 2
+      end
+    end
+
+    describe "with an unknown format argument" do
+      it "returns an empty Array" do
+        list = NormalizeCountry.to_a(:wtf)
+        list.must_be_instance_of Array
+        list.must_be_empty
+      end      
+    end
   end
 
   it "has a function form" do
     NormalizeCountry("USA", :to => :ioc).must_equal("USA")
   end
-    
-  describe "when a default is set" do 
+
+  describe "when a default is set" do
     before { NormalizeCountry.to = :alpha2 }
     after  { NormalizeCountry.to = :iso_name }
 

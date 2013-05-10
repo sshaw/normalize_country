@@ -2,6 +2,8 @@
 
 require "normalize_country"
 require "optparse"
+require "tempfile"
+require "fileutils"
 
 class NormalizeXML
   def initialize(to, xpath)
@@ -10,12 +12,22 @@ class NormalizeXML
   end
 
   def normalize(path)
-    paths = File.directory?(path) ? Dir["#{path}/*.xml"] : [path]
+    paths = File.directory?(path) ? Dir[ File.join(path, "*.xml") ] : [path]
     paths.each do |path|
-      doc = REXML::Document.new(path)
-      doc.get_elements(@xpath) do |e|
-        e.text = NormalizeCountry(e.text, :to => @to)
-        # save...
+      io = File.open(path)
+
+      begin
+        doc = REXML::Document.new(io)
+        doc.get_elements(@xpath).each do |e|
+          next unless e.text
+          e.text = NormalizeCountry(e.text.strip, :to => @to)
+        end
+
+        tmp = Tempfile.new("normalize")
+        doc.write(tmp)
+        FileUtils.mv(tmp.path, path)
+      ensure
+        io.close
       end
     end
   end
@@ -30,9 +42,11 @@ class NormalizeDB
   def normalize(dsn)
     rs = connect(dsn)
     rs.select.limit(10,20).each { |row| }
+    rs.where(pk => id).update(@column => "success")
   end
 
-  def connect
+  #  DB.schema :config
+  def connect(dsn)
     db = Sequel.connect(dsn)
     raise "database has no table named '#@table'" unless db.table_exists?(@table)
     raise "table '#@table' has no column named '#@column'" unless db[@table].columns.include?(@column.to_sym)
@@ -48,8 +62,9 @@ class NormalizeCSV
   end
 
   def normalize(path)
-    paths = File.directory?(path) ? Dir["#{path}/*.[tc]sv"] : [path]
+    paths = File.directory?(path) ? Dir[ File.join(path, "*.[tc]sv") ] : [path]
     paths.each do |path|
+      # Name or A7      
       rows = CSV.read(path)
     end
   end

@@ -17,12 +17,27 @@ module NormalizeCountry
       country[ options[:to] || to ]
     end
 
+    def to_a(name = to)
+      return [] if Countries.values.first[name].nil?
+      Countries.values.map { |c| c[name] }.sort { |a, b| a <=> b }
+    end
+
+    def to_h(key, options = {})
+      value = options[:to] || to
+      countries = Countries.values
+      return {} unless [ key, value ].all? { |v| countries.first[v] }
+
+      hash = {}
+      countries.each { |c| hash[ c[key] ] = c[value] }
+      hash
+    end
+
     private
     def country_for(name)
       name = name.to_s.downcase.strip.squeeze(" ")
       return if name.empty?
       Countries[name.to_sym]
-    end    
+    end
   end
 
   class Country
