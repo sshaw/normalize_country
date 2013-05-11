@@ -2,6 +2,8 @@ require "minitest/autorun"
 require "normalize_country"
 
 describe NormalizeCountry do
+  COUNTRY_COUNT = 247
+
   it "normalizes to a country's ISO name by default" do
     NormalizeCountry.convert("USA").must_equal("United States")
   end
@@ -29,6 +31,9 @@ describe NormalizeCountry do
     NormalizeCountry.convert("USA", :to => :wtf).must_be_nil
   end
 
+  it "has a function form" do
+    NormalizeCountry("USA", :to => :ioc).must_equal("USA")
+  end
 
   describe "#to_h" do
     before { NormalizeCountry.to = :numeric }
@@ -40,7 +45,7 @@ describe NormalizeCountry do
         hash.must_be_instance_of Hash
         hash["USA"].must_equal "840"
         hash["GBR"].must_equal "826"
-        hash.size.must_be :>, 2
+        hash.size.must_equal COUNTRY_COUNT
       end
     end
     
@@ -50,7 +55,7 @@ describe NormalizeCountry do
         hash.must_be_instance_of Hash
         hash["USA"].must_equal "US"
         hash["GBR"].must_equal "GB"
-        hash.size.must_be :>, 2
+        hash.size.must_equal COUNTRY_COUNT
       end
     end
 
@@ -77,7 +82,7 @@ describe NormalizeCountry do
         list.must_be_instance_of Array
         list.must_include "840" # US
         list.must_include "826" # GB
-        list.size.must_be :>, 2
+        list.size.must_equal COUNTRY_COUNT
       end
     end
 
@@ -87,7 +92,7 @@ describe NormalizeCountry do
         list.must_be_instance_of Array
         list.must_include "USA"
         list.must_include "GBR"
-        list.size.must_be :>, 2
+        list.size.must_equal COUNTRY_COUNT
       end
     end
 
@@ -98,10 +103,6 @@ describe NormalizeCountry do
         list.must_be_empty
       end      
     end
-  end
-
-  it "has a function form" do
-    NormalizeCountry("USA", :to => :ioc).must_equal("USA")
   end
 
   describe "when a default is set" do

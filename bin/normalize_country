@@ -34,25 +34,29 @@ class NormalizeXML
 end
 
 class NormalizeDB
-  def initialize(to, table)
+  def initialize(to, column)
     @to = to
-    @table = table
+    @table, @column = column.split(".", 2)
+    raise "no database column given" if @column.nil? or @column.empty?
+    @table = @table.to_sym
+    @column = @column.to_sym
   end
 
   def normalize(dsn)
     rs = connect(dsn)
-    rs.select.limit(10,20).each { |row| }
-    rs.where(pk => id).update(@column => "success")
+    rs.select(@column).distinct.each do |row|
+      new_name = NormalizeCountry(row[@column], :to => @to)
+      next unless new_name and new_name != row[@column]
+      rs.where(@column => row[@column]).update(@column => new_name)
+    end
   end
 
-  #  DB.schema :config
   def connect(dsn)
     db = Sequel.connect(dsn)
     raise "database has no table named '#@table'" unless db.table_exists?(@table)
-    raise "table '#@table' has no column named '#@column'" unless db[@table].columns.include?(@column.to_sym)
+    raise "database has no column named '#@table.#@column'" unless db[@table].columns.include?(@column)
     db[@table]
   end
-
 end
 
 class NormalizeCSV
@@ -88,12 +92,14 @@ OptionParser.new do |opts|
   end
 
   opts.on "-l", "--location LOCATION ", "The location of the conversion" do |source|
-    options[:source] = source
+    options[:location] = source
   end
 end.parse!
 
 abort "source option required" unless ARGV.any?
-# other required options...
+
+missing = [:location, :format, :to].find { |opt| options[opt].nil? }
+abort "#{missing} option required" if missing
 
 klass = case options[:format]
   when :csv
@@ -103,7 +109,7 @@ klass = case options[:format]
     begin
       require "sequel"
     rescue LoadError => e
-      abort "the db format requires the Sequel ruby gem, you can install it via `gem sequel`"
+      abort "the db format requires Sequel, you can install it by running `gem install sequel`"
     end
     NormalizeDB
   when :xml
@@ -114,7 +120,7 @@ klass = case options[:format]
 end
 
 begin
-  klass.new(options[:to], options[:source]).normalize(ARGV[0])
+  klass.new(options[:to], options[:location]).normalize(ARGV[0])
 rescue => e
   abort "normalization failed: #{e}"
 end

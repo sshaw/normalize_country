@@ -19,7 +19,7 @@ module NormalizeCountry
 
     def to_a(name = to)
       return [] if Countries.values.first[name].nil?
-      Countries.values.map { |c| c[name] }.sort { |a, b| a <=> b }
+      Countries.values.uniq.map { |c| c[name] }.sort { |a, b| a <=> b }
     end
 
     def to_h(key, options = {})
