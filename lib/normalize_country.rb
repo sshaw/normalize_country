@@ -18,8 +18,8 @@ module NormalizeCountry
     end
 
     def to_a(name = to)
-      return [] if Countries.values.first[name].nil?
-      Countries.values.uniq.map { |c| c[name] }.sort { |a, b| a <=> b }
+      return [] if Countries.values.first { |c| c[name] }.nil?   # format might not be defined for all countries
+      Countries.values.uniq.map { |c| c[name] }.compact.sort { |a, b| a <=> b }
     end
 
     def to_h(key, options = {})

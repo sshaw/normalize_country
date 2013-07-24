@@ -68,8 +68,14 @@ If the format is +xml+ or +csv+ you can spefify a directory instead of a filenam
 
  normalize_country -t alpha2 -l 'Country Name' -f csv /home/sshaw/capital-losses/2008
 
-With a format of +csv+ this will read all files with an extension of +csv+ or +tsv+. For the format +xml+ it 
-reads all files with an +xml+ extension.
+With a format of +csv+ it will read all files with an extension of +csv+ or +tsv+.
+For +csv+ and +xml+ the original file(s) will be overwritten with new file(s) containing the converted country names. 
+The +db+ format will update the database column with the converted name.
+
+=== Random Country Data for Your Tests
+
+Random data generating gems like {Faker}[http://rubygems.org/gems/faker] and {RandomData}[http://rubygems.org/gems/random_data] don't generate much country data.
+If you'd like to use this gem to do so I suggest checking out this gist: https://gist.github.com/sshaw/6068404
 
 === Faulty/Missing/Erroneous Country Names
 
