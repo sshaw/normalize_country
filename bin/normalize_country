@@ -5,6 +5,10 @@ require "optparse"
 require "tempfile"
 require "fileutils"
 
+def tmpfile
+  Tempfile.new("normalize_country")
+end
+
 class NormalizeXML
   def initialize(to, xpath)
     @to = to
@@ -17,17 +21,17 @@ class NormalizeXML
       io = File.open(path)
 
       begin
-        doc = REXML::Document.new(io)
-        doc.get_elements(@xpath).each do |e|
-          next unless e.text
-          e.text = NormalizeCountry(e.text.strip, :to => @to)
-        end
+	doc = REXML::Document.new(io)
+	doc.get_elements(@xpath).each do |e|
+	  next unless e.text
+	  e.text = NormalizeCountry(e.text.strip, :to => @to)
+	end
 
-        tmp = Tempfile.new("normalize")
-        doc.write(tmp)
-        FileUtils.mv(tmp.path, path)
+	tmp = tmpfile
+	doc.write(tmp)
+	FileUtils.mv(tmp.path, path)
       ensure
-        io.close
+	io.close
       end
     end
   end
@@ -68,9 +72,33 @@ class NormalizeCSV
   def normalize(path)
     paths = File.directory?(path) ? Dir[ File.join(path, "*.[tc]sv") ] : [path]
     paths.each do |path|
-      # Name or A7      
-      rows = CSV.read(path)
+      print "Processing #{path}... "
+      process(path)
+      print "done!\n"
     end
+  end
+
+  def process(path)
+    dest = tmpfile
+    success = false
+
+    CSV.open dest.path, "wb" do |out_csv|
+      CSV.foreach path, :headers => true, :return_headers => true do |in_csv|
+	if in_csv.header_row?
+	  raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
+	  out_csv << in_csv
+	else
+	  in_csv[@column] = NormalizeCountry(in_csv[@column], :to => @to)
+	  out_csv << in_csv
+	end
+      end
+
+      success = true
+    end
+  ensure
+    dest.close
+    FileUtils.mv(dest.path, path) if success
+    dest.unlink
   end
 end
 
@@ -94,12 +122,19 @@ OptionParser.new do |opts|
   opts.on "-l", "--location LOCATION ", "The location of the conversion" do |source|
     options[:location] = source
   end
+
+  opts.on("-v", "--version", "Version") do
+    puts "v#{NormalizeCountry::VERSION}"
+    exit
+  end
 end.parse!
 
 abort "source option required" unless ARGV.any?
 
 missing = [:location, :format, :to].find { |opt| options[opt].nil? }
 abort "#{missing} option required" if missing
+
+abort "unknown conversion format '#{options[:to]}'" unless NormalizeCountry.formats.include?(options[:to].to_sym)
 
 klass = case options[:format]
   when :csv

@@ -11,6 +11,10 @@ module NormalizeCountry
       @to ||= :iso_name
     end
 
+    def formats
+      @formats ||= Countries.values.map(&:formats).flatten.uniq #  format might not be defined for all countries
+    end
+
     def convert(name, options = {})
       country = country_for(name)
       return unless country
@@ -46,9 +50,9 @@ module NormalizeCountry
 
       @mapping = {}
       config.each do |id, value|
-        @mapping[id.to_sym] = Array === value ?
-          value.compact.map { |v| v.squeeze(" ").strip } :
-          value ? value.squeeze(" ").strip : value
+	@mapping[id.to_sym] = Array === value ?
+	  value.compact.map { |v| v.squeeze(" ").strip } :
+	  value ? value.squeeze(" ").strip : value
       end
     end
 
@@ -57,6 +61,14 @@ module NormalizeCountry
       return if id.empty? or id.to_sym == :aliases
       name = @mapping[id.to_sym]
       return name.dup if name
+    end
+
+    def formats
+      @formats ||= begin
+	keys = @mapping.keys
+	keys.delete(:aliases)
+	keys
+      end
     end
 
     def names
