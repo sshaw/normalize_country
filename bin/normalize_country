@@ -138,6 +138,7 @@ abort "unknown conversion format '#{options[:to]}'" unless NormalizeCountry.form
 
 klass = case options[:format]
   when :csv
+    abort "CSV processing requires ruby 1.9" if RUBY_VERSION < "1.9"
     require "csv"
     NormalizeCSV
   when :db

@@ -57,8 +57,7 @@ A small script is included that can convert country names contained in a DB tabl
   usage: normalize_country [options] SOURCE
       -h, --help                       Show this message
       -f, --format FORMAT              The format of SOURCE
-      -t, --to CONVERSION              Convert country names to this format 
-      	       			       (see docs for valid formats)
+      -t, --to CONVERSION              Convert country names to this format (see docs for valid formats)
       -l, --location LOCATION          The location of the conversion
 	
 Some examples
