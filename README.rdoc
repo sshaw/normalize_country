@@ -40,6 +40,8 @@ will convert to/from the following:
 [:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
+A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
+
 === Obtaining an Array or Hash
 
  NormalizeCountry.to_a		   		    # Defaults to NormalizeCountry.to
@@ -55,7 +57,8 @@ A small script is included that can convert country names contained in a DB tabl
   usage: normalize_country [options] SOURCE
       -h, --help                       Show this message
       -f, --format FORMAT              The format of SOURCE
-      -t, --to CONVERSION              Convert country names to this format (see docs for valid formats)
+      -t, --to CONVERSION              Convert country names to this format 
+      	       			       (see docs for valid formats)
       -l, --location LOCATION          The location of the conversion
 	
 Some examples
