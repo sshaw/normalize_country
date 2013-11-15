@@ -2,6 +2,9 @@
 
 Convert country names and codes to a standard.
 
+{<img src="https://travis-ci.org/sshaw/normalize_country.png?branch=master" alt="Build Status" />}[https://travis-ci.org/sshaw/normalize_country]
+{<img src="https://codeclimate.com/github/sshaw/normalize_country.png" />}[https://codeclimate.com/github/sshaw/normalize_country]
+
 === Overview
 
  require "normalize_country"
