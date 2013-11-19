@@ -35,10 +35,10 @@ describe NormalizeCountry do
     NormalizeCountry("USA", :to => :ioc).must_equal("USA")
   end
 
-  describe "#to_h" do
+  describe ".to_h" do
     before { NormalizeCountry.to = :numeric }
     after  { NormalizeCountry.to = :iso_name }
-    
+
     describe "without a :to option" do
       it "uses the format option as the key and the default :to option as the value" do
         hash = NormalizeCountry.to_h(:alpha3)
@@ -48,8 +48,8 @@ describe NormalizeCountry do
         hash.size.must_equal COUNTRY_COUNT
       end
     end
-    
-    describe "with a :to option" do 
+
+    describe "with a :to option" do
       it "uses the format option as the key and the :to option as the value" do
         hash = NormalizeCountry.to_h(:alpha3, :to => :alpha2)
         hash.must_be_instance_of Hash
@@ -68,11 +68,11 @@ describe NormalizeCountry do
         hash = NormalizeCountry.to_h(:alpha2, :to => :wtf)
         hash.must_be_instance_of Hash
         hash.must_be_empty
-      end      
+      end
     end
   end
-  
-  describe "#to_a" do
+
+  describe ".to_a" do
     describe "without a format argument" do
       before { NormalizeCountry.to = :numeric }
       after  { NormalizeCountry.to = :iso_name }
@@ -101,7 +101,21 @@ describe NormalizeCountry do
         list = NormalizeCountry.to_a(:wtf)
         list.must_be_instance_of Array
         list.must_be_empty
-      end      
+      end
+    end
+  end
+
+  describe ".formats" do
+    it "returns a list of supported formats" do
+      expected = [:alpha2, :alpha3, :fifa, :ioc, :iso_name, :numeric, :official, :short, :simple]
+      formats  = NormalizeCountry.formats
+
+      # Ugh, support this in 1.8.7 for a least one version
+      if Symbol < Comparable
+        formats.sort.must_equal(expected.sort)
+      else
+        formats.sort_by { |f| f.to_s }.must_equal(expected.sort_by { |f| f.to_s })
+      end
     end
   end
 

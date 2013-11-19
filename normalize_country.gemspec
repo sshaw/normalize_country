@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.files       = Dir["lib/**/*.{rb,yml}"] + s.test_files + s.extra_rdoc_files
   s.homepage    = "http://github.com/sshaw/normalize_country"
   s.license     = "MIT"
-  s.add_development_dependency "rake", "~> 0.9.2"
+  s.add_development_dependency "rake", "~> 0.9"
   s.add_development_dependency "minitest"
 end

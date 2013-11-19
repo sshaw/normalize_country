@@ -5,6 +5,10 @@ require "optparse"
 require "tempfile"
 require "fileutils"
 
+def build_paths(path, pattern)
+  File.directory?(path) ? Dir[ File.join(path, pattern) ] : [path]
+end
+
 def tmpfile
   Tempfile.new("normalize_country")
 end
@@ -16,22 +20,33 @@ class NormalizeXML
   end
 
   def normalize(path)
-    paths = File.directory?(path) ? Dir[ File.join(path, "*.xml") ] : [path]
+    paths = build_paths(path, "*.xml")
     paths.each do |path|
       io = File.open(path)
 
       begin
-	doc = REXML::Document.new(io)
-	doc.get_elements(@xpath).each do |e|
-	  next unless e.text
-	  e.text = NormalizeCountry(e.text.strip, :to => @to)
-	end
+        doc = REXML::Document.new(io)
+        REXML::XPath.each(doc, @xpath).each do |e|
+          next unless e.to_s
 
-	tmp = tmpfile
-	doc.write(tmp)
-	FileUtils.mv(tmp.path, path)
+          replace = NormalizeCountry(e.to_s.strip, :to => @to)
+          next unless replace
+
+          # element or attribute
+          if e.respond_to?(:text=)
+            e.text = replace
+          else
+            e.normalized = replace
+          end
+        end
+
+        tmp = tmpfile
+        doc.write(tmp)
+        tmp.close
+        FileUtils.mv(tmp.path, path)
       ensure
-	io.close
+        tmp.close if tmp and !tmp.closed?
+        io.close
       end
     end
   end
@@ -70,7 +85,7 @@ class NormalizeCSV
   end
 
   def normalize(path)
-    paths = File.directory?(path) ? Dir[ File.join(path, "*.[tc]sv") ] : [path]
+    paths = build_paths(path, "*.[tc]sv")
     paths.each do |path|
       print "Processing #{path}... "
       process(path)
@@ -80,25 +95,27 @@ class NormalizeCSV
 
   def process(path)
     dest = tmpfile
-    success = false
 
-    CSV.open dest.path, "wb" do |out_csv|
-      CSV.foreach path, :headers => true, :return_headers => true do |in_csv|
-	if in_csv.header_row?
-	  raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
-	  out_csv << in_csv
-	else
-	  in_csv[@column] = NormalizeCountry(in_csv[@column], :to => @to)
-	  out_csv << in_csv
-	end
+    begin
+      CSV.open dest.path, "wb" do |out_csv|
+        CSV.foreach path, :headers => true, :return_headers => true do |in_csv|
+          if in_csv.header_row?
+            raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
+            out_csv << in_csv
+          else
+            if replace = NormalizeCountry(in_csv[@column], :to => @to)
+              in_csv[@column] = replace
+            end
+            out_csv << in_csv
+          end
+        end
+
+        dest.close
+        FileUtils.mv(dest.path, path)
       end
-
-      success = true
+    ensure
+      dest.close unless dest.closed?
     end
-  ensure
-    dest.close
-    FileUtils.mv(dest.path, path) if success
-    dest.unlink
   end
 end
 
