@@ -98,7 +98,7 @@ class NormalizeCSV
 
     begin
       CSV.open dest.path, "wb" do |out_csv|
-        CSV.foreach path, :headers => true, :return_headers => true do |in_csv|
+        CSV.foreach path, :headers => true, :return_headers => true, :skip_blanks => true do |in_csv|
           if in_csv.header_row?
             raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
             out_csv << in_csv
