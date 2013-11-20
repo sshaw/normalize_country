@@ -5,49 +5,94 @@ require "optparse"
 require "tempfile"
 require "fileutils"
 
-def build_paths(path, pattern)
-  File.directory?(path) ? Dir[ File.join(path, pattern) ] : [path]
+class FileSource
+  def initialize(pattern)
+    @pattern = pattern
+  end
+
+  def build_paths(path)
+    File.directory?(path) ? Dir[ File.join(path, @pattern) ] : [path]
+  end
+
+  def tmpfile
+    Tempfile.new("normalize_country")
+  end
+
+  def normalize(path)
+    paths = build_paths(path)
+    paths.each do |path|
+      print "Processing #{path}... "
+      process(path)
+      print "done!\n"
+    end
+  end
 end
 
-def tmpfile
-  Tempfile.new("normalize_country")
-end
-
-class NormalizeXML
+class NormalizeXML < FileSource
   def initialize(to, xpath)
+    super "*.xml"
     @to = to
     @xpath = xpath
   end
 
-  def normalize(path)
-    paths = build_paths(path, "*.xml")
-    paths.each do |path|
-      io = File.open(path)
+  def process(path)
+    io = File.open(path)
 
-      begin
-        doc = REXML::Document.new(io)
-        REXML::XPath.each(doc, @xpath).each do |e|
-          next unless e.to_s
+    begin
+      doc = REXML::Document.new(io)
+      REXML::XPath.each(doc, @xpath).each do |e|
+	# element or attribute
+	value, writer = e.is_a?(REXML::Element) ? [ e.text, :text= ] : [ e.to_s, :normalized= ] 
+	value.strip!
+	next if value.empty?
 
-          replace = NormalizeCountry(e.to_s.strip, :to => @to)
-          next unless replace
+	replace = NormalizeCountry(value, :to => @to)
+	next unless replace
 
-          # element or attribute
-          if e.respond_to?(:text=)
-            e.text = replace
+	e.send(writer, replace)
+      end
+
+      tmp = tmpfile
+      doc.write(tmp)
+      tmp.close
+      io.close
+      FileUtils.mv(tmp.path, path)
+    ensure
+      tmp.close if tmp and !tmp.closed?
+      io.close unless io.closed?
+    end
+  end
+end
+
+class NormalizeCSV < FileSource
+  def initialize(to, column)
+    super "*.[tc]sv"
+    @to = to
+    @column = column
+  end
+
+  def process(path)
+    dest = tmpfile
+
+    begin
+      CSV.open dest.path, "wb" do |out_csv|
+        CSV.foreach path, :headers => true, :return_headers => true do |in_csv|
+          if in_csv.header_row?
+            raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
+            out_csv << in_csv
           else
-            e.normalized = replace
+            if replace = NormalizeCountry(in_csv[@column], :to => @to)
+              in_csv[@column] = replace
+            end
+            out_csv << in_csv
           end
         end
-
-        tmp = tmpfile
-        doc.write(tmp)
-        tmp.close
-        FileUtils.mv(tmp.path, path)
-      ensure
-        tmp.close if tmp and !tmp.closed?
-        io.close
       end
+
+      dest.close
+      FileUtils.mv(dest.path, path)
+    ensure
+      dest.close unless dest.closed?
     end
   end
 end
@@ -75,47 +120,6 @@ class NormalizeDB
     raise "database has no table named '#@table'" unless db.table_exists?(@table)
     raise "database has no column named '#@table.#@column'" unless db[@table].columns.include?(@column)
     db[@table]
-  end
-end
-
-class NormalizeCSV
-  def initialize(to, column)
-    @to = to
-    @column = column
-  end
-
-  def normalize(path)
-    paths = build_paths(path, "*.[tc]sv")
-    paths.each do |path|
-      print "Processing #{path}... "
-      process(path)
-      print "done!\n"
-    end
-  end
-
-  def process(path)
-    dest = tmpfile
-
-    begin
-      CSV.open dest.path, "wb" do |out_csv|
-        CSV.foreach path, :headers => true, :return_headers => true, :skip_blanks => true do |in_csv|
-          if in_csv.header_row?
-            raise "#{path} does not include a column named '#@column'" unless in_csv.include?(@column)
-            out_csv << in_csv
-          else
-            if replace = NormalizeCountry(in_csv[@column], :to => @to)
-              in_csv[@column] = replace
-            end
-            out_csv << in_csv
-          end
-        end
-
-        dest.close
-        FileUtils.mv(dest.path, path)
-      end
-    ensure
-      dest.close unless dest.closed?
-    end
   end
 end
 
