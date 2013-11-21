@@ -80,7 +80,7 @@ To convert an XML file with namespaces just include the namespace prefix defined
 XPath query (+LOCATION+).
 
 The +db+ format's +SOURCE+ argument must be a {Sequel connection string}[http://sequel.jeremyevans.net/rdoc/classes/Sequel.html#method-c-connect].
-Here +LOCATION+ is in the format of +table.column+, which will be updated with the converted name. 
+Here +LOCATION+ is in the format +table.column+, which will be updated with the converted name. 
 
 === Random Country Data for Your Tests
 
