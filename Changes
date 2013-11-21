@@ -1,0 +1,10 @@
+ v0.1.0    2013-11-21
+--------------------
+Changes: 
+* Changed the :official name from "Palestinian Territory, Occupied" to "State of Palestine"
+
+Enhancements:
+* Added conversion to ISO 3166-1 numeric code
+* Added to_a() and to_h() to return an array or hash respectively
+* Added formats() to return the supported conversion formats
+* Added normalize_country script

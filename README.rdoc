@@ -67,15 +67,20 @@ Some examples
 
  normalize_country -t alpha2 -l 'Country Name' -f csv data.csv
  normalize_country -t numeric -l countries.code -f db postgres://usr:pass@localhost/conquests
- normalize_country -t fifa -l /teams[@sport = 'fútbol americano']//country -f xml data.xml
+ normalize_country -t fifa -l //teams[@sport = 'fútbol americano']//country -f xml data.xml
 
 If the format is +xml+ or +csv+ you can spefify a directory instead of a filename
 
  normalize_country -t alpha2 -l 'Country Name' -f csv /home/sshaw/capital-losses/2008
 
 With a format of +csv+ it will read all files with an extension of +csv+ or +tsv+.
-For +csv+ and +xml+ the original file(s) will be overwritten with new file(s) containing the converted country names. 
-The +db+ format will update the database column with the converted name.
+For +csv+ and +xml+ <b>the original file(s) will be overwritten with new file(s) containing the converted country names</b>. 
+
+To convert an XML file with namespaces just include the namespace prefix defined in the file in the 
+XPath query (+LOCATION+).
+
+The +db+ format's +SOURCE+ argument must be a {Sequel connection string}[http://sequel.jeremyevans.net/rdoc/classes/Sequel.html#method-c-connect].
+Here +LOCATION+ is in the format of +table.column+, which will be updated with the converted name. 
 
 === Random Country Data for Your Tests
 

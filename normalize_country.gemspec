@@ -9,11 +9,13 @@ Gem::Specification.new do |s|
   s.description =<<-DESC
     Converts country names and codes from standardized and non-standardized names and abbreviations to one of the following:
     ISO 3166-1 (code/name/number), FIFA, IOC, a country's official name or shortened name.
+
+    Includes a small script to convert names/codes in a DB, XML or CSV file.
   DESC
   s.authors     = ["Skye Shaw"]
   s.executables << "normalize_country"
   s.email       = "skye.shaw@gmail.com"
-  s.test_files  = Dir["spec/**/*.*"] 
+  s.test_files  = Dir["spec/**/*.*"]
   s.extra_rdoc_files = %w[README.rdoc]
   s.files       = Dir["lib/**/*.{rb,yml}"] + s.test_files + s.extra_rdoc_files
   s.homepage    = "http://github.com/sshaw/normalize_country"
