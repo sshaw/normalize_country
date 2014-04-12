@@ -23,23 +23,33 @@ Convert country names and codes to a standard.
 
  # Or
  NormalizeCountry.convert("U.S.", :to => :alpha2)  # "US"
- 
+
  # Set the default
- NormalizeCountry.to = :alpha3 
+ NormalizeCountry.to = :alpha3
  NormalizeCountry.convert("Mexico")                 # "MEX"
  NormalizeCountry.convert("United Mexican States")  # "MEX"
 
+=== Installation
+
+Rubygems ({part of Ruby}[https://www.ruby-lang.org]):
+
+  shell > gem install normalize_country
+
+{Bundler}[http://bundler.io]:
+
+  gem "normalize_country"
+
 === Supported Conversions
 
-In addition to trying to convert from common, non-standardized names and abbrivations, +NormalizeCountry+ 
+In addition to trying to convert from common, non-standardized names and abbrivations, +NormalizeCountry+
 will convert to/from the following:
 
 [:alpha2] ISO 3166-1 alpha-2
 [:alpha3] ISO 3166-1 alpha-3
 [:fifa] FIFA (International Federation of Association Football)
 [:official] The country's official name
-[:ioc] International Olympic Committee 
-[:iso_name] Country name used by ISO 3166-1 
+[:ioc] International Olympic Committee
+[:iso_name] Country name used by ISO 3166-1
 [:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
 
@@ -47,9 +57,9 @@ A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
 
 === Obtaining an Array or Hash
 
- NormalizeCountry.to_a		   		    # Defaults to NormalizeCountry.to
- NormalizeCountry.to_a(:ioc)			    # Array of IOC codes in ascending order
- NormalizeCountry.to_h(:ioc)			    # :ioc => NormalizeCountry.to
+ NormalizeCountry.to_a                              # Defaults to NormalizeCountry.to
+ NormalizeCountry.to_a(:ioc)                        # Array of IOC codes in ascending order
+ NormalizeCountry.to_h(:ioc)                        # :ioc => NormalizeCountry.to
  NormalizeCountry.to_h(:ioc, :to => :numeric)       # :ioc => :numeric
 
 === Conversion Utility
@@ -62,7 +72,7 @@ A small script is included that can convert country names contained in a DB tabl
       -f, --format FORMAT              The format of SOURCE
       -t, --to CONVERSION              Convert country names to this format (see docs for valid formats)
       -l, --location LOCATION          The location of the conversion
-	
+
 Some examples
 
  normalize_country -t alpha2 -l 'Country Name' -f csv data.csv
@@ -74,13 +84,13 @@ If the format is +xml+ or +csv+ you can spefify a directory instead of a filenam
  normalize_country -t alpha2 -l 'Country Name' -f csv /home/sshaw/capital-losses/2008
 
 With a format of +csv+ it will read all files with an extension of +csv+ or +tsv+.
-For +csv+ and +xml+ <b>the original file(s) will be overwritten with new file(s) containing the converted country names</b>. 
+For +csv+ and +xml+ <b>the original file(s) will be overwritten with new file(s) containing the converted country names</b>.
 
-To convert an XML file with namespaces just include the namespace prefix defined in the file in the 
+To convert an XML file with namespaces just include the namespace prefix defined in the file in the
 XPath query (+LOCATION+).
 
 The +db+ format's +SOURCE+ argument must be a {Sequel connection string}[http://sequel.jeremyevans.net/rdoc/classes/Sequel.html#method-c-connect].
-Here +LOCATION+ is in the format +table.column+, which will be updated with the converted name. 
+Here +LOCATION+ is in the format +table.column+, which will be updated with the converted name.
 
 === Random Country Data for Your Tests
 
@@ -97,7 +107,7 @@ This code was -to some extent- part of a larger project that allowed users to pe
 Country names were stored in the DB by their ISO names.
 
 Several years later at work we had to extract country names from a web service that didn't standardize
-them. Sometimes they used UK, other times U.K. It then occured to me that this code could be useful outside 
+them. Sometimes they used UK, other times U.K. It then occured to me that this code could be useful outside
 of the original project. The web service was fixed but, nevertheless...
 
 === Somewhat Similar Gems
