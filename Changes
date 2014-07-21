@@ -1,4 +1,8 @@
- v0.1.0    2013-11-21
+v0.1.1    2014-07-20
+--------------------
+* Fix character encoding issues with a few country names
+
+v0.1.0    2013-11-21
 --------------------
 Changes: 
 * Changed the :official name from "Palestinian Territory, Occupied" to "State of Palestine"

@@ -146,10 +146,10 @@ AX:
   alpha3: ALA
   fifa: 
   ioc: 
-  iso_name: "\xC3\x85land Islands"
+  iso_name: Åland Islands
   numeric: "248"
-  official: "\xC3\x85land Islands"
-  short: "\xC3\x85land Islands"
+  official: Åland Islands
+  short: Åland Islands
 AZ: 
   alpha2: AZ
   alpha3: AZE
@@ -251,9 +251,9 @@ BL:
   alpha3: BLM
   fifa: 
   ioc: 
-  iso_name: "Saint Barth\xC3\xA9lemy"
+  iso_name: Saint Barthélemy
   numeric: "652"
-  official: "Territorial Collectivity of Saint Barth\xC3\xA9lemy"
+  official: Territorial Collectivity of Saint Barthélemy
   short: Saint Barths
 BM: 
   aliases: 
@@ -418,9 +418,9 @@ CI:
   alpha3: CIV
   fifa: CIV
   ioc: CIV
-  iso_name: "C\xC3\xB4te D'Ivoire"
+  iso_name: Côte D'Ivoire
   numeric: "384"
-  official: "Republic of C\xC3\xB4te D'Ivoire"
+  official: Republic of Côte D'Ivoire
   short: Ivory Coast
 CK: 
   alpha2: CK
@@ -1753,10 +1753,10 @@ RE:
   alpha3: REU
   fifa: 
   ioc: 
-  iso_name: "R\xC3\xA9union"
+  iso_name: Réunion
   numeric: "638"
-  official: "R\xC3\xA9union Island"
-  short: "R\xC3\xA9union"
+  official: Réunion Island
+  short: Réunion
 RO: 
   alpha2: RO
   alpha3: ROU
@@ -1945,15 +1945,15 @@ SS:
   short: South Sudan
 ST: 
   aliases: 
-  - Democratic Republic of Sao Tome and Principe"
-  - "S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
+  - Democratic Republic of Sao Tome and Principe
+  - São Tomé and Príncipe
   alpha2: ST
   alpha3: STP
   fifa: STP
   ioc: STP
   iso_name: Sao Tome and Principe
   numeric: "678"
-  official: "Democratic Republic of S\xC3\xA3o Tom\xC3\xA9 and Pr\xC3\xADncipe"
+  official: Democratic Republic of São Tomé and Príncipe
   short: Sao Tome and Principe
 SV: 
   alpha2: SV
