@@ -46,13 +46,13 @@ will convert to/from the following:
 
 [:alpha2] ISO 3166-1 alpha-2
 [:alpha3] ISO 3166-1 alpha-3
+[:emoji] The country's emoji
 [:fifa] FIFA (International Federation of Association Football)
-[:official] The country's official name
 [:ioc] International Olympic Committee
 [:iso_name] Country name used by ISO 3166-1
 [:numeric] ISO 3166-1 numeric code
+[:official] The country's official name
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
-[:emoji] The country's emoji
 
 A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
 
