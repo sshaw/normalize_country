@@ -1,3 +1,5 @@
+# coding: utf-8
+
 require "minitest/autorun"
 require "normalize_country"
 
@@ -21,7 +23,8 @@ describe NormalizeCountry do
     %w[America U.S. U.S.A.].each { |v| NormalizeCountry.convert(v).must_equal("United States") }
   end
 
-  {:alpha2 => "US", :alpha3 => "USA", :ioc => "USA", :iso_name => "United States", :numeric => "840", :official => "United States of America", :fifa => "USA"}.each do |spec, expect|
+  {:alpha2 => "US", :alpha3 => "USA", :ioc => "USA", :iso_name => "United States",
+   :numeric => "840", :official => "United States of America", :fifa => "USA", :emoji => "🇺🇸"}.each do |spec, expect|
     it "normalizes to #{spec}" do
       NormalizeCountry.convert("America", :to => spec).must_equal(expect)
     end
@@ -107,7 +110,7 @@ describe NormalizeCountry do
 
   describe ".formats" do
     it "returns a list of supported formats" do
-      expected = [:alpha2, :alpha3, :fifa, :ioc, :iso_name, :numeric, :official, :short, :simple]
+      expected = [:alpha2, :alpha3, :fifa, :ioc, :iso_name, :numeric, :official, :short, :simple, :emoji]
       formats  = NormalizeCountry.formats
 
       # Ugh, support this in 1.8.7 for a least one version

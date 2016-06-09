@@ -1,6 +1,6 @@
---- 
-AD: 
-  aliases: 
+---
+AD:
+  aliases:
   - Principality of the Valleys of Andorra
   alpha2: AD
   alpha3: AND
@@ -10,8 +10,9 @@ AD:
   numeric: "20"
   official: Principality of Andorra
   short: Andorra
-AE: 
-  aliases: 
+  emoji: "\U0001F1E6\U0001F1E9"
+AE:
+  aliases:
   - Emirates
   - UAE
   alpha2: AE
@@ -22,7 +23,8 @@ AE:
   numeric: "784"
   official: United Arab Emirates
   short: United Arab Emirates
-AF: 
+  emoji: "\U0001F1E6\U0001F1EA"
+AF:
   alpha2: AF
   alpha3: AFG
   fifa: AFG
@@ -31,7 +33,8 @@ AF:
   official: Islamic Republic of Afghanistan
   numeric: "4"
   short: Afghanistan
-AG: 
+  emoji: "\U0001F1E6\U0001F1EB"
+AG:
   alpha2: AG
   alpha3: ATG
   fifa: ATG
@@ -40,16 +43,18 @@ AG:
   numeric: "28"
   official: Antigua and Barbuda
   short: Antigua and Barbuda
-AI: 
+  emoji: "\U0001F1E6\U0001F1EC"
+AI:
   alpha2: AI
   alpha3: AIA
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Anguilla
   numeric: "660"
   official: Anguilla
   short: Anguilla
-AL: 
+  emoji: "\U0001F1E6\U0001F1EE"
+AL:
   alpha2: AL
   alpha3: ALB
   fifa: ALB
@@ -58,7 +63,8 @@ AL:
   official: Republic of Albania
   numeric: "8"
   short: Albania
-AM: 
+  emoji: "\U0001F1E6\U0001F1F1"
+AM:
   alpha2: AM
   alpha3: ARM
   fifa: ARM
@@ -67,8 +73,9 @@ AM:
   numeric: "51"
   official: Republic of Armenia
   short: Armenia
-AN: 
-  aliases: 
+  emoji: "\U0001F1E6\U0001F1F2"
+AN:
+  aliases:
   - Dutch Antilles
   alpha2: AN
   alpha3: ANT
@@ -78,7 +85,8 @@ AN:
   numeric: "530"
   official: Netherlands Antilles
   short: Netherlands Antilles
-AO: 
+  emoji: "\U0001F1E6\U0001F1F3"
+AO:
   alpha2: AO
   alpha3: AGO
   fifa: ANG
@@ -87,16 +95,18 @@ AO:
   numeric: "24"
   official: Republic of Angola
   short: Angola
-AQ: 
+  emoji: "\U0001F1E6\U0001F1F4"
+AQ:
   alpha2: AQ
   alpha3: ATA
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Antarctica
   numeric: "10"
   official: Antarctica
   short: Antarctica
-AR: 
+  emoji: "\U0001F1E6\U0001F1F6"
+AR:
   alpha2: AR
   alpha3: ARG
   fifa: ARG
@@ -105,7 +115,8 @@ AR:
   numeric: "32"
   official: Argentine Republic
   short: Argentina
-AS: 
+  emoji: "\U0001F1E6\U0001F1F7"
+AS:
   alpha2: AS
   alpha3: ASM
   fifa: ASA
@@ -114,7 +125,8 @@ AS:
   numeric: "16"
   official: American Samoa
   short: American Samoa
-AT: 
+  emoji: "\U0001F1E6\U0001F1F8"
+AT:
   alpha2: AT
   alpha3: AUT
   fifa: AUT
@@ -123,7 +135,8 @@ AT:
   numeric: "40"
   official: Republic of Austria
   short: Austria
-AU: 
+  emoji: "\U0001F1E6\U0001F1F9"
+AU:
   alpha2: AU
   alpha3: AUS
   fifa: AUS
@@ -132,7 +145,8 @@ AU:
   numeric: "36"
   official: Commonwealth of Australia
   short: Australia
-AW: 
+  emoji: "\U0001F1E6\U0001F1FA"
+AW:
   alpha2: AW
   alpha3: ABW
   fifa: ARU
@@ -141,16 +155,18 @@ AW:
   numeric: "533"
   official: Aruba
   short: Aruba
-AX: 
+  emoji: "\U0001F1E6\U0001F1FC"
+AX:
   alpha2: AX
   alpha3: ALA
-  fifa: 
-  ioc: 
-  iso_name: Åland Islands
+  fifa:
+  ioc:
+  iso_name: "Åland Islands"
   numeric: "248"
-  official: Åland Islands
-  short: Åland Islands
-AZ: 
+  official: "Åland Islands"
+  short: "Åland Islands"
+  emoji: "\U0001F1E6\U0001F1FD"
+AZ:
   alpha2: AZ
   alpha3: AZE
   fifa: AZE
@@ -159,8 +175,9 @@ AZ:
   numeric: "31"
   official: Republic of Azerbaijan
   short: Azerbaijan
-BA: 
-  aliases: 
+  emoji: "\U0001F1E6\U0001F1FF"
+BA:
+  aliases:
   - Bosnia-Herzegovina
   alpha2: BA
   alpha3: BIH
@@ -170,7 +187,8 @@ BA:
   numeric: "70"
   official: Bosnia and Herzegovina
   short: Bosnia
-BB: 
+  emoji: "\U0001F1E7\U0001F1E6"
+BB:
   alpha2: BB
   alpha3: BRB
   fifa: BRB
@@ -179,7 +197,8 @@ BB:
   numeric: "52"
   official: Barbados
   short: Barbados
-BD: 
+  emoji: "\U0001F1E7\U0001F1E7"
+BD:
   alpha2: BD
   alpha3: BGD
   fifa: BAN
@@ -188,7 +207,8 @@ BD:
   numeric: "50"
   official: People's Republic of Bangladesh
   short: Bangladesh
-BE: 
+  emoji: "\U0001F1E7\U0001F1E9"
+BE:
   alpha2: BE
   alpha3: BEL
   fifa: BEL
@@ -197,7 +217,8 @@ BE:
   numeric: "56"
   official: Kingdom of Belgium
   short: Belgium
-BF: 
+  emoji: "\U0001F1E7\U0001F1EA"
+BF:
   alpha2: BF
   alpha3: BFA
   fifa: BFA
@@ -206,7 +227,8 @@ BF:
   numeric: "854"
   official: Burkina Faso
   short: Burkina
-BG: 
+  emoji: "\U0001F1E7\U0001F1EB"
+BG:
   alpha2: BG
   alpha3: BGR
   fifa: BUL
@@ -215,7 +237,8 @@ BG:
   numeric: "100"
   official: Republic of Bulgaria
   short: Bulgaria
-BH: 
+  emoji: "\U0001F1E7\U0001F1EC"
+BH:
   alpha2: BH
   alpha3: BHR
   fifa: BHR
@@ -224,7 +247,8 @@ BH:
   numeric: "48"
   official: Kingdom of Bahrain
   short: Bahrain
-BI: 
+  emoji: "\U0001F1E7\U0001F1ED"
+BI:
   alpha2: BI
   alpha3: BDI
   fifa: BDI
@@ -233,7 +257,8 @@ BI:
   numeric: "108"
   official: Republic of Burundi
   short: Burundi
-BJ: 
+  emoji: "\U0001F1E7\U0001F1EE"
+BJ:
   alpha2: BJ
   alpha3: BEN
   fifa: BEN
@@ -242,21 +267,23 @@ BJ:
   numeric: "204"
   official: Republic of Benin
   short: Benin
-BL: 
-  aliases: 
+  emoji: "\U0001F1E7\U0001F1EF"
+BL:
+  aliases:
   - Saint Barts
   - St. Barts
   - St. Barths
   alpha2: BL
   alpha3: BLM
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Saint Barthélemy
   numeric: "652"
   official: Territorial Collectivity of Saint Barthélemy
   short: Saint Barths
-BM: 
-  aliases: 
+  emoji: "\U0001F1E7\U0001F1F1"
+BM:
+  aliases:
   - Bermudas
   - Somers Isles
   - The Bermudas
@@ -269,7 +296,8 @@ BM:
   numeric: "60"
   official: Bermuda
   short: Bermuda
-BN: 
+  emoji: "\U0001F1E7\U0001F1F2"
+BN:
   alpha2: BN
   alpha3: BRN
   fifa: BRU
@@ -278,7 +306,8 @@ BN:
   numeric: "96"
   official: Nation of Brunei, Abode of Peace
   short: Brunei
-BO: 
+  emoji: "\U0001F1E7\U0001F1F3"
+BO:
   alpha2: BO
   alpha3: BOL
   fifa: BOL
@@ -287,7 +316,8 @@ BO:
   numeric: "68"
   official: Plurinational State of Bolivia
   short: Bolivia
-BR: 
+  emoji: "\U0001F1E7\U0001F1F4"
+BR:
   alpha2: BR
   alpha3: BRA
   fifa: BRA
@@ -296,7 +326,8 @@ BR:
   numeric: "76"
   official: Federative Republic of Brazil
   short: Brazil
-BS: 
+  emoji: "\U0001F1E7\U0001F1F7"
+BS:
   alpha2: BS
   alpha3: BHS
   fifa: BAH
@@ -305,7 +336,8 @@ BS:
   numeric: "44"
   official: Commonwealth of the Bahamas
   short: Bahamas
-BT: 
+  emoji: "\U0001F1E7\U0001F1F8"
+BT:
   alpha2: BT
   alpha3: BTN
   fifa: BHU
@@ -314,16 +346,18 @@ BT:
   numeric: "64"
   official: Kingdom of Bhutan
   short: Bhutan
-BV: 
+  emoji: "\U0001F1E7\U0001F1F9"
+BV:
   alpha2: BV
   alpha3: BVT
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Bouvet Island
   numeric: "74"
   official: Bouvet Island
   short: Bouvet Island
-BW: 
+  emoji: "\U0001F1E7\U0001F1FB"
+BW:
   alpha2: BW
   alpha3: BWA
   fifa: BOT
@@ -332,7 +366,8 @@ BW:
   numeric: "72"
   official: Republic of Botswana
   short: Botswana
-BY: 
+  emoji: "\U0001F1E7\U0001F1FC"
+BY:
   alpha2: BY
   alpha3: BLR
   fifa: BLR
@@ -341,7 +376,8 @@ BY:
   numeric: "112"
   official: Republic of Belarus
   short: Belarus
-BZ: 
+  emoji: "\U0001F1E7\U0001F1FE"
+BZ:
   alpha2: BZ
   alpha3: BLZ
   fifa: BLZ
@@ -350,7 +386,8 @@ BZ:
   numeric: "84"
   official: Belize
   short: Belize
-CA: 
+  emoji: "\U0001F1E7\U0001F1FF"
+CA:
   alpha2: CA
   alpha3: CAN
   fifa: CAN
@@ -359,20 +396,22 @@ CA:
   numeric: "124"
   official: Canada
   short: Canada
-CC: 
-  aliases: 
+  emoji: "\U0001F1E8\U0001F1E6"
+CC:
+  aliases:
   - Cocos Islands
   - Keeling Islands
   alpha2: CC
   alpha3: CCK
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Cocos (Keeling) Islands
   numeric: "166"
   official: Territory of the Cocos (Keeling) Islands
   short: Cocos (Keeling) Islands
-CD: 
-  aliases: 
+  emoji: "\U0001F1E8\U0001F1E8"
+CD:
+  aliases:
   - Congo-Kinshasa
   - DRC
   - DR Congo
@@ -384,7 +423,8 @@ CD:
   numeric: "180"
   official: Democratic Republic of the Congo
   short: Congo, The Democratic Republic Of The
-CF: 
+  emoji: "\U0001F1E8\U0001F1E9"
+CF:
   alpha2: CF
   alpha3: CAF
   fifa: CTA
@@ -393,8 +433,9 @@ CF:
   numeric: "140"
   official: Central African Republic
   short: Central African Republic
-CG: 
-  aliases: 
+  emoji: "\U0001F1E8\U0001F1EB"
+CG:
+  aliases:
   - Congo-Brazzaville
   alpha2: CG
   alpha3: COG
@@ -404,7 +445,8 @@ CG:
   numeric: "178"
   official: People's Republic of the Congo
   short: Congo
-CH: 
+  emoji: "\U0001F1E8\U0001F1EC"
+CH:
   alpha2: CH
   alpha3: CHE
   fifa: SUI
@@ -413,7 +455,8 @@ CH:
   numeric: "756"
   official: Swiss Confederation
   short: Switzerland
-CI: 
+  emoji: "\U0001F1E8\U0001F1ED"
+CI:
   alpha2: CI
   alpha3: CIV
   fifa: CIV
@@ -422,7 +465,8 @@ CI:
   numeric: "384"
   official: Republic of Côte D'Ivoire
   short: Ivory Coast
-CK: 
+  emoji: "\U0001F1E8\U0001F1EE"
+CK:
   alpha2: CK
   alpha3: COK
   fifa: COK
@@ -431,7 +475,8 @@ CK:
   numeric: "184"
   official: Cook Islands
   short: Cook Islands
-CL: 
+  emoji: "\U0001F1E8\U0001F1F0"
+CL:
   alpha2: CL
   alpha3: CHL
   fifa: CHI
@@ -440,7 +485,8 @@ CL:
   numeric: "152"
   official: Republic of Chile
   short: Chile
-CM: 
+  emoji: "\U0001F1E8\U0001F1F1"
+CM:
   alpha2: CM
   alpha3: CMR
   fifa: CMR
@@ -449,7 +495,8 @@ CM:
   numeric: "120"
   official: Republic of Cameroon
   short: Cameroon
-CN: 
+  emoji: "\U0001F1E8\U0001F1F2"
+CN:
   alpha2: CN
   alpha3: CHN
   fifa: CHN
@@ -458,7 +505,8 @@ CN:
   numeric: "156"
   official: People's Republic of China
   short: China
-CO: 
+  emoji: "\U0001F1E8\U0001F1F3"
+CO:
   alpha2: CO
   alpha3: COL
   fifa: COL
@@ -467,7 +515,8 @@ CO:
   numeric: "170"
   official: Republic of Colombia
   short: Colombia
-CR: 
+  emoji: "\U0001F1E8\U0001F1F4"
+CR:
   alpha2: CR
   alpha3: CRI
   fifa: CRC
@@ -476,7 +525,8 @@ CR:
   numeric: "188"
   official: Republic of Costa Rica
   short: Costa Rica
-CU: 
+  emoji: "\U0001F1E8\U0001F1F7"
+CU:
   alpha2: CU
   alpha3: CUB
   fifa: CUB
@@ -485,7 +535,8 @@ CU:
   numeric: "192"
   official: Republic of Cuba
   short: Cuba
-CV: 
+  emoji: "\U0001F1E8\U0001F1FA"
+CV:
   alpha2: CV
   alpha3: CPV
   fifa: CPV
@@ -494,16 +545,18 @@ CV:
   numeric: "132"
   official: Republic of Cape Verde
   short: Cape Verde
-CX: 
+  emoji: "\U0001F1E8\U0001F1FB"
+CX:
   alpha2: CX
   alpha3: CXR
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Christmas Island
   numeric: "162"
   official: Territory of Christmas Island
   short: Christmas Island
-CY: 
+  emoji: "\U0001F1E8\U0001F1FD"
+CY:
   alpha2: CY
   alpha3: CYP
   fifa: CYP
@@ -512,7 +565,8 @@ CY:
   numeric: "196"
   official: Republic of Cyprus
   short: Cyprus
-CZ: 
+  emoji: "\U0001F1E8\U0001F1FE"
+CZ:
   alpha2: CZ
   alpha3: CZE
   fifa: CZE
@@ -521,7 +575,8 @@ CZ:
   numeric: "203"
   official: Czech Republic
   short: Czech Republic
-DE: 
+  emoji: "\U0001F1E8\U0001F1FF"
+DE:
   alpha2: DE
   alpha3: DEU
   fifa: GER
@@ -530,7 +585,8 @@ DE:
   numeric: "276"
   official: Federal Republic of Germany
   short: Germany
-DJ: 
+  emoji: "\U0001F1E9\U0001F1EA"
+DJ:
   alpha2: DJ
   alpha3: DJI
   fifa: DJI
@@ -539,7 +595,8 @@ DJ:
   numeric: "262"
   official: Republic of Djibouti
   short: Djibouti
-DK: 
+  emoji: "\U0001F1E9\U0001F1EF"
+DK:
   alpha2: DK
   alpha3: DNK
   fifa: DEN
@@ -548,7 +605,8 @@ DK:
   numeric: "208"
   official: Kingdom of Denmark
   short: Denmark
-DM: 
+  emoji: "\U0001F1E9\U0001F1F0"
+DM:
   alpha2: DM
   alpha3: DMA
   fifa: DMA
@@ -557,7 +615,8 @@ DM:
   numeric: "212"
   official: Commonwealth of Dominica
   short: Dominica
-DO: 
+  emoji: "\U0001F1E9\U0001F1F2"
+DO:
   alpha2: DO
   alpha3: DOM
   fifa: DOM
@@ -566,7 +625,8 @@ DO:
   numeric: "214"
   official: Dominican Republic
   short: Dominican Republic
-DZ: 
+  emoji: "\U0001F1E9\U0001F1F4"
+DZ:
   alpha2: DZ
   alpha3: DZA
   fifa: ALG
@@ -575,7 +635,8 @@ DZ:
   numeric: "12"
   official: People's Democratic Republic of Algeria
   short: Algeria
-EC: 
+  emoji: "\U0001F1E9\U0001F1FF"
+EC:
   alpha2: EC
   alpha3: ECU
   fifa: ECU
@@ -584,7 +645,8 @@ EC:
   numeric: "218"
   official: Republic of Ecuador
   short: Ecuador
-EE: 
+  emoji: "\U0001F1EA\U0001F1E8"
+EE:
   alpha2: EE
   alpha3: EST
   fifa: EST
@@ -593,7 +655,8 @@ EE:
   numeric: "233"
   official: Republic of Estonia
   short: Estonia
-EG: 
+  emoji: "\U0001F1EA\U0001F1EA"
+EG:
   alpha2: EG
   alpha3: EGY
   fifa: EGY
@@ -602,16 +665,18 @@ EG:
   numeric: "818"
   official: Arab Republic of Egypt
   short: Egypt
-EH: 
+  emoji: "\U0001F1EA\U0001F1EC"
+EH:
   alpha2: EH
   alpha3: ESH
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Western Sahara
   numeric: "732"
   official: Western Sahara
   short: Western Sahara
-ER: 
+  emoji: "\U0001F1EA\U0001F1ED"
+ER:
   alpha2: ER
   alpha3: ERI
   fifa: ERI
@@ -620,7 +685,8 @@ ER:
   numeric: "232"
   official: State of Eritrea
   short: Eritrea
-ES: 
+  emoji: "\U0001F1EA\U0001F1F7"
+ES:
   alpha2: ES
   alpha3: ESP
   fifa: ESP
@@ -629,7 +695,8 @@ ES:
   numeric: "724"
   official: Kingdom of Spain
   short: Spain
-ET: 
+  emoji: "\U0001F1EA\U0001F1F8"
+ET:
   alpha2: ET
   alpha3: ETH
   fifa: ETH
@@ -638,7 +705,8 @@ ET:
   numeric: "231"
   official: Federal Democratic Republic of Ethiopia
   short: Ethiopia
-FI: 
+  emoji: "\U0001F1EA\U0001F1F9"
+FI:
   alpha2: FI
   alpha3: FIN
   fifa: FIN
@@ -647,7 +715,8 @@ FI:
   numeric: "246"
   official: Republic of Finland
   short: Finland
-FJ: 
+  emoji: "\U0001F1EB\U0001F1EE"
+FJ:
   alpha2: FJ
   alpha3: FJI
   fifa: FIJ
@@ -656,18 +725,20 @@ FJ:
   numeric: "242"
   official: Republic of Fiji
   short: Fiji
-FK: 
-  aliases: 
+  emoji: "\U0001F1EB\U0001F1EF"
+FK:
+  aliases:
   - The Falklands
   alpha2: FK
   alpha3: FLK
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Falkland Islands (Malvinas)
   numeric: "238"
   official: Falkland Islands
   short: Falkland Islands (Malvinas)
-FM: 
+  emoji: "\U0001F1EB\U0001F1F0"
+FM:
   alpha2: FM
   alpha3: FSM
   fifa: FSM
@@ -676,7 +747,8 @@ FM:
   numeric: "583"
   official: Federated States of Micronesia
   short: Micronesia, Federated States Of
-FO: 
+  emoji: "\U0001F1EB\U0001F1F2"
+FO:
   alpha2: FO
   alpha3: FRO
   fifa: FRO
@@ -685,7 +757,8 @@ FO:
   numeric: "234"
   official: Faroe Islands
   short: Faroe Islands
-FR: 
+  emoji: "\U0001F1EB\U0001F1F4"
+FR:
   alpha2: FR
   alpha3: FRA
   fifa: FRA
@@ -694,7 +767,8 @@ FR:
   numeric: "250"
   official: French Republic
   short: France
-GA: 
+  emoji: "\U0001F1EB\U0001F1F7"
+GA:
   alpha2: GA
   alpha3: GAB
   fifa: GAB
@@ -703,8 +777,9 @@ GA:
   numeric: "266"
   official: Gabonese Republic
   short: Gabon
-GB: 
-  aliases: 
+  emoji: "\U0001F1EC\U0001F1E6"
+GB:
+  aliases:
   - Britain
   - U.K.
   - UK
@@ -716,7 +791,8 @@ GB:
   numeric: "826"
   official: United Kingdom of Great Britain and Northern Ireland
   short: United Kingdom
-GD: 
+  emoji: "\U0001F1EC\U0001F1E7"
+GD:
   alpha2: GD
   alpha3: GRD
   fifa: GRN
@@ -725,7 +801,8 @@ GD:
   numeric: "308"
   official: Grenada
   short: Grenada
-GE: 
+  emoji: "\U0001F1EC\U0001F1E9"
+GE:
   alpha2: GE
   alpha3: GEO
   fifa: GEO
@@ -734,25 +811,28 @@ GE:
   numeric: "268"
   official: Georgia
   short: Georgia
-GF: 
+  emoji: "\U0001F1EC\U0001F1EA"
+GF:
   alpha2: GF
   alpha3: GUF
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: French Guiana
   numeric: "254"
   official: French Guiana
   short: French Guiana
-GG: 
+  emoji: "\U0001F1EC\U0001F1EB"
+GG:
   alpha2: GG
   alpha3: GGY
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Guernsey
   numeric: "831"
   official: Bailiwick of Guernsey
   short: Guernsey
-GH: 
+  emoji: "\U0001F1EC\U0001F1EC"
+GH:
   alpha2: GH
   alpha3: GHA
   fifa: GHA
@@ -761,25 +841,28 @@ GH:
   numeric: "288"
   official: Republic of Ghana
   short: Ghana
-GI: 
+  emoji: "\U0001F1EC\U0001F1ED"
+GI:
   alpha2: GI
   alpha3: GIB
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Gibraltar
   numeric: "292"
   official: Gibraltar
   short: Gibraltar
-GL: 
+  emoji: "\U0001F1EC\U0001F1EE"
+GL:
   alpha2: GL
   alpha3: GRL
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Greenland
   numeric: "304"
   official: Greenland
   short: Greenland
-GM: 
+  emoji: "\U0001F1EC\U0001F1F1"
+GM:
   alpha2: GM
   alpha3: GMB
   fifa: GAM
@@ -788,7 +871,8 @@ GM:
   numeric: "270"
   official: Republic of the Gambia
   short: Gambia
-GN: 
+  emoji: "\U0001F1EC\U0001F1F2"
+GN:
   alpha2: GN
   alpha3: GIN
   fifa: GUI
@@ -797,16 +881,18 @@ GN:
   numeric: "324"
   official: Republic of Guinea
   short: Guinea
-GP: 
+  emoji: "\U0001F1EC\U0001F1F3"
+GP:
   alpha2: GP
   alpha3: GLP
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Guadeloupe
   numeric: "312"
   official: Guadeloupe
   short: Guadeloupe
-GQ: 
+  emoji: "\U0001F1EC\U0001F1F5"
+GQ:
   alpha2: GQ
   alpha3: GNQ
   fifa: EQG
@@ -815,7 +901,8 @@ GQ:
   numeric: "226"
   official: Republic of Equatorial Guinea
   short: Equatorial Guinea
-GR: 
+  emoji: "\U0001F1EC\U0001F1F6"
+GR:
   alpha2: GR
   alpha3: GRC
   fifa: GRE
@@ -824,16 +911,18 @@ GR:
   numeric: "300"
   official: Hellenic Republic
   short: Greece
-GS: 
+  emoji: "\U0001F1EC\U0001F1F7"
+GS:
   alpha2: GS
   alpha3: SGS
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: South Georgia and the South Sandwich Islands
   numeric: "239"
   official: South Georgia and the South Sandwich Islands
   short: South Georgia and the South Sandwich Islands
-GT: 
+  emoji: "\U0001F1EC\U0001F1F8"
+GT:
   alpha2: GT
   alpha3: GTM
   fifa: GUA
@@ -842,7 +931,8 @@ GT:
   numeric: "320"
   official: Republic of Guatemala
   short: Guatemala
-GU: 
+  emoji: "\U0001F1EC\U0001F1F9"
+GU:
   alpha2: GU
   alpha3: GUM
   fifa: GUM
@@ -851,7 +941,8 @@ GU:
   numeric: "316"
   official: Guam
   short: Guam
-GW: 
+  emoji: "\U0001F1EC\U0001F1FA"
+GW:
   alpha2: GW
   alpha3: GNB
   fifa: GNB
@@ -860,7 +951,8 @@ GW:
   numeric: "624"
   official: Republic of Guinea-Bissau
   short: Guinea-Bissau
-GY: 
+  emoji: "\U0001F1EC\U0001F1FC"
+GY:
   alpha2: GY
   alpha3: GUY
   fifa: GUY
@@ -869,8 +961,9 @@ GY:
   numeric: "328"
   official: Co-operative Republic of Guyana
   short: Guyana
-HK: 
-  aliases: 
+  emoji: "\U0001F1EC\U0001F1FE"
+HK:
+  aliases:
   - Hong Kong Special Administrative Region
   alpha2: HK
   alpha3: HKG
@@ -880,18 +973,20 @@ HK:
   numeric: "344"
   official: Hong Kong Special Administrative Region of the People's Republic of China
   short: Hong Kong
-HM: 
-  aliases: 
+  emoji: "\U0001F1ED\U0001F1F0"
+HM:
+  aliases:
   - HIMI
   alpha2: HM
   alpha3: HMD
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Heard and McDonald Islands
   numeric: "334"
   official: Heard and McDonald Islands
   short: Heard and McDonald Islands
-HN: 
+  emoji: "\U0001F1ED\U0001F1F2"
+HN:
   alpha2: HN
   alpha3: HND
   fifa: HON
@@ -900,7 +995,8 @@ HN:
   numeric: "340"
   official: Republic of Honduras
   short: Honduras
-HR: 
+  emoji: "\U0001F1ED\U0001F1F3"
+HR:
   alpha2: HR
   alpha3: HRV
   fifa: CRO
@@ -909,7 +1005,8 @@ HR:
   numeric: "191"
   official: Republic of Croatia
   short: Croatia
-HT: 
+  emoji: "\U0001F1ED\U0001F1F7"
+HT:
   alpha2: HT
   alpha3: HTI
   fifa: HAI
@@ -918,7 +1015,8 @@ HT:
   numeric: "332"
   official: Republic of Haiti
   short: Haiti
-HU: 
+  emoji: "\U0001F1ED\U0001F1F9"
+HU:
   alpha2: HU
   alpha3: HUN
   fifa: HUN
@@ -927,7 +1025,8 @@ HU:
   numeric: "348"
   official: Hungary
   short: Hungary
-ID: 
+  emoji: "\U0001F1ED\U0001F1FA"
+ID:
   alpha2: ID
   alpha3: IDN
   fifa: IDN
@@ -936,7 +1035,8 @@ ID:
   numeric: "360"
   official: Republic of Indonesia
   short: Indonesia
-IE: 
+  emoji: "\U0001F1EE\U0001F1E9"
+IE:
   alpha2: IE
   alpha3: IRL
   fifa: IRL
@@ -945,7 +1045,8 @@ IE:
   numeric: "372"
   official: Ireland
   short: Ireland
-IL: 
+  emoji: "\U0001F1EE\U0001F1EA"
+IL:
   alpha2: IL
   alpha3: ISR
   fifa: ISR
@@ -954,18 +1055,20 @@ IL:
   numeric: "376"
   official: State of Israel
   short: Israel
-IM: 
-  aliases: 
+  emoji: "\U0001F1EE\U0001F1F1"
+IM:
+  aliases:
   - Mann
   alpha2: IM
   alpha3: IMN
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Isle of Man
   numeric: "833"
   official: Isle of Man
   short: Isle of Man
-IN: 
+  emoji: "\U0001F1EE\U0001F1F2"
+IN:
   alpha2: IN
   alpha3: IND
   fifa: IND
@@ -974,19 +1077,21 @@ IN:
   numeric: "356"
   official: Republic of India
   short: India
-IO: 
-  aliases: 
+  emoji: "\U0001F1EE\U0001F1F3"
+IO:
+  aliases:
   - BIOT
   - Chagos Islands
   alpha2: IO
   alpha3: IOT
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: British Indian Ocean Territory
   numeric: "86"
   official: British Indian Ocean Territory
   short: British Indian Ocean Territory
-IQ: 
+  emoji: "\U0001F1EE\U0001F1F4"
+IQ:
   alpha2: IQ
   alpha3: IRQ
   fifa: IRQ
@@ -995,7 +1100,8 @@ IQ:
   numeric: "368"
   official: Republic of Iraq
   short: Iraq
-IR: 
+  emoji: "\U0001F1EE\U0001F1F6"
+IR:
   alpha2: IR
   alpha3: IRN
   fifa: IRN
@@ -1004,7 +1110,8 @@ IR:
   numeric: "364"
   official: Islamic Republic of Iran
   short: Iran
-IS: 
+  emoji: "\U0001F1EE\U0001F1F7"
+IS:
   alpha2: IS
   alpha3: ISL
   fifa: ISL
@@ -1013,7 +1120,8 @@ IS:
   numeric: "352"
   official: Iceland
   short: Iceland
-IT: 
+  emoji: "\U0001F1EE\U0001F1F8"
+IT:
   alpha2: IT
   alpha3: ITA
   fifa: ITA
@@ -1022,16 +1130,18 @@ IT:
   numeric: "380"
   official: Italian Republic
   short: Italy
-JE: 
+  emoji: "\U0001F1EE\U0001F1F9"
+JE:
   alpha2: JE
   alpha3: JEY
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Jersey
   numeric: "832"
   official: Bailiwick of Jersey
   short: Jersey
-JM: 
+  emoji: "\U0001F1EF\U0001F1EA"
+JM:
   alpha2: JM
   alpha3: JAM
   fifa: JAM
@@ -1040,8 +1150,9 @@ JM:
   numeric: "388"
   official: Jamaica
   short: Jamaica
-JO: 
-  aliases: 
+  emoji: "\U0001F1EF\U0001F1F2"
+JO:
+  aliases:
   - Kingdom of Jordan
   alpha2: JO
   alpha3: JOR
@@ -1051,7 +1162,8 @@ JO:
   numeric: "400"
   official: Hashemite Kingdom of Jordan
   short: Jordan
-JP: 
+  emoji: "\U0001F1EF\U0001F1F4"
+JP:
   alpha2: JP
   alpha3: JPN
   fifa: JPN
@@ -1060,7 +1172,8 @@ JP:
   numeric: "392"
   official: Japan
   short: Japan
-KE: 
+  emoji: "\U0001F1EF\U0001F1F5"
+KE:
   alpha2: KE
   alpha3: KEN
   fifa: KEN
@@ -1069,7 +1182,8 @@ KE:
   numeric: "404"
   official: Republic of Kenya
   short: Kenya
-KG: 
+  emoji: "\U0001F1F0\U0001F1EA"
+KG:
   alpha2: KG
   alpha3: KGZ
   fifa: KGZ
@@ -1078,7 +1192,8 @@ KG:
   numeric: "417"
   official: Kyrgyz Republic
   short: Kyrgyzstan
-KH: 
+  emoji: "\U0001F1F0\U0001F1EC"
+KH:
   alpha2: KH
   alpha3: KHM
   fifa: CAM
@@ -1087,7 +1202,8 @@ KH:
   numeric: "116"
   official: Kingdom of Cambodia
   short: Cambodia
-KI: 
+  emoji: "\U0001F1F0\U0001F1ED"
+KI:
   alpha2: KI
   alpha3: KIR
   fifa: KIR
@@ -1096,7 +1212,8 @@ KI:
   numeric: "296"
   official: Republic of Kiribati
   short: Kiribati
-KM: 
+  emoji: "\U0001F1F0\U0001F1EE"
+KM:
   alpha2: KM
   alpha3: COM
   fifa: COM
@@ -1105,8 +1222,9 @@ KM:
   numeric: "174"
   official: Union of the Comoros
   short: Comoros
-KN: 
-  aliases: 
+  emoji: "\U0001F1F0\U0001F1F2"
+KN:
+  aliases:
   - Federation of Saint Christopher and Nevi
   alpha2: KN
   alpha3: KNA
@@ -1116,8 +1234,9 @@ KN:
   numeric: "659"
   official: Federation of Saint Kitts and Nevis
   short: Saint Kitts And Nevis
-KP: 
-  aliases: 
+  emoji: "\U0001F1F0\U0001F1F3"
+KP:
+  aliases:
   - DPRK
   - N Korea
   - N. Korea
@@ -1129,8 +1248,9 @@ KP:
   numeric: "408"
   official: Democratic People's Republic of Korea
   short: North Korea
-KR: 
-  aliases: 
+  emoji: "\U0001F1F0\U0001F1F5"
+KR:
+  aliases:
   - S Korea
   - S. Korea
   alpha2: KR
@@ -1141,7 +1261,8 @@ KR:
   numeric: "410"
   official: Republic of Korea
   short: South Korea
-KW: 
+  emoji: "\U0001F1F0\U0001F1F7"
+KW:
   alpha2: KW
   alpha3: KWT
   fifa: KUW
@@ -1150,8 +1271,9 @@ KW:
   numeric: "414"
   official: State of Kuwait
   short: Kuwait
-KY: 
-  aliases: 
+  emoji: "\U0001F1F0\U0001F1FC"
+KY:
+  aliases:
   - Caymans
   alpha2: KY
   alpha3: CYM
@@ -1161,7 +1283,8 @@ KY:
   numeric: "136"
   official: Cayman Islands
   short: Cayman Islands
-KZ: 
+  emoji: "\U0001F1F0\U0001F1FE"
+KZ:
   alpha2: KZ
   alpha3: KAZ
   fifa: KAZ
@@ -1170,7 +1293,8 @@ KZ:
   numeric: "398"
   official: Republic of Kazakhstan
   short: Kazakhstan
-LA: 
+  emoji: "\U0001F1F0\U0001F1FF"
+LA:
   alpha2: LA
   alpha3: LAO
   fifa: LAO
@@ -1180,7 +1304,8 @@ LA:
   official: Lao People's Democratic Republic
   short: Lao People's Democratic Republic
   simple: Laos
-LB: 
+  emoji: "\U0001F1F1\U0001F1E6"
+LB:
   alpha2: LB
   alpha3: LBN
   fifa: LIB
@@ -1189,8 +1314,9 @@ LB:
   numeric: "422"
   official: Lebanese Republic
   short: Lebanon
-LC: 
-  aliases: 
+  emoji: "\U0001F1F1\U0001F1E7"
+LC:
+  aliases:
   - St. Lucia
   alpha2: LC
   alpha3: LCA
@@ -1200,7 +1326,8 @@ LC:
   numeric: "662"
   official: Saint Lucia
   short: Saint Lucia
-LI: 
+  emoji: "\U0001F1F1\U0001F1E8"
+LI:
   alpha2: LI
   alpha3: LIE
   fifa: LIE
@@ -1209,7 +1336,8 @@ LI:
   numeric: "438"
   official: Principality of Liechtenstein
   short: Liechtenstein
-LK: 
+  emoji: "\U0001F1F1\U0001F1EE"
+LK:
   alpha2: LK
   alpha3: LKA
   fifa: SRI
@@ -1218,7 +1346,8 @@ LK:
   numeric: "144"
   official: Democratic Socialist Republic of Sri Lanka
   short: Sri Lanka
-LR: 
+  emoji: "\U0001F1F1\U0001F1F0"
+LR:
   alpha2: LR
   alpha3: LBR
   fifa: LBR
@@ -1227,7 +1356,8 @@ LR:
   numeric: "430"
   official: Republic of Liberia
   short: Liberia
-LS: 
+  emoji: "\U0001F1F1\U0001F1F7"
+LS:
   alpha2: LS
   alpha3: LSO
   fifa: LES
@@ -1236,7 +1366,8 @@ LS:
   numeric: "426"
   official: Kingdom of Lesoth
   short: Lesotho
-LT: 
+  emoji: "\U0001F1F1\U0001F1F8"
+LT:
   alpha2: LT
   alpha3: LTU
   fifa: LTU
@@ -1245,7 +1376,8 @@ LT:
   numeric: "440"
   official: Republic of Lithuania
   short: Lithuania
-LU: 
+  emoji: "\U0001F1F1\U0001F1F9"
+LU:
   alpha2: LU
   alpha3: LUX
   fifa: LUX
@@ -1254,7 +1386,8 @@ LU:
   numeric: "442"
   official: Grand Duchy of Luxembourg
   short: Luxembourg
-LV: 
+  emoji: "\U0001F1F1\U0001F1FA"
+LV:
   alpha2: LV
   alpha3: LVA
   fifa: LVA
@@ -1263,7 +1396,8 @@ LV:
   numeric: "428"
   official: Republic of Latvia
   short: Latvia
-LY: 
+  emoji: "\U0001F1F1\U0001F1FB"
+LY:
   alpha2: LY
   alpha3: LBY
   fifa: LBY
@@ -1272,7 +1406,8 @@ LY:
   numeric: "434"
   official: State of Libya
   short: Libya
-MA: 
+  emoji: "\U0001F1F1\U0001F1FE"
+MA:
   alpha2: MA
   alpha3: MAR
   fifa: MAR
@@ -1281,7 +1416,8 @@ MA:
   numeric: "504"
   official: Kingdom of Morocco
   short: Morocco
-MC: 
+  emoji: "\U0001F1F2\U0001F1E6"
+MC:
   alpha2: MC
   alpha3: MCO
   fifa: MON
@@ -1290,7 +1426,8 @@ MC:
   numeric: "492"
   official: Principality of Monaco
   short: Monaco
-MD: 
+  emoji: "\U0001F1F2\U0001F1E8"
+MD:
   alpha2: MD
   alpha3: MDA
   fifa: MDA
@@ -1299,7 +1436,8 @@ MD:
   numeric: "498"
   official: Republic of Moldova
   short: Moldova, Republic of
-ME: 
+  emoji: "\U0001F1F2\U0001F1E9"
+ME:
   alpha2: ME
   alpha3: MNE
   fifa: MNE
@@ -1308,18 +1446,20 @@ ME:
   numeric: "499"
   official: Montenegro
   short: Montenegro
-MF: 
-  aliases: 
+  emoji: "\U0001F1F2\U0001F1EA"
+MF:
+  aliases:
   - St. Martin
   alpha2: MF
   alpha3: MAF
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Saint Martin
   numeric: "663"
   official: Saint Martin
   short: Saint Martin
-MG: 
+  emoji: "\U0001F1F2\U0001F1EB"
+MG:
   alpha2: MG
   alpha3: MDG
   fifa: MAD
@@ -1328,7 +1468,8 @@ MG:
   numeric: "450"
   official: Republic of Madagascar
   short: Madagascar
-MH: 
+  emoji: "\U0001F1F2\U0001F1EC"
+MH:
   alpha2: MH
   alpha3: MHL
   fifa: MHL
@@ -1337,7 +1478,8 @@ MH:
   numeric: "584"
   official: Republic of the Marshall Islands
   short: Marshall Islands
-MK: 
+  emoji: "\U0001F1F2\U0001F1ED"
+MK:
   alpha2: MK
   alpha3: MKD
   fifa: MKD
@@ -1346,7 +1488,8 @@ MK:
   numeric: "807"
   official: Republic of Macedonia
   short: Macedonia
-ML: 
+  emoji: "\U0001F1F2\U0001F1F0"
+ML:
   alpha2: ML
   alpha3: MLI
   fifa: MLI
@@ -1355,8 +1498,9 @@ ML:
   numeric: "466"
   official: Republic of Mali
   short: Mali
-MM: 
-  aliases: 
+  emoji: "\U0001F1F2\U0001F1F1"
+MM:
+  aliases:
   - Burma
   alpha2: MM
   alpha3: MMR
@@ -1366,7 +1510,8 @@ MM:
   numeric: "104"
   official: Republic of the Union of Myanmar
   short: Myanmar
-MN: 
+  emoji: "\U0001F1F2\U0001F1F2"
+MN:
   alpha2: MN
   alpha3: MNG
   fifa: MGL
@@ -1375,39 +1520,43 @@ MN:
   numeric: "496"
   official: Mongolia
   short: Mongolia
-MO: 
-  aliases: 
+  emoji: "\U0001F1F2\U0001F1F3"
+MO:
+  aliases:
   - Macao
   - Macao Special Administrative Region
   alpha2: MO
   alpha3: MAC
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Macao
   numeric: "446"
   official: Macao Special Administrative Region of the People's Republic of China
   short: Macao
-MP: 
-  aliases: 
+  emoji: "\U0001F1F2\U0001F1F4"
+MP:
+  aliases:
   - CNMI
   alpha2: MP
   alpha3: MNP
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Northern Mariana Islands
   numeric: "580"
   official: Commonwealth of the Northern Mariana Islands
   short: Northern Mariana Islands
-MQ: 
+  emoji: "\U0001F1F2\U0001F1F5"
+MQ:
   alpha2: MQ
   alpha3: MTQ
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Martinique
   numeric: "474"
   official: Martinique
   short: Martinique
-MR: 
+  emoji: "\U0001F1F2\U0001F1F6"
+MR:
   alpha2: MR
   alpha3: MRT
   fifa: MTN
@@ -1416,16 +1565,18 @@ MR:
   numeric: "478"
   official: Islamic Republic of Mauritania
   short: Mauritania
-MS: 
+  emoji: "\U0001F1F2\U0001F1F7"
+MS:
   alpha2: MS
   alpha3: MSR
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Montserrat
   numeric: "500"
   official: Montserrat
   short: Montserrat
-MT: 
+  emoji: "\U0001F1F2\U0001F1F8"
+MT:
   alpha2: MT
   alpha3: MLT
   fifa: MLT
@@ -1434,7 +1585,8 @@ MT:
   numeric: "470"
   official: Republic of Malta
   short: Malta
-MU: 
+  emoji: "\U0001F1F2\U0001F1F9"
+MU:
   alpha2: MU
   alpha3: MUS
   fifa: MRI
@@ -1443,8 +1595,9 @@ MU:
   numeric: "480"
   official: Republic of Mauritius
   short: Mauritius
-MV: 
-  aliases: 
+  emoji: "\U0001F1F2\U0001F1FA"
+MV:
+  aliases:
   - Maldive Islands
   alpha2: MV
   alpha3: MDV
@@ -1454,7 +1607,8 @@ MV:
   numeric: "462"
   official: Republic of the Maldives
   short: Maldives
-MW: 
+  emoji: "\U0001F1F2\U0001F1FB"
+MW:
   alpha2: MW
   alpha3: MWI
   fifa: MWI
@@ -1463,7 +1617,8 @@ MW:
   numeric: "454"
   official: Republic of Malawi
   short: Malawi
-MX: 
+  emoji: "\U0001F1F2\U0001F1FC"
+MX:
   alpha2: MX
   alpha3: MEX
   fifa: MEX
@@ -1472,7 +1627,8 @@ MX:
   numeric: "484"
   official: United Mexican States
   short: Mexico
-MY: 
+  emoji: "\U0001F1F2\U0001F1FD"
+MY:
   alpha2: MY
   alpha3: MYS
   fifa: MAS
@@ -1481,7 +1637,8 @@ MY:
   numeric: "458"
   official: Malaysia
   short: Malaysia
-MZ: 
+  emoji: "\U0001F1F2\U0001F1FE"
+MZ:
   alpha2: MZ
   alpha3: MOZ
   fifa: MOZ
@@ -1490,7 +1647,8 @@ MZ:
   numeric: "508"
   official: Mozambique
   short: Mozambique
-NA: 
+  emoji: "\U0001F1F2\U0001F1FF"
+NA:
   alpha2: NA
   alpha3: NAM
   fifa: NAM
@@ -1499,16 +1657,18 @@ NA:
   numeric: "516"
   official: Namibia
   short: Namibia
-NC: 
+  emoji: "\U0001F1F3\U0001F1E6"
+NC:
   alpha2: NC
   alpha3: NCL
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: New Caledonia
   numeric: "540"
   official: New Caledonia
   short: New Caledonia
-NE: 
+  emoji: "\U0001F1F3\U0001F1E8"
+NE:
   alpha2: NE
   alpha3: NER
   fifa: NIG
@@ -1517,16 +1677,18 @@ NE:
   numeric: "562"
   official: Republic of Niger
   short: Niger
-NF: 
+  emoji: "\U0001F1F3\U0001F1EA"
+NF:
   alpha2: NF
   alpha3: NFK
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Norfolk Island
   numeric: "574"
   official: Territory of Norfolk Island
   short: Norfolk Island
-NG: 
+  emoji: "\U0001F1F3\U0001F1EB"
+NG:
   alpha2: NG
   alpha3: NGA
   fifa: NGA
@@ -1535,7 +1697,8 @@ NG:
   numeric: "566"
   official: Federal Republic of Nigeria
   short: Nigeria
-NI: 
+  emoji: "\U0001F1F3\U0001F1EC"
+NI:
   alpha2: NI
   alpha3: NIC
   fifa: NCA
@@ -1544,7 +1707,8 @@ NI:
   numeric: "558"
   official: Republic of Nicaragua
   short: Nicaragua
-NL: 
+  emoji: "\U0001F1F3\U0001F1EE"
+NL:
   alpha2: NL
   alpha3: NLD
   fifa: NED
@@ -1553,8 +1717,9 @@ NL:
   numeric: "528"
   official: Netherlands
   short: Netherlands
-"NO": 
-  alpha2: "NO"
+  emoji: "\U0001F1F3\U0001F1F1"
+'NO':
+  alpha2: 'NO'
   alpha3: NOR
   fifa: NOR
   ioc: NOR
@@ -1562,7 +1727,8 @@ NL:
   numeric: "578"
   official: Kingdom of Norway
   short: Norway
-NP: 
+  emoji: "\U0001F1F3\U0001F1F4"
+NP:
   alpha2: NP
   alpha3: NPL
   fifa: NEP
@@ -1571,7 +1737,8 @@ NP:
   numeric: "524"
   official: Federal Democratic Republic of Nepal
   short: Nepal
-NR: 
+  emoji: "\U0001F1F3\U0001F1F5"
+NR:
   alpha2: NR
   alpha3: NRU
   fifa: NRU
@@ -1580,16 +1747,18 @@ NR:
   numeric: "520"
   official: Republic of Nauru
   short: Nauru
-NU: 
+  emoji: "\U0001F1F3\U0001F1F7"
+NU:
   alpha2: NU
   alpha3: NIU
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Niue
   numeric: "570"
   official: Niue
   short: Niue
-NZ: 
+  emoji: "\U0001F1F3\U0001F1FA"
+NZ:
   alpha2: NZ
   alpha3: NZL
   fifa: NZL
@@ -1598,7 +1767,8 @@ NZ:
   numeric: "554"
   official: New Zealand
   short: New Zealand
-OM: 
+  emoji: "\U0001F1F3\U0001F1FF"
+OM:
   alpha2: OM
   alpha3: OMN
   fifa: OMA
@@ -1607,7 +1777,8 @@ OM:
   numeric: "512"
   official: Sultanate of Oman
   short: Oman
-PA: 
+  emoji: "\U0001F1F4\U0001F1F2"
+PA:
   alpha2: PA
   alpha3: PAN
   fifa: PAN
@@ -1616,7 +1787,8 @@ PA:
   numeric: "591"
   official: Republic of Panama
   short: Panama
-PE: 
+  emoji: "\U0001F1F5\U0001F1E6"
+PE:
   alpha2: PE
   alpha3: PER
   fifa: PER
@@ -1625,16 +1797,18 @@ PE:
   numeric: "604"
   official: Republic of Peru
   short: Peru
-PF: 
+  emoji: "\U0001F1F5\U0001F1EA"
+PF:
   alpha2: PF
   alpha3: PYF
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: French Polynesia
   numeric: "258"
   official: French Polynesia
   short: French Polynesia
-PG: 
+  emoji: "\U0001F1F5\U0001F1EB"
+PG:
   alpha2: PG
   alpha3: PNG
   fifa: PNG
@@ -1643,7 +1817,8 @@ PG:
   numeric: "598"
   official: Independent State of Papua New Guinea
   short: Papua New Guinea
-PH: 
+  emoji: "\U0001F1F5\U0001F1EC"
+PH:
   alpha2: PH
   alpha3: PHL
   fifa: PHI
@@ -1652,7 +1827,8 @@ PH:
   numeric: "608"
   official: Republic of the Philippines
   short: Philippines
-PK: 
+  emoji: "\U0001F1F5\U0001F1ED"
+PK:
   alpha2: PK
   alpha3: PAK
   fifa: PAK
@@ -1661,7 +1837,8 @@ PK:
   numeric: "586"
   official: Islamic Republic of Pakistan
   short: Pakistan
-PL: 
+  emoji: "\U0001F1F5\U0001F1F0"
+PL:
   alpha2: PL
   alpha3: POL
   fifa: POL
@@ -1670,25 +1847,28 @@ PL:
   numeric: "616"
   official: Republic of Poland
   short: Poland
-PM: 
+  emoji: "\U0001F1F5\U0001F1F1"
+PM:
   alpha2: PM
   alpha3: SPM
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Saint Pierre And Miquelon
   numeric: "666"
   official: Saint Pierre And Miquelon
   short: Saint Pierre And Miquelon
-PN: 
+  emoji: "\U0001F1F5\U0001F1F2"
+PN:
   alpha2: PN
   alpha3: PCN
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Pitcairn
   numeric: "612"
   official: Pitcairn, Henderson, Ducie and Oeno Islands
   short: Pitcairn
-PR: 
+  emoji: "\U0001F1F5\U0001F1F3"
+PR:
   alpha2: PR
   alpha3: PRI
   fifa: PUR
@@ -1697,8 +1877,9 @@ PR:
   numeric: "630"
   official: Commonwealth of Puerto Rico
   short: Puerto Rico
-PS: 
-  aliases: 
+  emoji: "\U0001F1F5\U0001F1F7"
+PS:
+  aliases:
   - Palestinian Territories
   - Palestinian Territory
   alpha2: PS
@@ -1709,7 +1890,8 @@ PS:
   numeric: "275"
   official: State of Palestine
   short: Palestine
-PT: 
+  emoji: "\U0001F1F5\U0001F1F8"
+PT:
   alpha2: PT
   alpha3: PRT
   fifa: POR
@@ -1718,8 +1900,9 @@ PT:
   numeric: "620"
   official: Portuguese Republic
   short: Portugal
-PW: 
-  aliases: 
+  emoji: "\U0001F1F5\U0001F1F9"
+PW:
+  aliases:
   - Belau
   - Pelew
   alpha2: PW
@@ -1730,7 +1913,8 @@ PW:
   numeric: "585"
   official: Republic of Palau
   short: Palau
-PY: 
+  emoji: "\U0001F1F5\U0001F1FC"
+PY:
   alpha2: PY
   alpha3: PRY
   fifa: PAR
@@ -1739,7 +1923,8 @@ PY:
   numeric: "600"
   official: Republic of Paraguay
   short: Paraguay
-QA: 
+  emoji: "\U0001F1F5\U0001F1FE"
+QA:
   alpha2: QA
   alpha3: QAT
   fifa: QAT
@@ -1748,16 +1933,18 @@ QA:
   numeric: "634"
   official: State of Qatar
   short: Qatar
-RE: 
+  emoji: "\U0001F1F6\U0001F1E6"
+RE:
   alpha2: RE
   alpha3: REU
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Réunion
   numeric: "638"
   official: Réunion Island
   short: Réunion
-RO: 
+  emoji: "\U0001F1F7\U0001F1EA"
+RO:
   alpha2: RO
   alpha3: ROU
   fifa: ROU
@@ -1766,7 +1953,8 @@ RO:
   numeric: "642"
   official: Romania
   short: Romania
-RS: 
+  emoji: "\U0001F1F7\U0001F1F4"
+RS:
   alpha2: RS
   alpha3: SRB
   fifa: SRB
@@ -1775,7 +1963,8 @@ RS:
   numeric: "688"
   official: Republic of Serbia
   short: Serbia
-RU: 
+  emoji: "\U0001F1F7\U0001F1F8"
+RU:
   alpha2: RU
   alpha3: RUS
   fifa: RUS
@@ -1784,7 +1973,8 @@ RU:
   numeric: "643"
   official: Russian Federation
   short: Russia
-RW: 
+  emoji: "\U0001F1F7\U0001F1FA"
+RW:
   alpha2: RW
   alpha3: RWA
   fifa: RWA
@@ -1793,7 +1983,8 @@ RW:
   numeric: "646"
   official: Republic of Rwanda
   short: Rwanda
-SA: 
+  emoji: "\U0001F1F7\U0001F1FC"
+SA:
   alpha2: SA
   alpha3: SAU
   fifa: KSA
@@ -1802,7 +1993,8 @@ SA:
   numeric: "682"
   official: Kingdom of Saudi Arabia
   short: Saudi Arabia
-SB: 
+  emoji: "\U0001F1F8\U0001F1E6"
+SB:
   alpha2: SB
   alpha3: SLB
   fifa: SOL
@@ -1811,7 +2003,8 @@ SB:
   numeric: "90"
   official: Solomon Islands
   short: Solomon Islands
-SC: 
+  emoji: "\U0001F1F8\U0001F1E7"
+SC:
   alpha2: SC
   alpha3: SYC
   fifa: SEY
@@ -1820,7 +2013,8 @@ SC:
   numeric: "690"
   official: Republic of Seychelles
   short: Seychelles
-SD: 
+  emoji: "\U0001F1F8\U0001F1E8"
+SD:
   alpha2: SD
   alpha3: SDN
   fifa: SDN
@@ -1829,7 +2023,8 @@ SD:
   numeric: "729"
   official: Republic of the Sudan
   short: Sudan
-SE: 
+  emoji: "\U0001F1F8\U0001F1E9"
+SE:
   alpha2: SE
   alpha3: SWE
   fifa: SWE
@@ -1838,7 +2033,8 @@ SE:
   numeric: "752"
   official: Kingdom of Sweden
   short: Sweden
-SG: 
+  emoji: "\U0001F1F8\U0001F1EA"
+SG:
   alpha2: SG
   alpha3: SGP
   fifa: SIN
@@ -1847,16 +2043,18 @@ SG:
   numeric: "702"
   official: Republic of Singapore
   short: Singapore
-SH: 
+  emoji: "\U0001F1F8\U0001F1EC"
+SH:
   alpha2: SH
   alpha3: SHN
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Saint Helena
   numeric: "654"
   official: Saint Helena
   short: Saint Helena
-SI: 
+  emoji: "\U0001F1F8\U0001F1ED"
+SI:
   alpha2: SI
   alpha3: SVN
   fifa: SVN
@@ -1865,16 +2063,18 @@ SI:
   numeric: "705"
   official: Republic of Slovenia
   short: Slovenia
-SJ: 
+  emoji: "\U0001F1F8\U0001F1EE"
+SJ:
   alpha2: SJ
   alpha3: SJM
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Svalbard And Jan Mayen
   numeric: "744"
   official: Svalbard And Jan Mayen
   short: Svalbard And Jan Mayen
-SK: 
+  emoji: "\U0001F1F8\U0001F1EF"
+SK:
   alpha2: SK
   alpha3: SVK
   fifa: SVK
@@ -1883,7 +2083,8 @@ SK:
   numeric: "703"
   official: Slovak Republic
   short: Slovakia
-SL: 
+  emoji: "\U0001F1F8\U0001F1F0"
+SL:
   alpha2: SL
   alpha3: SLE
   fifa: SLE
@@ -1892,8 +2093,9 @@ SL:
   numeric: "694"
   official: Republic of Sierra Leone
   short: Sierra Leone
-SM: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1F1"
+SM:
+  aliases:
   - Most Serene Republic of San Marino
   alpha2: SM
   alpha3: SMR
@@ -1903,7 +2105,8 @@ SM:
   numeric: "674"
   official: Republic of San Marino
   short: San Marino
-SN: 
+  emoji: "\U0001F1F8\U0001F1F2"
+SN:
   alpha2: SN
   alpha3: SEN
   fifa: SEN
@@ -1912,7 +2115,8 @@ SN:
   numeric: "686"
   official: Republic of Senegal
   short: Senegal
-SO: 
+  emoji: "\U0001F1F8\U0001F1F3"
+SO:
   alpha2: SO
   alpha3: SOM
   fifa: SOM
@@ -1921,8 +2125,9 @@ SO:
   numeric: "706"
   official: Federal Republic of Somalia
   short: Somalia
-SR: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1F4"
+SR:
+  aliases:
   - Surinam
   alpha2: SR
   alpha3: SUR
@@ -1932,19 +2137,21 @@ SR:
   numeric: "740"
   official: Republic of Suriname
   short: Suriname
-SS: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1F7"
+SS:
+  aliases:
   - S. Sudan
   alpha2: SS
   alpha3: SSD
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: South Sudan
   numeric: "728"
   official: Republic of South Sudan
   short: South Sudan
-ST: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1F8"
+ST:
+  aliases:
   - Democratic Republic of Sao Tome and Principe
   - São Tomé and Príncipe
   alpha2: ST
@@ -1955,7 +2162,8 @@ ST:
   numeric: "678"
   official: Democratic Republic of São Tomé and Príncipe
   short: Sao Tome and Principe
-SV: 
+  emoji: "\U0001F1F8\U0001F1F9"
+SV:
   alpha2: SV
   alpha3: SLV
   fifa: SLV
@@ -1964,7 +2172,8 @@ SV:
   numeric: "222"
   official: Republic of El Salvador
   short: El Salvador
-SY: 
+  emoji: "\U0001F1F8\U0001F1FB"
+SY:
   alpha2: SY
   alpha3: SYR
   fifa: SYR
@@ -1973,8 +2182,9 @@ SY:
   numeric: "760"
   official: Syrian Arab Republic
   short: Syria
-SZ: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1FE"
+SZ:
+  aliases:
   - Ngwane
   - Swatini
   alpha2: SZ
@@ -1985,18 +2195,20 @@ SZ:
   numeric: "748"
   official: Kingdom of Swaziland
   short: Swaziland
-TC: 
-  aliases: 
+  emoji: "\U0001F1F8\U0001F1FF"
+TC:
+  aliases:
   - TCI
   alpha2: TC
   alpha3: TCA
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Turks and Caicos Islands
   numeric: "796"
   official: Turks and Caicos Islands
   short: Turks and Caicos Islands
-TD: 
+  emoji: "\U0001F1F9\U0001F1E8"
+TD:
   alpha2: TD
   alpha3: TCD
   fifa: CHA
@@ -2005,18 +2217,20 @@ TD:
   numeric: "148"
   official: Republic of Chad
   short: Chad
-TF: 
-  aliases: 
+  emoji: "\U0001F1F9\U0001F1E9"
+TF:
+  aliases:
   - French Southern and Antarctic Lands
   alpha2: TF
   alpha3: ATF
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: French Southern Territories
   numeric: "260"
   official: Territory of the French Southern and Antarctic Land
   short: French Southern Territories
-TG: 
+  emoji: "\U0001F1F9\U0001F1EB"
+TG:
   alpha2: TG
   alpha3: TGO
   fifa: TOG
@@ -2025,7 +2239,8 @@ TG:
   numeric: "768"
   official: Togolese Republic
   short: Togo
-TH: 
+  emoji: "\U0001F1F9\U0001F1EC"
+TH:
   alpha2: TH
   alpha3: THA
   fifa: THA
@@ -2034,7 +2249,8 @@ TH:
   numeric: "764"
   official: Kingdom of Thailand
   short: Thailand
-TJ: 
+  emoji: "\U0001F1F9\U0001F1ED"
+TJ:
   alpha2: TJ
   alpha3: TJK
   fifa: TJK
@@ -2043,16 +2259,18 @@ TJ:
   numeric: "762"
   official: Republic of Tajikistan
   short: Tajikistan
-TK: 
+  emoji: "\U0001F1F9\U0001F1EF"
+TK:
   alpha2: TK
   alpha3: TKL
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Tokelau
   numeric: "772"
   official: Tokelau
   short: Tokelau
-TL: 
+  emoji: "\U0001F1F9\U0001F1F0"
+TL:
   alpha2: TL
   alpha3: TLS
   fifa: TLS
@@ -2061,7 +2279,8 @@ TL:
   numeric: "626"
   official: Democratic Republic of Timor-Leste
   short: East Timor
-TM: 
+  emoji: "\U0001F1F9\U0001F1F1"
+TM:
   alpha2: TM
   alpha3: TKM
   fifa: TKM
@@ -2070,7 +2289,8 @@ TM:
   numeric: "795"
   official: Turkmenistan
   short: Turkmenistan
-TN: 
+  emoji: "\U0001F1F9\U0001F1F2"
+TN:
   alpha2: TN
   alpha3: TUN
   fifa: TUN
@@ -2079,7 +2299,8 @@ TN:
   numeric: "788"
   official: Republic of Tunisia
   short: Tunisia
-TO: 
+  emoji: "\U0001F1F9\U0001F1F3"
+TO:
   alpha2: TO
   alpha3: TON
   fifa: TGA
@@ -2088,7 +2309,8 @@ TO:
   numeric: "776"
   official: Kingdom of Tonga
   short: Tonga
-TR: 
+  emoji: "\U0001F1F9\U0001F1F4"
+TR:
   alpha2: TR
   alpha3: TUR
   fifa: TUR
@@ -2097,7 +2319,8 @@ TR:
   numeric: "792"
   official: Republic of Turkey
   short: Turkey
-TT: 
+  emoji: "\U0001F1F9\U0001F1F7"
+TT:
   alpha2: TT
   alpha3: TTO
   fifa: TRI
@@ -2106,7 +2329,8 @@ TT:
   numeric: "780"
   official: Republic of Trinidad and Tobago
   short: Trinidad and Tobago
-TV: 
+  emoji: "\U0001F1F9\U0001F1F9"
+TV:
   alpha2: TV
   alpha3: TUV
   fifa: TUV
@@ -2115,8 +2339,9 @@ TV:
   numeric: "798"
   official: Tuvalu
   short: Tuvalu
-TW: 
-  aliases: 
+  emoji: "\U0001F1F9\U0001F1FB"
+TW:
+  aliases:
   - ROC
   alpha2: TW
   alpha3: TWN
@@ -2126,7 +2351,8 @@ TW:
   numeric: "158"
   official: Republic of China
   short: Taiwan
-TZ: 
+  emoji: "\U0001F1F9\U0001F1FC"
+TZ:
   alpha2: TZ
   alpha3: TZA
   fifa: TAN
@@ -2135,7 +2361,8 @@ TZ:
   numeric: "834"
   official: United Republic of Tanzania
   short: Tanzania
-UA: 
+  emoji: "\U0001F1F9\U0001F1FF"
+UA:
   alpha2: UA
   alpha3: UKR
   fifa: UKR
@@ -2144,7 +2371,8 @@ UA:
   numeric: "804"
   official: Ukraine
   short: Ukraine
-UG: 
+  emoji: "\U0001F1FA\U0001F1E6"
+UG:
   alpha2: UG
   alpha3: UGA
   fifa: UGA
@@ -2153,17 +2381,19 @@ UG:
   numeric: "800"
   official: Republic of Uganda
   short: Uganda
-UM: 
+  emoji: "\U0001F1FA\U0001F1EC"
+UM:
   alpha2: UM
   alpha3: UMI
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: United States Minor Outlying Islands
   numeric: "581"
   official: United States Minor Outlying Islands
   short: United States Minor Outlying Islands
-US: 
-  aliases: 
+  emoji: "\U0001F1FA\U0001F1F2"
+US:
+  aliases:
   - America
   - U.S.
   - U.S.A.
@@ -2175,8 +2405,9 @@ US:
   numeric: "840"
   official: United States of America
   short: United States
-UY: 
-  aliases: 
+  emoji: "\U0001F1FA\U0001F1F8"
+UY:
+  aliases:
   - Eastern Republic of Uruguay
   alpha2: UY
   alpha3: URY
@@ -2186,7 +2417,8 @@ UY:
   numeric: "858"
   official: Oriental Republic of Uruguay
   short: Uruguay
-UZ: 
+  emoji: "\U0001F1FA\U0001F1FE"
+UZ:
   alpha2: UZ
   alpha3: UZB
   fifa: UZB
@@ -2195,16 +2427,18 @@ UZ:
   numeric: "860"
   official: Republic of Uzbekistan
   short: Uzbekistan
-VA: 
+  emoji: "\U0001F1FA\U0001F1FF"
+VA:
   alpha2: VA
   alpha3: VAT
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Holy See (Vatican City State)
   numeric: "336"
   official: Vatican City State
   short: Vatican City
-VC: 
+  emoji: "\U0001F1FB\U0001F1E6"
+VC:
   alpha2: VC
   alpha3: VCT
   fifa: VIN
@@ -2213,7 +2447,8 @@ VC:
   numeric: "670"
   official: Saint Vincent And The Grenadines
   short: Saint Vincent And The Grenadines
-VE: 
+  emoji: "\U0001F1FB\U0001F1E8"
+VE:
   alpha2: VE
   alpha3: VEN
   fifa: VEN
@@ -2222,8 +2457,9 @@ VE:
   numeric: "862"
   official: Bolivarian Republic of Venezuela
   short: Venezuela
-VG: 
-  aliases: 
+  emoji: "\U0001F1FB\U0001F1EA"
+VG:
+  aliases:
   - BVI
   alpha2: VG
   alpha3: VGB
@@ -2233,8 +2469,9 @@ VG:
   numeric: "92"
   official: Virgin Islands
   short: British Virgin Islands
-VI: 
-  aliases: 
+  emoji: "\U0001F1FB\U0001F1EC"
+VI:
+  aliases:
   - USVI
   - US Virgin Islands
   - United States Virgin Islands
@@ -2246,8 +2483,9 @@ VI:
   numeric: "850"
   official: Virgin Islands of the United States
   short: U.S. Virgin Islands
-VN: 
-  aliases: 
+  emoji: "\U0001F1FB\U0001F1EE"
+VN:
+  aliases:
   - Viet Nam
   alpha2: VN
   alpha3: VNM
@@ -2257,7 +2495,8 @@ VN:
   numeric: "704"
   official: Socialist Republic of Vietnam
   short: Vietnam
-VU: 
+  emoji: "\U0001F1FB\U0001F1F3"
+VU:
   alpha2: VU
   alpha3: VUT
   fifa: VAN
@@ -2266,16 +2505,18 @@ VU:
   numeric: "548"
   official: Republic of Vanuatu
   short: Vanuatu
-WF: 
+  emoji: "\U0001F1FB\U0001F1FA"
+WF:
   alpha2: WF
   alpha3: WLF
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Wallis and Futuna
   numeric: "876"
   official: Territory of the Wallis and Futuna Islands
   short: Wallis and Futuna
-WS: 
+  emoji: "\U0001F1FC\U0001F1EB"
+WS:
   alpha2: WS
   alpha3: WSM
   fifa: SAM
@@ -2284,7 +2525,8 @@ WS:
   numeric: "882"
   official: Independent State of Samoa
   short: Samoa
-YE: 
+  emoji: "\U0001F1FC\U0001F1F8"
+YE:
   alpha2: YE
   alpha3: YEM
   fifa: YEM
@@ -2293,16 +2535,18 @@ YE:
   numeric: "887"
   official: Republic of Yemen
   short: Yemen
-YT: 
+  emoji: "\U0001F1FE\U0001F1EA"
+YT:
   alpha2: YT
   alpha3: MYT
-  fifa: 
-  ioc: 
+  fifa:
+  ioc:
   iso_name: Mayotte
   numeric: "175"
   official: Department of Mayotte
   short: Mayotte
-ZA: 
+  emoji: "\U0001F1FE\U0001F1F9"
+ZA:
   alpha2: ZA
   alpha3: ZAF
   fifa: RSA
@@ -2311,7 +2555,8 @@ ZA:
   numeric: "710"
   official: Republic of South Africa
   short: South Africa
-ZM: 
+  emoji: "\U0001F1FF\U0001F1E6"
+ZM:
   alpha2: ZM
   alpha3: ZMB
   fifa: ZAM
@@ -2320,7 +2565,8 @@ ZM:
   numeric: "894"
   official: Republic of Zambia
   short: Zambia
-ZW: 
+  emoji: "\U0001F1FF\U0001F1F2"
+ZW:
   alpha2: ZW
   alpha3: ZWE
   fifa: ZIM
@@ -2329,3 +2575,4 @@ ZW:
   numeric: "716"
   official: Republic of Zimbabwe
   short: Zimbabwe
+  emoji: "\U0001F1FF\U0001F1FC"

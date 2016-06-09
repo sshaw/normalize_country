@@ -1,7 +1,7 @@
 require "yaml"
 
 module NormalizeCountry
-  VERSION = "0.1.1"
+  VERSION = "0.2.0"
   Countries = {}
 
   class << self
@@ -12,7 +12,7 @@ module NormalizeCountry
     end
 
     def formats
-      @formats ||= Countries.values.map(&:formats).flatten.uniq #  format might not be defined for all countries
+      @formats ||= Countries.values.flat_map(&:formats).uniq #  format might not be defined for all countries
     end
 
     def convert(name, options = {})
@@ -80,7 +80,7 @@ module NormalizeCountry
   data = YAML.load_file(path)
   data.values.each do |mapping|
     country = Country.new(mapping)
-    country.names.map { |name| Countries[name.downcase.to_sym] = country }
+    country.names.each { |name| Countries[name.downcase.to_sym] = country }
   end
 end
 

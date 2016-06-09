@@ -2,8 +2,8 @@
 
 Convert country names and codes to a standard.
 
-{<img src="https://travis-ci.org/sshaw/normalize_country.png?branch=master" alt="Build Status" />}[https://travis-ci.org/sshaw/normalize_country]
-{<img src="https://codeclimate.com/github/sshaw/normalize_country.png" />}[https://codeclimate.com/github/sshaw/normalize_country]
+{<img src="https://travis-ci.org/sshaw/normalize_country.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/sshaw/normalize_country]
+{<img src="https://codeclimate.com/github/sshaw/normalize_country.svg" />}[https://codeclimate.com/github/sshaw/normalize_country]
 
 === Overview
 
@@ -33,7 +33,7 @@ Convert country names and codes to a standard.
 
 Rubygems ({part of Ruby}[https://www.ruby-lang.org]):
 
-  shell > gem install normalize_country
+  gem install normalize_country
 
 {Bundler}[http://bundler.io]:
 
@@ -52,6 +52,7 @@ will convert to/from the following:
 [:iso_name] Country name used by ISO 3166-1
 [:numeric] ISO 3166-1 numeric code
 [:short] A shortned version of the country's name, commonly used when speaking and/or writing (US English)
+[:emoji] The country's emoji
 
 A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
 
