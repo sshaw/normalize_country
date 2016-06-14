@@ -16,6 +16,7 @@ Convert country names and codes to a standard.
  NormalizeCountry("U.S.", :to => :alpha2)          # "US"
  NormalizeCountry("U.S.", :to => :numeric)         # "840"
  NormalizeCountry("US",   :to => :fifa)            # "USA"
+ NormalizeCountry("US",   :to => :emoji)           # "🇺🇸"
  NormalizeCountry("Iran", :to => :alpha3)          # "IRN"
  NormalizeCountry("Iran", :to => :ioc)             # "IRI"
  NormalizeCountry("DPRK", :to => :short)           # "North Korea"
