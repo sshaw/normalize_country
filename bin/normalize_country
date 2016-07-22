@@ -144,6 +144,10 @@ OptionParser.new do |opts|
     options[:location] = source
   end
 
+  opts.on "-e", "--extend PATH", "Extend a list of default countries using YAML config" do |source|
+    options[:extend] = source
+  end
+
   opts.on("-v", "--version", "Version") do
     puts "v#{NormalizeCountry::VERSION}"
     exit
@@ -177,6 +181,7 @@ klass = case options[:format]
 end
 
 begin
+  NormalizeCountry.extend_countries(options[:extend]) if options[:extend]
   klass.new(options[:to], options[:location]).normalize(ARGV[0])
 rescue => e
   abort "normalization failed: #{e}"

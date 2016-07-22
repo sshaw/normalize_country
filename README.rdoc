@@ -27,8 +27,13 @@ Convert country names and codes to a standard.
 
  # Set the default
  NormalizeCountry.to = :alpha3
- NormalizeCountry.convert("Mexico")                 # "MEX"
- NormalizeCountry.convert("United Mexican States")  # "MEX"
+ NormalizeCountry.convert("Mexico")                # "MEX"
+ NormalizeCountry.convert("United Mexican States") # "MEX"
+
+ # Extend a list of default countries
+ NormalizeCountry.extend_countries(:alpha2 => "SU", :iso_name => "Soviet Union", :short => "USSR")
+ NormalizeCountry.extend_countries("/path/to/yaml/config")
+ NormalizeCountry.convert("USSR", :to => "iso_name") # "Soviet Union"
 
 === Installation
 
@@ -64,6 +69,28 @@ A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
  NormalizeCountry.to_h(:ioc)                        # :ioc => NormalizeCountry.to
  NormalizeCountry.to_h(:ioc, :to => :numeric)       # :ioc => :numeric
 
+=== Extending a list of default countries
+
+A list of default countries can be extended by custom user data:
+
+ NormalizeCountry.extend_countries(:alpha2 => "SU", :iso_name => "Soviet Union", :short => "USSR")
+ NormalizeCountry.extend_countries({ :alpha2 => "YU", :iso_name => "Yugoslavia" }, { :alpha2 => "CS", :iso_name => "Czechoslovakia" })
+ NormalizeCountry.extend_countries([{ :alpha2 => "DD", :iso_name => "German Democratic Republic", :short => "USSR" }, { :alpha2 => "ZR", :iso_name => "Zaire" }])
+ NormalizeCountry.extend_countries("/path/to/yaml/config")
+
+The format of YAML config is:
+ <alpha2>:
+   <format>: <value>
+   ...
+For example:
+  SU:
+    alpha2: 'SU'
+    iso_name: 'Soviet Union'
+    short: 'USSR'
+
+If you want to revert a countries list to the default state, method +reset!+ should be used:
+ NormalizeCountry.reset!
+
 === Conversion Utility
 
 A small script is included that can convert country names contained in a DB table or a set of XML or CSV files
@@ -74,11 +101,14 @@ A small script is included that can convert country names contained in a DB tabl
       -f, --format FORMAT              The format of SOURCE
       -t, --to CONVERSION              Convert country names to this format (see docs for valid formats)
       -l, --location LOCATION          The location of the conversion
+      -e, --extend PATH                Extend a list of default countries using YAML config
 
 Some examples
 
  normalize_country -t alpha2 -l 'Country Name' -f csv data.csv
+ normalize_country -t alpha2 -l 'Country Name' -f csv -e historical_countries.yml data.csv
  normalize_country -t numeric -l countries.code -f db postgres://usr:pass@localhost/conquests
+ normalize_country -t fifa -l //teams[@sport = 'fútbol americano']//country -f xml data.xml
  normalize_country -t fifa -l //teams[@sport = 'fútbol americano']//country -f xml data.xml
 
 If the format is +xml+ or +csv+ you can spefify a directory instead of a filename

@@ -1,10 +1,16 @@
 # coding: utf-8
 
 require "minitest/autorun"
+require_relative "./test_helper"
 require "normalize_country"
 
 describe NormalizeCountry do
   COUNTRY_COUNT = 247
+
+  EXTRA_COUNTRIES = [
+    { :alpha2 => "SU", :iso_name => "Soviet Union", :short => "USSR" },
+    { :alpha2 => "CS", :iso_name => "Czechoslovakia" }
+  ]
 
   it "normalizes to a country's ISO name by default" do
     NormalizeCountry.convert("USA").must_equal("United States")
@@ -104,6 +110,47 @@ describe NormalizeCountry do
         list = NormalizeCountry.to_a(:wtf)
         list.must_be_instance_of Array
         list.must_be_empty
+      end
+    end
+  end
+
+  describe ".extend_countries" do
+    let(:file_path) { File.join(File.dirname(__FILE__), "fixtures", "extra_countries", "en.yml") }
+    after { NormalizeCountry.reset! }
+
+    describe "when an array of hashes passed" do
+      before { NormalizeCountry.extend_countries(EXTRA_COUNTRIES) }
+
+      it_extends_default_list
+      it_converts_extended_countries
+    end
+
+    describe "when multiple hashes passed" do
+      before { NormalizeCountry.extend_countries(*EXTRA_COUNTRIES) }
+
+      it_extends_default_list
+      it_converts_extended_countries
+    end
+
+    describe "when a path to YAML passed" do
+      before { NormalizeCountry.extend_countries(file_path) }
+
+      it_extends_default_list
+      it_converts_extended_countries
+    end
+
+    describe "when IO object passed" do
+      before { NormalizeCountry.extend_countries(File.open(file_path)) }
+
+      it_extends_default_list
+      it_converts_extended_countries
+    end
+
+    describe 'without arguments' do
+      before { NormalizeCountry.extend_countries }
+
+      it "doesn't extend a list of default countries" do
+        NormalizeCountry.to_a.size.must_equal COUNTRY_COUNT
       end
     end
   end

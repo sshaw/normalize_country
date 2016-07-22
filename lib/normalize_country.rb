@@ -36,11 +36,41 @@ module NormalizeCountry
       hash
     end
 
+    def extend_countries(*args)
+      args = args.flatten
+      return if args.empty?
+
+      if args.first.is_a?(Hash)
+        args.each { |mapping| add_country(mapping) }
+      else
+        load_from_yaml(args.first)
+      end
+    end
+
+    def reset!
+      Countries.clear
+      remove_instance_variable(:@to) if defined?(@to)
+      remove_instance_variable(:@formats) if defined?(@formats)
+
+      load_from_yaml File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml")
+    end
+
     private
+
     def country_for(name)
       name = name.to_s.downcase.strip.squeeze(" ")
       return if name.empty?
       Countries[name.to_sym]
+    end
+
+    def add_country(mapping)
+      country = Country.new(mapping)
+      country.names.each { |name| Countries[name.downcase.to_sym] = country }
+    end
+
+    def load_from_yaml(path)
+      data = YAML.load_file(path)
+      data.values.each { |mapping| add_country(mapping) }
     end
   end
 
@@ -50,9 +80,9 @@ module NormalizeCountry
 
       @mapping = {}
       config.each do |id, value|
-	@mapping[id.to_sym] = Array === value ?
-	  value.compact.map { |v| v.squeeze(" ").strip } :
-	  value ? value.squeeze(" ").strip : value
+        @mapping[id.to_sym] = Array === value ?
+          value.compact.map { |v| v.squeeze(" ").strip } :
+          value ? value.squeeze(" ").strip : value
       end
     end
 
@@ -65,9 +95,9 @@ module NormalizeCountry
 
     def formats
       @formats ||= begin
-	keys = @mapping.keys
-	keys.delete(:aliases)
-	keys
+        keys = @mapping.keys
+        keys.delete(:aliases)
+        keys
       end
     end
 
@@ -76,12 +106,7 @@ module NormalizeCountry
     end
   end
 
-  path = File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml")
-  data = YAML.load_file(path)
-  data.values.each do |mapping|
-    country = Country.new(mapping)
-    country.names.each { |name| Countries[name.downcase.to_sym] = country }
-  end
+  reset!
 end
 
 def NormalizeCountry(name, options = {})
