@@ -71,12 +71,16 @@ A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
 
 === Extending a list of default countries
 
-A list of default countries can be extended by custom user data:
+If you want to extend a list of default countries you should use method +extend_countries+ or its alias +add_counties+:
 
  NormalizeCountry.extend_countries(:alpha2 => "SU", :iso_name => "Soviet Union", :short => "USSR")
  NormalizeCountry.extend_countries({ :alpha2 => "YU", :iso_name => "Yugoslavia" }, { :alpha2 => "CS", :iso_name => "Czechoslovakia" })
- NormalizeCountry.extend_countries([{ :alpha2 => "DD", :iso_name => "German Democratic Republic", :short => "USSR" }, { :alpha2 => "ZR", :iso_name => "Zaire" }])
- NormalizeCountry.extend_countries("/path/to/yaml/config")
+ NormalizeCountry.add_countries([{ :alpha2 => "DD", :iso_name => "German Democratic Republic", :short => "USSR" }, { :alpha2 => "ZR", :iso_name => "Zaire" }])
+ NormalizeCountry.add_countries("/path/to/yaml/config")
+
+The standard list can also be overridden:
+
+ NormalizeCountry.extend_countries(:alpha2 => "US", :official => "United States of North America")
 
 The format of YAML config is:
  <alpha2>:
@@ -84,9 +88,9 @@ The format of YAML config is:
    ...
 For example:
   SU:
-    alpha2: 'SU'
-    iso_name: 'Soviet Union'
-    short: 'USSR'
+    alpha2: SU
+    iso_name: Soviet Union
+    short: USSR
 
 If you want to revert a countries list to the default state, method +reset!+ should be used:
  NormalizeCountry.reset!

@@ -41,16 +41,17 @@ module NormalizeCountry
       return if args.empty?
 
       if args.first.is_a?(Hash)
-        args.each { |mapping| add_country(mapping) }
+        args.each { |mapping| add_country(mapping, true) }
       else
-        load_from_yaml(args.first)
+        load_from_yaml(args.first, true)
       end
     end
 
+    alias_method :add_countries, :extend_countries
+
     def reset!
       Countries.clear
-      remove_instance_variable(:@to) if defined?(@to)
-      remove_instance_variable(:@formats) if defined?(@formats)
+      @to = @formats = nil
 
       load_from_yaml File.join(File.dirname(__FILE__), "normalize_country", "countries", "en.yml")
     end
@@ -58,39 +59,56 @@ module NormalizeCountry
     private
 
     def country_for(name)
-      name = name.to_s.downcase.strip.squeeze(" ")
+      name = Country.format_id(name.to_s.downcase)
       return if name.empty?
       Countries[name.to_sym]
     end
 
-    def add_country(mapping)
+    def add_country(mapping, merge = false)
       country = Country.new(mapping)
+
+      if merge
+        existing_country = Countries.values.find do |object|
+          country.mapping.any? { |id, value| value && object[id] == value }
+        end
+
+        if existing_country
+          country = existing_country.merge(country)
+        end
+      end
+
       country.names.each { |name| Countries[name.downcase.to_sym] = country }
     end
 
-    def load_from_yaml(path)
+    def load_from_yaml(path, *add_country_args)
       data = YAML.load_file(path)
-      data.values.each { |mapping| add_country(mapping) }
+      data.values.each { |mapping| add_country(mapping, *add_country_args) }
     end
   end
 
   class Country
+    attr_reader :mapping
+
     def initialize(config)
       raise ArgumentError, "country config must be a hash" unless Hash === config
 
       @mapping = {}
       config.each do |id, value|
-        @mapping[id.to_sym] = Array === value ?
-          value.compact.map { |v| v.squeeze(" ").strip } :
-          value ? value.squeeze(" ").strip : value
+        @mapping[id.to_sym] = Array === value ? value.compact.map { |v| self.class.format_id(v) }
+                                              : self.class.format_id(value)
       end
+    end
+
+    def self.format_id(id)
+      return unless id
+      id.to_s.squeeze(" ").strip
     end
 
     def [](id)
       id = id.to_s
       return if id.empty? or id.to_sym == :aliases
       name = @mapping[id.to_sym]
-      return name.dup if name
+      name.dup if name
     end
 
     def formats
@@ -103,6 +121,14 @@ module NormalizeCountry
 
     def names
       @names ||= @mapping.values.flatten.uniq.compact
+    end
+
+    def merge(other)
+      merged_mapping = mapping.merge(other.mapping) do |key, left, right|
+        key == :aliases ? (left | right) : right
+      end
+
+      self.class.new(merged_mapping)
     end
   end
 
