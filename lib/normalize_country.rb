@@ -1,7 +1,7 @@
 require "yaml"
 
 module NormalizeCountry
-  VERSION = "0.2.0"
+  VERSION = "0.2.1"
   Countries = {}
 
   class << self
