@@ -546,6 +546,18 @@ CV:
   official: Republic of Cape Verde
   short: Cape Verde
   emoji: "\U0001F1E8\U0001F1FB"
+CW:
+  aliases:
+  - Curacao
+  alpha2: CW
+  alpha3: CUW
+  fifa: CUW
+  ioc:
+  iso_name: Curaçao
+  numeric: "531"
+  official: Curaçao
+  short: Curaçao
+  emoji:
 CX:
   alpha2: CX
   alpha3: CXR
