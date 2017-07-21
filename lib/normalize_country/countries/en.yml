@@ -553,11 +553,11 @@ CW:
   alpha3: CUW
   fifa: CUW
   ioc:
-  iso_name: Curaçao
+  iso_name: "Curaçao"
   numeric: "531"
-  official: Curaçao
-  short: Curaçao
-  emoji:
+  official: "Curaçao"
+  short:
+  emoji: "\U0001F1E8\U0001F1FC"
 CX:
   alpha2: CX
   alpha3: CXR

@@ -4,7 +4,7 @@ require "minitest/autorun"
 require "normalize_country"
 
 describe NormalizeCountry do
-  COUNTRY_COUNT = 247
+  COUNTRY_COUNT = 248
 
   it "normalizes to a country's ISO name by default" do
     NormalizeCountry.convert("USA").must_equal("United States")
