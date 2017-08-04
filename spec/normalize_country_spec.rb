@@ -6,6 +6,9 @@ require "normalize_country"
 describe NormalizeCountry do
   COUNTRY_COUNT = 248
 
+  EXTRA_COUNTRIES_YAML = File.join(File.dirname(__FILE__), "fixtures", "extra_countries.yml")
+  EXTRA_COUNTRIES      = YAML.load_file(EXTRA_COUNTRIES_YAML).values
+
   it "normalizes to a country's ISO name by default" do
     NormalizeCountry.convert("USA").must_equal("United States")
   end
@@ -104,6 +107,59 @@ describe NormalizeCountry do
         list = NormalizeCountry.to_a(:wtf)
         list.must_be_instance_of Array
         list.must_be_empty
+      end
+    end
+  end
+
+  describe ".extend_countries" do
+    after { NormalizeCountry.reset! }
+
+    {:array_of_hashes => EXTRA_COUNTRIES, :YAML => EXTRA_COUNTRIES_YAML,
+     :IO => File.open(EXTRA_COUNTRIES_YAML)}.each do |argument, value|
+
+      describe "with an #{argument} argument" do
+        before { NormalizeCountry.extend_countries(value) }
+
+        it "extends a list of default countries" do
+          list = NormalizeCountry.to_a(:iso_name)
+          list.size.must_equal COUNTRY_COUNT + EXTRA_COUNTRIES.size
+          list.must_include(*EXTRA_COUNTRIES.map { |country| country["iso_name"] })
+        end
+
+        EXTRA_COUNTRIES.each do |country|
+          name = country["iso_name"]
+
+          country.each do |spec, expect|
+            it "normalizes #{name} to #{spec}" do
+              NormalizeCountry.convert(name, :to => spec).must_equal(expect)
+            end
+          end
+        end
+      end
+    end
+
+    describe "merges existing countries" do
+      before do
+        NormalizeCountry.extend_countries(:alpha2 => "US", :official => "United States of North America", :aliases => %w[Usono] )
+      end
+
+      {:alpha2 => "US", :alpha3 => "USA", :ioc => "USA", :iso_name => "United States", :numeric => "840",
+       :official => "United States of North America", :fifa => "USA", :emoji => "🇺🇸"}.each do |spec, expect|
+        it "normalizes to #{spec}" do
+          NormalizeCountry.convert("America", :to => spec).must_equal(expect)
+        end
+      end
+
+      it "normalizes a country's aliases" do
+        %w[America U.S. U.S.A. Usono].each { |v| NormalizeCountry.convert(v).must_equal("United States") }
+      end
+    end
+
+    describe "without arguments" do
+      before { NormalizeCountry.extend_countries }
+
+      it "doesn't extend a list of default countries" do
+        NormalizeCountry.to_a.size.must_equal COUNTRY_COUNT
       end
     end
   end

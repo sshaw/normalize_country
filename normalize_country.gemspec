@@ -10,6 +10,8 @@ Gem::Specification.new do |s|
     Converts country names and codes from standardized and non-standardized names and abbreviations to one of the following:
     ISO 3166-1 (code/name/number), FIFA, IOC, a country's official name or shortened name, and Emoji.
 
+    A list of default countries can also be extended by custom user data.
+
     Includes a small script to convert names/codes in a DB, XML or CSV file.
   DESC
   s.authors     = ["Skye Shaw"]
