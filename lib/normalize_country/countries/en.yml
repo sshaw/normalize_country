@@ -589,6 +589,8 @@ CZ:
   short: Czechia
   emoji: "\U0001F1E8\U0001F1FF"
 DE:
+  aliases:
+  - Deutschland
   alpha2: DE
   alpha3: DEU
   fifa: GER
@@ -2303,6 +2305,10 @@ TM:
   short: Turkmenistan
   emoji: "\U0001F1F9\U0001F1F2"
 TN:
+  aliases:
+  - Tounes
+  - Tunesien
+  - Túnez
   alpha2: TN
   alpha3: TUN
   fifa: TUN
