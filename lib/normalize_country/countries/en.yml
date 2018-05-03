@@ -2305,6 +2305,10 @@ TM:
   short: Turkmenistan
   emoji: "\U0001F1F9\U0001F1F2"
 TN:
+  aliases:
+  - Tounes
+  - Tunesien
+  - Túnez
   alpha2: TN
   alpha3: TUN
   fifa: TUN
