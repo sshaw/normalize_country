@@ -1462,13 +1462,14 @@ ME:
 MF:
   aliases:
   - St. Martin
+  - Saint-Martin
   alpha2: MF
   alpha3: MAF
   fifa:
   ioc:
-  iso_name: Saint Martin
+  iso_name: Saint Martin (French part)
   numeric: "663"
-  official: Saint Martin
+  official: Collectivity of Saint Martin
   short: Saint Martin
   emoji: "\U0001F1F2\U0001F1EB"
 MG:
@@ -2185,6 +2186,16 @@ SV:
   official: Republic of El Salvador
   short: El Salvador
   emoji: "\U0001F1F8\U0001F1FB"
+SX:
+  alpha2: SX
+  alpha3: SXM
+  fifa:
+  ioc:
+  iso_name: Sint Maarten (Dutch part)
+  numeric: "534"
+  official: Sint Maarten
+  short: Sint Maarten
+  emoji: "\U0001F1F8\U0001F1FD"
 SY:
   alpha2: SY
   alpha3: SYR
