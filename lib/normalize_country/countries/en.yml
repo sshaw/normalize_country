@@ -1493,13 +1493,16 @@ MH:
   short: Marshall Islands
   emoji: "\U0001F1F2\U0001F1ED"
 MK:
+  aliases:
+    - Republic of Macedonia
+    - Macedonia, the Former Yugoslav Republic Of
   alpha2: MK
   alpha3: MKD
   fifa: MKD
   ioc: MKD
-  iso_name: Macedonia, the Former Yugoslav Republic Of
+  iso_name: North Macedonia
   numeric: "807"
-  official: Republic of Macedonia
+  official: Republic of North Macedonia
   short: Macedonia
   emoji: "\U0001F1F2\U0001F1F0"
 ML:
