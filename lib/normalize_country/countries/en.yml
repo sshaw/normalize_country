@@ -11,6 +11,7 @@ AD:
   official: Principality of Andorra
   short: Andorra
   emoji: "\U0001F1E6\U0001F1E9"
+  shortcode: ":flag-ad:"
 AE:
   aliases:
   - Emirates
@@ -24,6 +25,7 @@ AE:
   official: United Arab Emirates
   short: United Arab Emirates
   emoji: "\U0001F1E6\U0001F1EA"
+  shortcode: ":flag-ae:"
 AF:
   alpha2: AF
   alpha3: AFG
@@ -34,6 +36,7 @@ AF:
   numeric: "4"
   short: Afghanistan
   emoji: "\U0001F1E6\U0001F1EB"
+  shortcode: ":flag-af:"
 AG:
   alpha2: AG
   alpha3: ATG
@@ -44,6 +47,7 @@ AG:
   official: Antigua and Barbuda
   short: Antigua and Barbuda
   emoji: "\U0001F1E6\U0001F1EC"
+  shortcode: ":flag-ag:"
 AI:
   alpha2: AI
   alpha3: AIA
@@ -54,6 +58,7 @@ AI:
   official: Anguilla
   short: Anguilla
   emoji: "\U0001F1E6\U0001F1EE"
+  shortcode: ":flag-ai:"
 AL:
   alpha2: AL
   alpha3: ALB
@@ -64,6 +69,7 @@ AL:
   numeric: "8"
   short: Albania
   emoji: "\U0001F1E6\U0001F1F1"
+  shortcode: ":flag-al:"
 AM:
   alpha2: AM
   alpha3: ARM
@@ -74,6 +80,7 @@ AM:
   official: Republic of Armenia
   short: Armenia
   emoji: "\U0001F1E6\U0001F1F2"
+  shortcode: ":flag-am:"
 AN:
   aliases:
   - Dutch Antilles
@@ -86,6 +93,7 @@ AN:
   official: Netherlands Antilles
   short: Netherlands Antilles
   emoji: "\U0001F1E6\U0001F1F3"
+  shortcode:
 AO:
   alpha2: AO
   alpha3: AGO
@@ -96,6 +104,7 @@ AO:
   official: Republic of Angola
   short: Angola
   emoji: "\U0001F1E6\U0001F1F4"
+  shortcode: ":flag-ao:"
 AQ:
   alpha2: AQ
   alpha3: ATA
@@ -106,6 +115,7 @@ AQ:
   official: Antarctica
   short: Antarctica
   emoji: "\U0001F1E6\U0001F1F6"
+  shortcode: ":flag-aq:"
 AR:
   alpha2: AR
   alpha3: ARG
@@ -116,6 +126,7 @@ AR:
   official: Argentine Republic
   short: Argentina
   emoji: "\U0001F1E6\U0001F1F7"
+  shortcode: ":flag-ar:"
 AS:
   alpha2: AS
   alpha3: ASM
@@ -126,6 +137,7 @@ AS:
   official: American Samoa
   short: American Samoa
   emoji: "\U0001F1E6\U0001F1F8"
+  shortcode: ":flag-as:"
 AT:
   alpha2: AT
   alpha3: AUT
@@ -136,6 +148,7 @@ AT:
   official: Republic of Austria
   short: Austria
   emoji: "\U0001F1E6\U0001F1F9"
+  shortcode: ":flag-at:"
 AU:
   alpha2: AU
   alpha3: AUS
@@ -146,6 +159,7 @@ AU:
   official: Commonwealth of Australia
   short: Australia
   emoji: "\U0001F1E6\U0001F1FA"
+  shortcode: ":flag-au:"
 AW:
   alpha2: AW
   alpha3: ABW
@@ -156,6 +170,7 @@ AW:
   official: Aruba
   short: Aruba
   emoji: "\U0001F1E6\U0001F1FC"
+  shortcode: ":flag-aw:"
 AX:
   alpha2: AX
   alpha3: ALA
@@ -166,6 +181,7 @@ AX:
   official: "Åland Islands"
   short: "Åland Islands"
   emoji: "\U0001F1E6\U0001F1FD"
+  shortcode: ":flag-ax:"
 AZ:
   alpha2: AZ
   alpha3: AZE
@@ -176,6 +192,7 @@ AZ:
   official: Republic of Azerbaijan
   short: Azerbaijan
   emoji: "\U0001F1E6\U0001F1FF"
+  shortcode: ":flag-az:"
 BA:
   aliases:
   - Bosnia-Herzegovina
@@ -188,6 +205,7 @@ BA:
   official: Bosnia and Herzegovina
   short: Bosnia
   emoji: "\U0001F1E7\U0001F1E6"
+  shortcode: ":flag-ba:"
 BB:
   alpha2: BB
   alpha3: BRB
@@ -198,6 +216,7 @@ BB:
   official: Barbados
   short: Barbados
   emoji: "\U0001F1E7\U0001F1E7"
+  shortcode: ":flag-bb:"
 BD:
   alpha2: BD
   alpha3: BGD
@@ -208,6 +227,7 @@ BD:
   official: People's Republic of Bangladesh
   short: Bangladesh
   emoji: "\U0001F1E7\U0001F1E9"
+  shortcode: ":flag-bd:"
 BE:
   alpha2: BE
   alpha3: BEL
@@ -218,6 +238,7 @@ BE:
   official: Kingdom of Belgium
   short: Belgium
   emoji: "\U0001F1E7\U0001F1EA"
+  shortcode: ":flag-be:"
 BF:
   alpha2: BF
   alpha3: BFA
@@ -228,6 +249,7 @@ BF:
   official: Burkina Faso
   short: Burkina
   emoji: "\U0001F1E7\U0001F1EB"
+  shortcode: ":flag-bf:"
 BG:
   alpha2: BG
   alpha3: BGR
@@ -238,6 +260,7 @@ BG:
   official: Republic of Bulgaria
   short: Bulgaria
   emoji: "\U0001F1E7\U0001F1EC"
+  shortcode: ":flag-bg:"
 BH:
   alpha2: BH
   alpha3: BHR
@@ -248,6 +271,7 @@ BH:
   official: Kingdom of Bahrain
   short: Bahrain
   emoji: "\U0001F1E7\U0001F1ED"
+  shortcode: ":flag-bh:"
 BI:
   alpha2: BI
   alpha3: BDI
@@ -258,6 +282,7 @@ BI:
   official: Republic of Burundi
   short: Burundi
   emoji: "\U0001F1E7\U0001F1EE"
+  shortcode: ":flag-bi:"
 BJ:
   alpha2: BJ
   alpha3: BEN
@@ -268,6 +293,7 @@ BJ:
   official: Republic of Benin
   short: Benin
   emoji: "\U0001F1E7\U0001F1EF"
+  shortcode: ":flag-bj:"
 BL:
   aliases:
   - Saint Barts
@@ -282,6 +308,7 @@ BL:
   official: Territorial Collectivity of Saint Barthélemy
   short: Saint Barths
   emoji: "\U0001F1E7\U0001F1F1"
+  shortcode: ":flag-bl:"
 BM:
   aliases:
   - Bermudas
@@ -297,6 +324,7 @@ BM:
   official: Bermuda
   short: Bermuda
   emoji: "\U0001F1E7\U0001F1F2"
+  shortcode: ":flag-bm:"
 BN:
   alpha2: BN
   alpha3: BRN
@@ -307,6 +335,7 @@ BN:
   official: Nation of Brunei, Abode of Peace
   short: Brunei
   emoji: "\U0001F1E7\U0001F1F3"
+  shortcode: ":flag-bn:"
 BO:
   alpha2: BO
   alpha3: BOL
@@ -317,6 +346,7 @@ BO:
   official: Plurinational State of Bolivia
   short: Bolivia
   emoji: "\U0001F1E7\U0001F1F4"
+  shortcode: ":flag-bo:"
 BR:
   alpha2: BR
   alpha3: BRA
@@ -327,6 +357,7 @@ BR:
   official: Federative Republic of Brazil
   short: Brazil
   emoji: "\U0001F1E7\U0001F1F7"
+  shortcode: ":flag-br:"
 BS:
   alpha2: BS
   alpha3: BHS
@@ -337,6 +368,7 @@ BS:
   official: Commonwealth of the Bahamas
   short: Bahamas
   emoji: "\U0001F1E7\U0001F1F8"
+  shortcode: ":flag-bs:"
 BT:
   alpha2: BT
   alpha3: BTN
@@ -347,6 +379,7 @@ BT:
   official: Kingdom of Bhutan
   short: Bhutan
   emoji: "\U0001F1E7\U0001F1F9"
+  shortcode: ":flag-bt:"
 BV:
   alpha2: BV
   alpha3: BVT
@@ -357,6 +390,7 @@ BV:
   official: Bouvet Island
   short: Bouvet Island
   emoji: "\U0001F1E7\U0001F1FB"
+  shortcode: ":flag-bv:"
 BW:
   alpha2: BW
   alpha3: BWA
@@ -367,6 +401,7 @@ BW:
   official: Republic of Botswana
   short: Botswana
   emoji: "\U0001F1E7\U0001F1FC"
+  shortcode: ":flag-bw:"
 BY:
   alpha2: BY
   alpha3: BLR
@@ -377,6 +412,7 @@ BY:
   official: Republic of Belarus
   short: Belarus
   emoji: "\U0001F1E7\U0001F1FE"
+  shortcode: ":flag-by:"
 BZ:
   alpha2: BZ
   alpha3: BLZ
@@ -387,6 +423,7 @@ BZ:
   official: Belize
   short: Belize
   emoji: "\U0001F1E7\U0001F1FF"
+  shortcode: ":flag-bz:"
 CA:
   alpha2: CA
   alpha3: CAN
@@ -397,6 +434,7 @@ CA:
   official: Canada
   short: Canada
   emoji: "\U0001F1E8\U0001F1E6"
+  shortcode: ":flag-ca:"
 CC:
   aliases:
   - Cocos Islands
@@ -410,6 +448,7 @@ CC:
   official: Territory of the Cocos (Keeling) Islands
   short: Cocos (Keeling) Islands
   emoji: "\U0001F1E8\U0001F1E8"
+  shortcode: ":flag-cc:"
 CD:
   aliases:
   - Congo-Kinshasa
@@ -424,6 +463,7 @@ CD:
   official: Democratic Republic of the Congo
   short: Congo, The Democratic Republic Of The
   emoji: "\U0001F1E8\U0001F1E9"
+  shortcode: ":flag-cd:"
 CF:
   alpha2: CF
   alpha3: CAF
@@ -434,6 +474,7 @@ CF:
   official: Central African Republic
   short: Central African Republic
   emoji: "\U0001F1E8\U0001F1EB"
+  shortcode: ":flag-cf:"
 CG:
   aliases:
   - Congo-Brazzaville
@@ -446,6 +487,7 @@ CG:
   official: People's Republic of the Congo
   short: Congo
   emoji: "\U0001F1E8\U0001F1EC"
+  shortcode: ":flag-cg:"
 CH:
   alpha2: CH
   alpha3: CHE
@@ -456,6 +498,7 @@ CH:
   official: Swiss Confederation
   short: Switzerland
   emoji: "\U0001F1E8\U0001F1ED"
+  shortcode: ":flag-ch:"
 CI:
   alpha2: CI
   alpha3: CIV
@@ -466,6 +509,7 @@ CI:
   official: Republic of Côte D'Ivoire
   short: Ivory Coast
   emoji: "\U0001F1E8\U0001F1EE"
+  shortcode: ":flag-ci:"
 CK:
   alpha2: CK
   alpha3: COK
@@ -476,6 +520,7 @@ CK:
   official: Cook Islands
   short: Cook Islands
   emoji: "\U0001F1E8\U0001F1F0"
+  shortcode: ":flag-ck:"
 CL:
   alpha2: CL
   alpha3: CHL
@@ -486,6 +531,7 @@ CL:
   official: Republic of Chile
   short: Chile
   emoji: "\U0001F1E8\U0001F1F1"
+  shortcode: ":flag-cl:"
 CM:
   alpha2: CM
   alpha3: CMR
@@ -496,6 +542,7 @@ CM:
   official: Republic of Cameroon
   short: Cameroon
   emoji: "\U0001F1E8\U0001F1F2"
+  shortcode: ":flag-cm:"
 CN:
   alpha2: CN
   alpha3: CHN
@@ -506,6 +553,7 @@ CN:
   official: People's Republic of China
   short: China
   emoji: "\U0001F1E8\U0001F1F3"
+  shortcode: ":flag-cn:"
 CO:
   alpha2: CO
   alpha3: COL
@@ -516,6 +564,7 @@ CO:
   official: Republic of Colombia
   short: Colombia
   emoji: "\U0001F1E8\U0001F1F4"
+  shortcode: ":flag-co:"
 CR:
   alpha2: CR
   alpha3: CRI
@@ -526,6 +575,7 @@ CR:
   official: Republic of Costa Rica
   short: Costa Rica
   emoji: "\U0001F1E8\U0001F1F7"
+  shortcode: ":flag-cr:"
 CU:
   alpha2: CU
   alpha3: CUB
@@ -536,6 +586,7 @@ CU:
   official: Republic of Cuba
   short: Cuba
   emoji: "\U0001F1E8\U0001F1FA"
+  shortcode: ":flag-cu:"
 CV:
   alpha2: CV
   alpha3: CPV
@@ -546,6 +597,7 @@ CV:
   official: Republic of Cape Verde
   short: Cape Verde
   emoji: "\U0001F1E8\U0001F1FB"
+  shortcode: ":flag-cv:"
 CW:
   aliases:
   - Curacao
@@ -558,6 +610,7 @@ CW:
   official: "Curaçao"
   short:
   emoji: "\U0001F1E8\U0001F1FC"
+  shortcode: ":flag-cw:"
 CX:
   alpha2: CX
   alpha3: CXR
@@ -568,6 +621,7 @@ CX:
   official: Territory of Christmas Island
   short: Christmas Island
   emoji: "\U0001F1E8\U0001F1FD"
+  shortcode: ":flag-cx:"
 CY:
   alpha2: CY
   alpha3: CYP
@@ -578,6 +632,7 @@ CY:
   official: Republic of Cyprus
   short: Cyprus
   emoji: "\U0001F1E8\U0001F1FE"
+  shortcode: ":flag-cy:"
 CZ:
   alpha2: CZ
   alpha3: CZE
@@ -588,6 +643,7 @@ CZ:
   official: Czech Republic
   short: Czechia
   emoji: "\U0001F1E8\U0001F1FF"
+  shortcode: ":flag-cz:"
 DE:
   alpha2: DE
   alpha3: DEU
@@ -598,6 +654,7 @@ DE:
   official: Federal Republic of Germany
   short: Germany
   emoji: "\U0001F1E9\U0001F1EA"
+  shortcode: ":flag-de:"
 DJ:
   alpha2: DJ
   alpha3: DJI
@@ -608,6 +665,7 @@ DJ:
   official: Republic of Djibouti
   short: Djibouti
   emoji: "\U0001F1E9\U0001F1EF"
+  shortcode: ":flag-dj:"
 DK:
   alpha2: DK
   alpha3: DNK
@@ -618,6 +676,7 @@ DK:
   official: Kingdom of Denmark
   short: Denmark
   emoji: "\U0001F1E9\U0001F1F0"
+  shortcode: ":flag-dk:"
 DM:
   alpha2: DM
   alpha3: DMA
@@ -628,6 +687,7 @@ DM:
   official: Commonwealth of Dominica
   short: Dominica
   emoji: "\U0001F1E9\U0001F1F2"
+  shortcode: ":flag-dm:"
 DO:
   alpha2: DO
   alpha3: DOM
@@ -638,6 +698,7 @@ DO:
   official: Dominican Republic
   short: Dominican Republic
   emoji: "\U0001F1E9\U0001F1F4"
+  shortcode: ":flag-do:"
 DZ:
   alpha2: DZ
   alpha3: DZA
@@ -648,6 +709,7 @@ DZ:
   official: People's Democratic Republic of Algeria
   short: Algeria
   emoji: "\U0001F1E9\U0001F1FF"
+  shortcode: ":flag-dz:"
 EC:
   alpha2: EC
   alpha3: ECU
@@ -658,6 +720,7 @@ EC:
   official: Republic of Ecuador
   short: Ecuador
   emoji: "\U0001F1EA\U0001F1E8"
+  shortcode: ":flag-ec:"
 EE:
   alpha2: EE
   alpha3: EST
@@ -668,6 +731,7 @@ EE:
   official: Republic of Estonia
   short: Estonia
   emoji: "\U0001F1EA\U0001F1EA"
+  shortcode: ":flag-ee:"
 EG:
   alpha2: EG
   alpha3: EGY
@@ -678,6 +742,7 @@ EG:
   official: Arab Republic of Egypt
   short: Egypt
   emoji: "\U0001F1EA\U0001F1EC"
+  shortcode: ":flag-eg:"
 EH:
   alpha2: EH
   alpha3: ESH
@@ -688,6 +753,7 @@ EH:
   official: Western Sahara
   short: Western Sahara
   emoji: "\U0001F1EA\U0001F1ED"
+  shortcode: ":flag-eh:"
 ER:
   alpha2: ER
   alpha3: ERI
@@ -698,6 +764,7 @@ ER:
   official: State of Eritrea
   short: Eritrea
   emoji: "\U0001F1EA\U0001F1F7"
+  shortcode: ":flag-er:"
 ES:
   alpha2: ES
   alpha3: ESP
@@ -708,6 +775,7 @@ ES:
   official: Kingdom of Spain
   short: Spain
   emoji: "\U0001F1EA\U0001F1F8"
+  shortcode: ":flag-es:"
 ET:
   alpha2: ET
   alpha3: ETH
@@ -718,6 +786,7 @@ ET:
   official: Federal Democratic Republic of Ethiopia
   short: Ethiopia
   emoji: "\U0001F1EA\U0001F1F9"
+  shortcode: ":flag-et:"
 FI:
   alpha2: FI
   alpha3: FIN
@@ -728,6 +797,7 @@ FI:
   official: Republic of Finland
   short: Finland
   emoji: "\U0001F1EB\U0001F1EE"
+  shortcode: ":flag-fi:"
 FJ:
   alpha2: FJ
   alpha3: FJI
@@ -738,6 +808,7 @@ FJ:
   official: Republic of Fiji
   short: Fiji
   emoji: "\U0001F1EB\U0001F1EF"
+  shortcode: ":flag-fj:"
 FK:
   aliases:
   - The Falklands
@@ -750,6 +821,7 @@ FK:
   official: Falkland Islands
   short: Falkland Islands (Malvinas)
   emoji: "\U0001F1EB\U0001F1F0"
+  shortcode: ":flag-fk:"
 FM:
   alpha2: FM
   alpha3: FSM
@@ -760,6 +832,7 @@ FM:
   official: Federated States of Micronesia
   short: Micronesia, Federated States Of
   emoji: "\U0001F1EB\U0001F1F2"
+  shortcode: ":flag-fm:"
 FO:
   alpha2: FO
   alpha3: FRO
@@ -770,6 +843,7 @@ FO:
   official: Faroe Islands
   short: Faroe Islands
   emoji: "\U0001F1EB\U0001F1F4"
+  shortcode: ":flag-fo:"
 FR:
   alpha2: FR
   alpha3: FRA
@@ -780,6 +854,7 @@ FR:
   official: French Republic
   short: France
   emoji: "\U0001F1EB\U0001F1F7"
+  shortcode: ":flag-fr:"
 GA:
   alpha2: GA
   alpha3: GAB
@@ -790,6 +865,7 @@ GA:
   official: Gabonese Republic
   short: Gabon
   emoji: "\U0001F1EC\U0001F1E6"
+  shortcode: ":flag-ga:"
 GB:
   aliases:
   - Britain
@@ -804,6 +880,7 @@ GB:
   official: United Kingdom of Great Britain and Northern Ireland
   short: United Kingdom
   emoji: "\U0001F1EC\U0001F1E7"
+  shortcode: ":flag-gb:"
 GD:
   alpha2: GD
   alpha3: GRD
@@ -814,6 +891,7 @@ GD:
   official: Grenada
   short: Grenada
   emoji: "\U0001F1EC\U0001F1E9"
+  shortcode: ":flag-gd:"
 GE:
   alpha2: GE
   alpha3: GEO
@@ -824,6 +902,7 @@ GE:
   official: Georgia
   short: Georgia
   emoji: "\U0001F1EC\U0001F1EA"
+  shortcode: ":flag-ge:"
 GF:
   alpha2: GF
   alpha3: GUF
@@ -834,6 +913,7 @@ GF:
   official: French Guiana
   short: French Guiana
   emoji: "\U0001F1EC\U0001F1EB"
+  shortcode: ":flag-gf:"
 GG:
   alpha2: GG
   alpha3: GGY
@@ -844,6 +924,7 @@ GG:
   official: Bailiwick of Guernsey
   short: Guernsey
   emoji: "\U0001F1EC\U0001F1EC"
+  shortcode: ":flag-gg:"
 GH:
   alpha2: GH
   alpha3: GHA
@@ -854,6 +935,7 @@ GH:
   official: Republic of Ghana
   short: Ghana
   emoji: "\U0001F1EC\U0001F1ED"
+  shortcode: ":flag-gh:"
 GI:
   alpha2: GI
   alpha3: GIB
@@ -864,6 +946,7 @@ GI:
   official: Gibraltar
   short: Gibraltar
   emoji: "\U0001F1EC\U0001F1EE"
+  shortcode: ":flag-gi:"
 GL:
   alpha2: GL
   alpha3: GRL
@@ -874,6 +957,7 @@ GL:
   official: Greenland
   short: Greenland
   emoji: "\U0001F1EC\U0001F1F1"
+  shortcode: ":flag-gl:"
 GM:
   alpha2: GM
   alpha3: GMB
@@ -884,6 +968,7 @@ GM:
   official: Republic of the Gambia
   short: Gambia
   emoji: "\U0001F1EC\U0001F1F2"
+  shortcode: ":flag-gm:"
 GN:
   alpha2: GN
   alpha3: GIN
@@ -894,6 +979,7 @@ GN:
   official: Republic of Guinea
   short: Guinea
   emoji: "\U0001F1EC\U0001F1F3"
+  shortcode: ":flag-gn:"
 GP:
   alpha2: GP
   alpha3: GLP
@@ -904,6 +990,7 @@ GP:
   official: Guadeloupe
   short: Guadeloupe
   emoji: "\U0001F1EC\U0001F1F5"
+  shortcode: ":flag-gp:"
 GQ:
   alpha2: GQ
   alpha3: GNQ
@@ -914,6 +1001,7 @@ GQ:
   official: Republic of Equatorial Guinea
   short: Equatorial Guinea
   emoji: "\U0001F1EC\U0001F1F6"
+  shortcode: ":flag-gq:"
 GR:
   alpha2: GR
   alpha3: GRC
@@ -924,6 +1012,7 @@ GR:
   official: Hellenic Republic
   short: Greece
   emoji: "\U0001F1EC\U0001F1F7"
+  shortcode: ":flag-gr:"
 GS:
   alpha2: GS
   alpha3: SGS
@@ -934,6 +1023,7 @@ GS:
   official: South Georgia and the South Sandwich Islands
   short: South Georgia and the South Sandwich Islands
   emoji: "\U0001F1EC\U0001F1F8"
+  shortcode: ":flag-gs:"
 GT:
   alpha2: GT
   alpha3: GTM
@@ -944,6 +1034,7 @@ GT:
   official: Republic of Guatemala
   short: Guatemala
   emoji: "\U0001F1EC\U0001F1F9"
+  shortcode: ":flag-gt:"
 GU:
   alpha2: GU
   alpha3: GUM
@@ -954,6 +1045,7 @@ GU:
   official: Guam
   short: Guam
   emoji: "\U0001F1EC\U0001F1FA"
+  shortcode: ":flag-gu:"
 GW:
   alpha2: GW
   alpha3: GNB
@@ -964,6 +1056,7 @@ GW:
   official: Republic of Guinea-Bissau
   short: Guinea-Bissau
   emoji: "\U0001F1EC\U0001F1FC"
+  shortcode: ":flag-gw:"
 GY:
   alpha2: GY
   alpha3: GUY
@@ -974,6 +1067,7 @@ GY:
   official: Co-operative Republic of Guyana
   short: Guyana
   emoji: "\U0001F1EC\U0001F1FE"
+  shortcode: ":flag-gy:"
 HK:
   aliases:
   - Hong Kong Special Administrative Region
@@ -986,6 +1080,7 @@ HK:
   official: Hong Kong Special Administrative Region of the People's Republic of China
   short: Hong Kong
   emoji: "\U0001F1ED\U0001F1F0"
+  shortcode: ":flag-hk:"
 HM:
   aliases:
   - HIMI
@@ -998,6 +1093,7 @@ HM:
   official: Heard and McDonald Islands
   short: Heard and McDonald Islands
   emoji: "\U0001F1ED\U0001F1F2"
+  shortcode: ":flag-hm:"
 HN:
   alpha2: HN
   alpha3: HND
@@ -1008,6 +1104,7 @@ HN:
   official: Republic of Honduras
   short: Honduras
   emoji: "\U0001F1ED\U0001F1F3"
+  shortcode: ":flag-hn:"
 HR:
   alpha2: HR
   alpha3: HRV
@@ -1018,6 +1115,7 @@ HR:
   official: Republic of Croatia
   short: Croatia
   emoji: "\U0001F1ED\U0001F1F7"
+  shortcode: ":flag-hr:"
 HT:
   alpha2: HT
   alpha3: HTI
@@ -1028,6 +1126,7 @@ HT:
   official: Republic of Haiti
   short: Haiti
   emoji: "\U0001F1ED\U0001F1F9"
+  shortcode: ":flag-ht:"
 HU:
   alpha2: HU
   alpha3: HUN
@@ -1038,6 +1137,7 @@ HU:
   official: Hungary
   short: Hungary
   emoji: "\U0001F1ED\U0001F1FA"
+  shortcode: ":flag-hu:"
 ID:
   alpha2: ID
   alpha3: IDN
@@ -1048,6 +1148,7 @@ ID:
   official: Republic of Indonesia
   short: Indonesia
   emoji: "\U0001F1EE\U0001F1E9"
+  shortcode: ":flag-id:"
 IE:
   alpha2: IE
   alpha3: IRL
@@ -1058,6 +1159,7 @@ IE:
   official: Ireland
   short: Ireland
   emoji: "\U0001F1EE\U0001F1EA"
+  shortcode: ":flag-ie:"
 IL:
   alpha2: IL
   alpha3: ISR
@@ -1068,6 +1170,7 @@ IL:
   official: State of Israel
   short: Israel
   emoji: "\U0001F1EE\U0001F1F1"
+  shortcode: ":flag-il:"
 IM:
   aliases:
   - Mann
@@ -1080,6 +1183,7 @@ IM:
   official: Isle of Man
   short: Isle of Man
   emoji: "\U0001F1EE\U0001F1F2"
+  shortcode: ":flag-im:"
 IN:
   alpha2: IN
   alpha3: IND
@@ -1090,6 +1194,7 @@ IN:
   official: Republic of India
   short: India
   emoji: "\U0001F1EE\U0001F1F3"
+  shortcode: ":flag-in:"
 IO:
   aliases:
   - BIOT
@@ -1103,6 +1208,7 @@ IO:
   official: British Indian Ocean Territory
   short: British Indian Ocean Territory
   emoji: "\U0001F1EE\U0001F1F4"
+  shortcode: ":flag-io:"
 IQ:
   alpha2: IQ
   alpha3: IRQ
@@ -1113,6 +1219,7 @@ IQ:
   official: Republic of Iraq
   short: Iraq
   emoji: "\U0001F1EE\U0001F1F6"
+  shortcode: ":flag-iq:"
 IR:
   alpha2: IR
   alpha3: IRN
@@ -1123,6 +1230,7 @@ IR:
   official: Islamic Republic of Iran
   short: Iran
   emoji: "\U0001F1EE\U0001F1F7"
+  shortcode: ":flag-ir:"
 IS:
   alpha2: IS
   alpha3: ISL
@@ -1133,6 +1241,7 @@ IS:
   official: Iceland
   short: Iceland
   emoji: "\U0001F1EE\U0001F1F8"
+  shortcode: ":flag-is:"
 IT:
   alpha2: IT
   alpha3: ITA
@@ -1143,6 +1252,7 @@ IT:
   official: Italian Republic
   short: Italy
   emoji: "\U0001F1EE\U0001F1F9"
+  shortcode: ":flag-it:"
 JE:
   alpha2: JE
   alpha3: JEY
@@ -1153,6 +1263,7 @@ JE:
   official: Bailiwick of Jersey
   short: Jersey
   emoji: "\U0001F1EF\U0001F1EA"
+  shortcode: ":flag-je:"
 JM:
   alpha2: JM
   alpha3: JAM
@@ -1163,6 +1274,7 @@ JM:
   official: Jamaica
   short: Jamaica
   emoji: "\U0001F1EF\U0001F1F2"
+  shortcode: ":flag-jm:"
 JO:
   aliases:
   - Kingdom of Jordan
@@ -1175,6 +1287,7 @@ JO:
   official: Hashemite Kingdom of Jordan
   short: Jordan
   emoji: "\U0001F1EF\U0001F1F4"
+  shortcode: ":flag-jo:"
 JP:
   alpha2: JP
   alpha3: JPN
@@ -1185,6 +1298,7 @@ JP:
   official: Japan
   short: Japan
   emoji: "\U0001F1EF\U0001F1F5"
+  shortcode: ":flag-jp:"
 KE:
   alpha2: KE
   alpha3: KEN
@@ -1195,6 +1309,7 @@ KE:
   official: Republic of Kenya
   short: Kenya
   emoji: "\U0001F1F0\U0001F1EA"
+  shortcode: ":flag-ke:"
 KG:
   alpha2: KG
   alpha3: KGZ
@@ -1205,6 +1320,7 @@ KG:
   official: Kyrgyz Republic
   short: Kyrgyzstan
   emoji: "\U0001F1F0\U0001F1EC"
+  shortcode: ":flag-kg:"
 KH:
   alpha2: KH
   alpha3: KHM
@@ -1215,6 +1331,7 @@ KH:
   official: Kingdom of Cambodia
   short: Cambodia
   emoji: "\U0001F1F0\U0001F1ED"
+  shortcode: ":flag-kh:"
 KI:
   alpha2: KI
   alpha3: KIR
@@ -1225,6 +1342,7 @@ KI:
   official: Republic of Kiribati
   short: Kiribati
   emoji: "\U0001F1F0\U0001F1EE"
+  shortcode: ":flag-ki:"
 KM:
   alpha2: KM
   alpha3: COM
@@ -1235,6 +1353,7 @@ KM:
   official: Union of the Comoros
   short: Comoros
   emoji: "\U0001F1F0\U0001F1F2"
+  shortcode: ":flag-km:"
 KN:
   aliases:
   - Federation of Saint Christopher and Nevi
@@ -1247,6 +1366,7 @@ KN:
   official: Federation of Saint Kitts and Nevis
   short: Saint Kitts And Nevis
   emoji: "\U0001F1F0\U0001F1F3"
+  shortcode: ":flag-kn:"
 KP:
   aliases:
   - DPRK
@@ -1261,6 +1381,7 @@ KP:
   official: Democratic People's Republic of Korea
   short: North Korea
   emoji: "\U0001F1F0\U0001F1F5"
+  shortcode: ":flag-kp:"
 KR:
   aliases:
   - S Korea
@@ -1274,6 +1395,7 @@ KR:
   official: Republic of Korea
   short: South Korea
   emoji: "\U0001F1F0\U0001F1F7"
+  shortcode: ":flag-kr:"
 KW:
   alpha2: KW
   alpha3: KWT
@@ -1284,6 +1406,7 @@ KW:
   official: State of Kuwait
   short: Kuwait
   emoji: "\U0001F1F0\U0001F1FC"
+  shortcode: ":flag-kw:"
 KY:
   aliases:
   - Caymans
@@ -1296,6 +1419,7 @@ KY:
   official: Cayman Islands
   short: Cayman Islands
   emoji: "\U0001F1F0\U0001F1FE"
+  shortcode: ":flag-ky:"
 KZ:
   alpha2: KZ
   alpha3: KAZ
@@ -1306,6 +1430,7 @@ KZ:
   official: Republic of Kazakhstan
   short: Kazakhstan
   emoji: "\U0001F1F0\U0001F1FF"
+  shortcode: ":flag-kz:"
 LA:
   alpha2: LA
   alpha3: LAO
@@ -1317,6 +1442,7 @@ LA:
   short: Lao People's Democratic Republic
   simple: Laos
   emoji: "\U0001F1F1\U0001F1E6"
+  shortcode: ":flag-la:"
 LB:
   alpha2: LB
   alpha3: LBN
@@ -1327,6 +1453,7 @@ LB:
   official: Lebanese Republic
   short: Lebanon
   emoji: "\U0001F1F1\U0001F1E7"
+  shortcode: ":flag-lb:"
 LC:
   aliases:
   - St. Lucia
@@ -1339,6 +1466,7 @@ LC:
   official: Saint Lucia
   short: Saint Lucia
   emoji: "\U0001F1F1\U0001F1E8"
+  shortcode: ":flag-lc:"
 LI:
   alpha2: LI
   alpha3: LIE
@@ -1349,6 +1477,7 @@ LI:
   official: Principality of Liechtenstein
   short: Liechtenstein
   emoji: "\U0001F1F1\U0001F1EE"
+  shortcode: ":flag-li:"
 LK:
   alpha2: LK
   alpha3: LKA
@@ -1359,6 +1488,7 @@ LK:
   official: Democratic Socialist Republic of Sri Lanka
   short: Sri Lanka
   emoji: "\U0001F1F1\U0001F1F0"
+  shortcode: ":flag-lk:"
 LR:
   alpha2: LR
   alpha3: LBR
@@ -1369,6 +1499,7 @@ LR:
   official: Republic of Liberia
   short: Liberia
   emoji: "\U0001F1F1\U0001F1F7"
+  shortcode: ":flag-lr:"
 LS:
   alpha2: LS
   alpha3: LSO
@@ -1379,6 +1510,7 @@ LS:
   official: Kingdom of Lesoth
   short: Lesotho
   emoji: "\U0001F1F1\U0001F1F8"
+  shortcode: ":flag-ls:"
 LT:
   alpha2: LT
   alpha3: LTU
@@ -1389,6 +1521,7 @@ LT:
   official: Republic of Lithuania
   short: Lithuania
   emoji: "\U0001F1F1\U0001F1F9"
+  shortcode: ":flag-lt:"
 LU:
   alpha2: LU
   alpha3: LUX
@@ -1399,6 +1532,7 @@ LU:
   official: Grand Duchy of Luxembourg
   short: Luxembourg
   emoji: "\U0001F1F1\U0001F1FA"
+  shortcode: ":flag-lu:"
 LV:
   alpha2: LV
   alpha3: LVA
@@ -1409,6 +1543,7 @@ LV:
   official: Republic of Latvia
   short: Latvia
   emoji: "\U0001F1F1\U0001F1FB"
+  shortcode: ":flag-lv:"
 LY:
   alpha2: LY
   alpha3: LBY
@@ -1419,6 +1554,7 @@ LY:
   official: State of Libya
   short: Libya
   emoji: "\U0001F1F1\U0001F1FE"
+  shortcode: ":flag-ly:"
 MA:
   alpha2: MA
   alpha3: MAR
@@ -1429,6 +1565,7 @@ MA:
   official: Kingdom of Morocco
   short: Morocco
   emoji: "\U0001F1F2\U0001F1E6"
+  shortcode: ":flag-ma:"
 MC:
   alpha2: MC
   alpha3: MCO
@@ -1439,6 +1576,7 @@ MC:
   official: Principality of Monaco
   short: Monaco
   emoji: "\U0001F1F2\U0001F1E8"
+  shortcode: ":flag-mc:"
 MD:
   alpha2: MD
   alpha3: MDA
@@ -1449,6 +1587,7 @@ MD:
   official: Republic of Moldova
   short: Moldova, Republic of
   emoji: "\U0001F1F2\U0001F1E9"
+  shortcode: ":flag-md:"
 ME:
   alpha2: ME
   alpha3: MNE
@@ -1459,6 +1598,7 @@ ME:
   official: Montenegro
   short: Montenegro
   emoji: "\U0001F1F2\U0001F1EA"
+  shortcode: ":flag-me:"
 MF:
   aliases:
   - St. Martin
@@ -1472,6 +1612,7 @@ MF:
   official: Collectivity of Saint Martin
   short: Saint Martin
   emoji: "\U0001F1F2\U0001F1EB"
+  shortcode: ":flag-mf:"
 MG:
   alpha2: MG
   alpha3: MDG
@@ -1482,6 +1623,7 @@ MG:
   official: Republic of Madagascar
   short: Madagascar
   emoji: "\U0001F1F2\U0001F1EC"
+  shortcode: ":flag-mg:"
 MH:
   alpha2: MH
   alpha3: MHL
@@ -1492,10 +1634,11 @@ MH:
   official: Republic of the Marshall Islands
   short: Marshall Islands
   emoji: "\U0001F1F2\U0001F1ED"
+  shortcode: ":flag-mh:"
 MK:
   aliases:
-    - Republic of Macedonia
-    - Macedonia, the Former Yugoslav Republic Of
+  - Republic of Macedonia
+  - Macedonia, the Former Yugoslav Republic Of
   alpha2: MK
   alpha3: MKD
   fifa: MKD
@@ -1505,6 +1648,7 @@ MK:
   official: Republic of North Macedonia
   short: Macedonia
   emoji: "\U0001F1F2\U0001F1F0"
+  shortcode: ":flag-mk:"
 ML:
   alpha2: ML
   alpha3: MLI
@@ -1515,6 +1659,7 @@ ML:
   official: Republic of Mali
   short: Mali
   emoji: "\U0001F1F2\U0001F1F1"
+  shortcode: ":flag-ml:"
 MM:
   aliases:
   - Burma
@@ -1527,6 +1672,7 @@ MM:
   official: Republic of the Union of Myanmar
   short: Myanmar
   emoji: "\U0001F1F2\U0001F1F2"
+  shortcode: ":flag-mm:"
 MN:
   alpha2: MN
   alpha3: MNG
@@ -1537,6 +1683,7 @@ MN:
   official: Mongolia
   short: Mongolia
   emoji: "\U0001F1F2\U0001F1F3"
+  shortcode: ":flag-mn:"
 MO:
   aliases:
   - Macao
@@ -1550,6 +1697,7 @@ MO:
   official: Macao Special Administrative Region of the People's Republic of China
   short: Macao
   emoji: "\U0001F1F2\U0001F1F4"
+  shortcode: ":flag-mo:"
 MP:
   aliases:
   - CNMI
@@ -1562,6 +1710,7 @@ MP:
   official: Commonwealth of the Northern Mariana Islands
   short: Northern Mariana Islands
   emoji: "\U0001F1F2\U0001F1F5"
+  shortcode: ":flag-mp:"
 MQ:
   alpha2: MQ
   alpha3: MTQ
@@ -1572,6 +1721,7 @@ MQ:
   official: Martinique
   short: Martinique
   emoji: "\U0001F1F2\U0001F1F6"
+  shortcode: ":flag-mq:"
 MR:
   alpha2: MR
   alpha3: MRT
@@ -1582,6 +1732,7 @@ MR:
   official: Islamic Republic of Mauritania
   short: Mauritania
   emoji: "\U0001F1F2\U0001F1F7"
+  shortcode: ":flag-mr:"
 MS:
   alpha2: MS
   alpha3: MSR
@@ -1592,6 +1743,7 @@ MS:
   official: Montserrat
   short: Montserrat
   emoji: "\U0001F1F2\U0001F1F8"
+  shortcode: ":flag-ms:"
 MT:
   alpha2: MT
   alpha3: MLT
@@ -1602,6 +1754,7 @@ MT:
   official: Republic of Malta
   short: Malta
   emoji: "\U0001F1F2\U0001F1F9"
+  shortcode: ":flag-mt:"
 MU:
   alpha2: MU
   alpha3: MUS
@@ -1612,6 +1765,7 @@ MU:
   official: Republic of Mauritius
   short: Mauritius
   emoji: "\U0001F1F2\U0001F1FA"
+  shortcode: ":flag-mu:"
 MV:
   aliases:
   - Maldive Islands
@@ -1624,6 +1778,7 @@ MV:
   official: Republic of the Maldives
   short: Maldives
   emoji: "\U0001F1F2\U0001F1FB"
+  shortcode: ":flag-mv:"
 MW:
   alpha2: MW
   alpha3: MWI
@@ -1634,6 +1789,7 @@ MW:
   official: Republic of Malawi
   short: Malawi
   emoji: "\U0001F1F2\U0001F1FC"
+  shortcode: ":flag-mw:"
 MX:
   alpha2: MX
   alpha3: MEX
@@ -1644,6 +1800,7 @@ MX:
   official: United Mexican States
   short: Mexico
   emoji: "\U0001F1F2\U0001F1FD"
+  shortcode: ":flag-mx:"
 MY:
   alpha2: MY
   alpha3: MYS
@@ -1654,6 +1811,7 @@ MY:
   official: Malaysia
   short: Malaysia
   emoji: "\U0001F1F2\U0001F1FE"
+  shortcode: ":flag-my:"
 MZ:
   alpha2: MZ
   alpha3: MOZ
@@ -1664,6 +1822,7 @@ MZ:
   official: Mozambique
   short: Mozambique
   emoji: "\U0001F1F2\U0001F1FF"
+  shortcode: ":flag-mz:"
 NA:
   alpha2: NA
   alpha3: NAM
@@ -1674,6 +1833,7 @@ NA:
   official: Namibia
   short: Namibia
   emoji: "\U0001F1F3\U0001F1E6"
+  shortcode: ":flag-na:"
 NC:
   alpha2: NC
   alpha3: NCL
@@ -1684,6 +1844,7 @@ NC:
   official: New Caledonia
   short: New Caledonia
   emoji: "\U0001F1F3\U0001F1E8"
+  shortcode: ":flag-nc:"
 NE:
   alpha2: NE
   alpha3: NER
@@ -1694,6 +1855,7 @@ NE:
   official: Republic of Niger
   short: Niger
   emoji: "\U0001F1F3\U0001F1EA"
+  shortcode: ":flag-ne:"
 NF:
   alpha2: NF
   alpha3: NFK
@@ -1704,6 +1866,7 @@ NF:
   official: Territory of Norfolk Island
   short: Norfolk Island
   emoji: "\U0001F1F3\U0001F1EB"
+  shortcode: ":flag-nf:"
 NG:
   alpha2: NG
   alpha3: NGA
@@ -1714,6 +1877,7 @@ NG:
   official: Federal Republic of Nigeria
   short: Nigeria
   emoji: "\U0001F1F3\U0001F1EC"
+  shortcode: ":flag-ng:"
 NI:
   alpha2: NI
   alpha3: NIC
@@ -1724,6 +1888,7 @@ NI:
   official: Republic of Nicaragua
   short: Nicaragua
   emoji: "\U0001F1F3\U0001F1EE"
+  shortcode: ":flag-ni:"
 NL:
   alpha2: NL
   alpha3: NLD
@@ -1734,6 +1899,7 @@ NL:
   official: Netherlands
   short: Netherlands
   emoji: "\U0001F1F3\U0001F1F1"
+  shortcode: ":flag-nl:"
 'NO':
   alpha2: 'NO'
   alpha3: NOR
@@ -1744,6 +1910,7 @@ NL:
   official: Kingdom of Norway
   short: Norway
   emoji: "\U0001F1F3\U0001F1F4"
+  shortcode: ":flag-no:"
 NP:
   alpha2: NP
   alpha3: NPL
@@ -1754,6 +1921,7 @@ NP:
   official: Federal Democratic Republic of Nepal
   short: Nepal
   emoji: "\U0001F1F3\U0001F1F5"
+  shortcode: ":flag-np:"
 NR:
   alpha2: NR
   alpha3: NRU
@@ -1764,6 +1932,7 @@ NR:
   official: Republic of Nauru
   short: Nauru
   emoji: "\U0001F1F3\U0001F1F7"
+  shortcode: ":flag-nr:"
 NU:
   alpha2: NU
   alpha3: NIU
@@ -1774,6 +1943,7 @@ NU:
   official: Niue
   short: Niue
   emoji: "\U0001F1F3\U0001F1FA"
+  shortcode: ":flag-nu:"
 NZ:
   alpha2: NZ
   alpha3: NZL
@@ -1784,6 +1954,7 @@ NZ:
   official: New Zealand
   short: New Zealand
   emoji: "\U0001F1F3\U0001F1FF"
+  shortcode: ":flag-nz:"
 OM:
   alpha2: OM
   alpha3: OMN
@@ -1794,6 +1965,7 @@ OM:
   official: Sultanate of Oman
   short: Oman
   emoji: "\U0001F1F4\U0001F1F2"
+  shortcode: ":flag-om:"
 PA:
   alpha2: PA
   alpha3: PAN
@@ -1804,6 +1976,7 @@ PA:
   official: Republic of Panama
   short: Panama
   emoji: "\U0001F1F5\U0001F1E6"
+  shortcode: ":flag-pa:"
 PE:
   alpha2: PE
   alpha3: PER
@@ -1814,6 +1987,7 @@ PE:
   official: Republic of Peru
   short: Peru
   emoji: "\U0001F1F5\U0001F1EA"
+  shortcode: ":flag-pe:"
 PF:
   alpha2: PF
   alpha3: PYF
@@ -1824,6 +1998,7 @@ PF:
   official: French Polynesia
   short: French Polynesia
   emoji: "\U0001F1F5\U0001F1EB"
+  shortcode: ":flag-pf:"
 PG:
   alpha2: PG
   alpha3: PNG
@@ -1834,6 +2009,7 @@ PG:
   official: Independent State of Papua New Guinea
   short: Papua New Guinea
   emoji: "\U0001F1F5\U0001F1EC"
+  shortcode: ":flag-pg:"
 PH:
   alpha2: PH
   alpha3: PHL
@@ -1844,6 +2020,7 @@ PH:
   official: Republic of the Philippines
   short: Philippines
   emoji: "\U0001F1F5\U0001F1ED"
+  shortcode: ":flag-ph:"
 PK:
   alpha2: PK
   alpha3: PAK
@@ -1854,6 +2031,7 @@ PK:
   official: Islamic Republic of Pakistan
   short: Pakistan
   emoji: "\U0001F1F5\U0001F1F0"
+  shortcode: ":flag-pk:"
 PL:
   alpha2: PL
   alpha3: POL
@@ -1864,6 +2042,7 @@ PL:
   official: Republic of Poland
   short: Poland
   emoji: "\U0001F1F5\U0001F1F1"
+  shortcode: ":flag-pl:"
 PM:
   alpha2: PM
   alpha3: SPM
@@ -1874,6 +2053,7 @@ PM:
   official: Saint Pierre And Miquelon
   short: Saint Pierre And Miquelon
   emoji: "\U0001F1F5\U0001F1F2"
+  shortcode: ":flag-pm:"
 PN:
   alpha2: PN
   alpha3: PCN
@@ -1884,6 +2064,7 @@ PN:
   official: Pitcairn, Henderson, Ducie and Oeno Islands
   short: Pitcairn
   emoji: "\U0001F1F5\U0001F1F3"
+  shortcode: ":flag-pn:"
 PR:
   alpha2: PR
   alpha3: PRI
@@ -1894,6 +2075,7 @@ PR:
   official: Commonwealth of Puerto Rico
   short: Puerto Rico
   emoji: "\U0001F1F5\U0001F1F7"
+  shortcode: ":flag-pr:"
 PS:
   aliases:
   - Palestinian Territories
@@ -1907,6 +2089,7 @@ PS:
   official: State of Palestine
   short: Palestine
   emoji: "\U0001F1F5\U0001F1F8"
+  shortcode: ":flag-ps:"
 PT:
   alpha2: PT
   alpha3: PRT
@@ -1917,6 +2100,7 @@ PT:
   official: Portuguese Republic
   short: Portugal
   emoji: "\U0001F1F5\U0001F1F9"
+  shortcode: ":flag-pt:"
 PW:
   aliases:
   - Belau
@@ -1930,6 +2114,7 @@ PW:
   official: Republic of Palau
   short: Palau
   emoji: "\U0001F1F5\U0001F1FC"
+  shortcode: ":flag-pw:"
 PY:
   alpha2: PY
   alpha3: PRY
@@ -1940,6 +2125,7 @@ PY:
   official: Republic of Paraguay
   short: Paraguay
   emoji: "\U0001F1F5\U0001F1FE"
+  shortcode: ":flag-py:"
 QA:
   alpha2: QA
   alpha3: QAT
@@ -1950,6 +2136,7 @@ QA:
   official: State of Qatar
   short: Qatar
   emoji: "\U0001F1F6\U0001F1E6"
+  shortcode: ":flag-qa:"
 RE:
   alpha2: RE
   alpha3: REU
@@ -1960,6 +2147,7 @@ RE:
   official: Réunion Island
   short: Réunion
   emoji: "\U0001F1F7\U0001F1EA"
+  shortcode: ":flag-re:"
 RO:
   alpha2: RO
   alpha3: ROU
@@ -1970,6 +2158,7 @@ RO:
   official: Romania
   short: Romania
   emoji: "\U0001F1F7\U0001F1F4"
+  shortcode: ":flag-ro:"
 RS:
   alpha2: RS
   alpha3: SRB
@@ -1980,6 +2169,7 @@ RS:
   official: Republic of Serbia
   short: Serbia
   emoji: "\U0001F1F7\U0001F1F8"
+  shortcode: ":flag-rs:"
 RU:
   alpha2: RU
   alpha3: RUS
@@ -1990,6 +2180,7 @@ RU:
   official: Russian Federation
   short: Russia
   emoji: "\U0001F1F7\U0001F1FA"
+  shortcode: ":flag-ru:"
 RW:
   alpha2: RW
   alpha3: RWA
@@ -2000,6 +2191,7 @@ RW:
   official: Republic of Rwanda
   short: Rwanda
   emoji: "\U0001F1F7\U0001F1FC"
+  shortcode: ":flag-rw:"
 SA:
   alpha2: SA
   alpha3: SAU
@@ -2010,6 +2202,7 @@ SA:
   official: Kingdom of Saudi Arabia
   short: Saudi Arabia
   emoji: "\U0001F1F8\U0001F1E6"
+  shortcode: ":flag-sa:"
 SB:
   alpha2: SB
   alpha3: SLB
@@ -2020,6 +2213,7 @@ SB:
   official: Solomon Islands
   short: Solomon Islands
   emoji: "\U0001F1F8\U0001F1E7"
+  shortcode: ":flag-sb:"
 SC:
   alpha2: SC
   alpha3: SYC
@@ -2030,6 +2224,7 @@ SC:
   official: Republic of Seychelles
   short: Seychelles
   emoji: "\U0001F1F8\U0001F1E8"
+  shortcode: ":flag-sc:"
 SD:
   alpha2: SD
   alpha3: SDN
@@ -2040,6 +2235,7 @@ SD:
   official: Republic of the Sudan
   short: Sudan
   emoji: "\U0001F1F8\U0001F1E9"
+  shortcode: ":flag-sd:"
 SE:
   alpha2: SE
   alpha3: SWE
@@ -2050,6 +2246,7 @@ SE:
   official: Kingdom of Sweden
   short: Sweden
   emoji: "\U0001F1F8\U0001F1EA"
+  shortcode: ":flag-se:"
 SG:
   alpha2: SG
   alpha3: SGP
@@ -2060,6 +2257,7 @@ SG:
   official: Republic of Singapore
   short: Singapore
   emoji: "\U0001F1F8\U0001F1EC"
+  shortcode: ":flag-sg:"
 SH:
   alpha2: SH
   alpha3: SHN
@@ -2070,6 +2268,7 @@ SH:
   official: Saint Helena
   short: Saint Helena
   emoji: "\U0001F1F8\U0001F1ED"
+  shortcode: ":flag-sh:"
 SI:
   alpha2: SI
   alpha3: SVN
@@ -2080,6 +2279,7 @@ SI:
   official: Republic of Slovenia
   short: Slovenia
   emoji: "\U0001F1F8\U0001F1EE"
+  shortcode: ":flag-si:"
 SJ:
   alpha2: SJ
   alpha3: SJM
@@ -2090,6 +2290,7 @@ SJ:
   official: Svalbard And Jan Mayen
   short: Svalbard And Jan Mayen
   emoji: "\U0001F1F8\U0001F1EF"
+  shortcode: ":flag-sj:"
 SK:
   alpha2: SK
   alpha3: SVK
@@ -2100,6 +2301,7 @@ SK:
   official: Slovak Republic
   short: Slovakia
   emoji: "\U0001F1F8\U0001F1F0"
+  shortcode: ":flag-sk:"
 SL:
   alpha2: SL
   alpha3: SLE
@@ -2110,6 +2312,7 @@ SL:
   official: Republic of Sierra Leone
   short: Sierra Leone
   emoji: "\U0001F1F8\U0001F1F1"
+  shortcode: ":flag-sl:"
 SM:
   aliases:
   - Most Serene Republic of San Marino
@@ -2122,6 +2325,7 @@ SM:
   official: Republic of San Marino
   short: San Marino
   emoji: "\U0001F1F8\U0001F1F2"
+  shortcode: ":flag-sm:"
 SN:
   alpha2: SN
   alpha3: SEN
@@ -2132,6 +2336,7 @@ SN:
   official: Republic of Senegal
   short: Senegal
   emoji: "\U0001F1F8\U0001F1F3"
+  shortcode: ":flag-sn:"
 SO:
   alpha2: SO
   alpha3: SOM
@@ -2142,6 +2347,7 @@ SO:
   official: Federal Republic of Somalia
   short: Somalia
   emoji: "\U0001F1F8\U0001F1F4"
+  shortcode: ":flag-so:"
 SR:
   aliases:
   - Surinam
@@ -2154,6 +2360,7 @@ SR:
   official: Republic of Suriname
   short: Suriname
   emoji: "\U0001F1F8\U0001F1F7"
+  shortcode: ":flag-sr:"
 SS:
   aliases:
   - S. Sudan
@@ -2166,6 +2373,7 @@ SS:
   official: Republic of South Sudan
   short: South Sudan
   emoji: "\U0001F1F8\U0001F1F8"
+  shortcode: ":flag-ss:"
 ST:
   aliases:
   - Democratic Republic of Sao Tome and Principe
@@ -2179,6 +2387,7 @@ ST:
   official: Democratic Republic of São Tomé and Príncipe
   short: Sao Tome and Principe
   emoji: "\U0001F1F8\U0001F1F9"
+  shortcode: ":flag-st:"
 SV:
   alpha2: SV
   alpha3: SLV
@@ -2189,6 +2398,7 @@ SV:
   official: Republic of El Salvador
   short: El Salvador
   emoji: "\U0001F1F8\U0001F1FB"
+  shortcode: ":flag-sv:"
 SX:
   alpha2: SX
   alpha3: SXM
@@ -2199,6 +2409,7 @@ SX:
   official: Sint Maarten
   short: Sint Maarten
   emoji: "\U0001F1F8\U0001F1FD"
+  shortcode: ":flag-sx:"
 SY:
   alpha2: SY
   alpha3: SYR
@@ -2209,6 +2420,7 @@ SY:
   official: Syrian Arab Republic
   short: Syria
   emoji: "\U0001F1F8\U0001F1FE"
+  shortcode: ":flag-sy:"
 SZ:
   aliases:
   - Ngwane
@@ -2222,6 +2434,7 @@ SZ:
   official: Kingdom of Swaziland
   short: Swaziland
   emoji: "\U0001F1F8\U0001F1FF"
+  shortcode: ":flag-sz:"
 TC:
   aliases:
   - TCI
@@ -2234,6 +2447,7 @@ TC:
   official: Turks and Caicos Islands
   short: Turks and Caicos Islands
   emoji: "\U0001F1F9\U0001F1E8"
+  shortcode: ":flag-tc:"
 TD:
   alpha2: TD
   alpha3: TCD
@@ -2244,6 +2458,7 @@ TD:
   official: Republic of Chad
   short: Chad
   emoji: "\U0001F1F9\U0001F1E9"
+  shortcode: ":flag-td:"
 TF:
   aliases:
   - French Southern and Antarctic Lands
@@ -2256,6 +2471,7 @@ TF:
   official: Territory of the French Southern and Antarctic Land
   short: French Southern Territories
   emoji: "\U0001F1F9\U0001F1EB"
+  shortcode: ":flag-tf:"
 TG:
   alpha2: TG
   alpha3: TGO
@@ -2266,6 +2482,7 @@ TG:
   official: Togolese Republic
   short: Togo
   emoji: "\U0001F1F9\U0001F1EC"
+  shortcode: ":flag-tg:"
 TH:
   alpha2: TH
   alpha3: THA
@@ -2276,6 +2493,7 @@ TH:
   official: Kingdom of Thailand
   short: Thailand
   emoji: "\U0001F1F9\U0001F1ED"
+  shortcode: ":flag-th:"
 TJ:
   alpha2: TJ
   alpha3: TJK
@@ -2286,6 +2504,7 @@ TJ:
   official: Republic of Tajikistan
   short: Tajikistan
   emoji: "\U0001F1F9\U0001F1EF"
+  shortcode: ":flag-tj:"
 TK:
   alpha2: TK
   alpha3: TKL
@@ -2296,6 +2515,7 @@ TK:
   official: Tokelau
   short: Tokelau
   emoji: "\U0001F1F9\U0001F1F0"
+  shortcode: ":flag-tk:"
 TL:
   alpha2: TL
   alpha3: TLS
@@ -2306,6 +2526,7 @@ TL:
   official: Democratic Republic of Timor-Leste
   short: East Timor
   emoji: "\U0001F1F9\U0001F1F1"
+  shortcode: ":flag-tl:"
 TM:
   alpha2: TM
   alpha3: TKM
@@ -2316,6 +2537,7 @@ TM:
   official: Turkmenistan
   short: Turkmenistan
   emoji: "\U0001F1F9\U0001F1F2"
+  shortcode: ":flag-tm:"
 TN:
   alpha2: TN
   alpha3: TUN
@@ -2326,6 +2548,7 @@ TN:
   official: Republic of Tunisia
   short: Tunisia
   emoji: "\U0001F1F9\U0001F1F3"
+  shortcode: ":flag-tn:"
 TO:
   alpha2: TO
   alpha3: TON
@@ -2336,6 +2559,7 @@ TO:
   official: Kingdom of Tonga
   short: Tonga
   emoji: "\U0001F1F9\U0001F1F4"
+  shortcode: ":flag-to:"
 TR:
   alpha2: TR
   alpha3: TUR
@@ -2346,6 +2570,7 @@ TR:
   official: Republic of Turkey
   short: Turkey
   emoji: "\U0001F1F9\U0001F1F7"
+  shortcode: ":flag-tr:"
 TT:
   alpha2: TT
   alpha3: TTO
@@ -2356,6 +2581,7 @@ TT:
   official: Republic of Trinidad and Tobago
   short: Trinidad and Tobago
   emoji: "\U0001F1F9\U0001F1F9"
+  shortcode: ":flag-tt:"
 TV:
   alpha2: TV
   alpha3: TUV
@@ -2366,6 +2592,7 @@ TV:
   official: Tuvalu
   short: Tuvalu
   emoji: "\U0001F1F9\U0001F1FB"
+  shortcode: ":flag-tv:"
 TW:
   aliases:
   - ROC
@@ -2378,6 +2605,7 @@ TW:
   official: Republic of China
   short: Taiwan
   emoji: "\U0001F1F9\U0001F1FC"
+  shortcode: ":flag-tw:"
 TZ:
   alpha2: TZ
   alpha3: TZA
@@ -2388,6 +2616,7 @@ TZ:
   official: United Republic of Tanzania
   short: Tanzania
   emoji: "\U0001F1F9\U0001F1FF"
+  shortcode: ":flag-tz:"
 UA:
   alpha2: UA
   alpha3: UKR
@@ -2398,6 +2627,7 @@ UA:
   official: Ukraine
   short: Ukraine
   emoji: "\U0001F1FA\U0001F1E6"
+  shortcode: ":flag-ua:"
 UG:
   alpha2: UG
   alpha3: UGA
@@ -2408,6 +2638,7 @@ UG:
   official: Republic of Uganda
   short: Uganda
   emoji: "\U0001F1FA\U0001F1EC"
+  shortcode: ":flag-ug:"
 UM:
   alpha2: UM
   alpha3: UMI
@@ -2418,6 +2649,7 @@ UM:
   official: United States Minor Outlying Islands
   short: United States Minor Outlying Islands
   emoji: "\U0001F1FA\U0001F1F2"
+  shortcode: ":flag-um:"
 US:
   aliases:
   - America
@@ -2432,6 +2664,7 @@ US:
   official: United States of America
   short: United States
   emoji: "\U0001F1FA\U0001F1F8"
+  shortcode: ":flag-us:"
 UY:
   aliases:
   - Eastern Republic of Uruguay
@@ -2444,6 +2677,7 @@ UY:
   official: Oriental Republic of Uruguay
   short: Uruguay
   emoji: "\U0001F1FA\U0001F1FE"
+  shortcode: ":flag-uy:"
 UZ:
   alpha2: UZ
   alpha3: UZB
@@ -2454,6 +2688,7 @@ UZ:
   official: Republic of Uzbekistan
   short: Uzbekistan
   emoji: "\U0001F1FA\U0001F1FF"
+  shortcode: ":flag-uz:"
 VA:
   alpha2: VA
   alpha3: VAT
@@ -2464,6 +2699,7 @@ VA:
   official: Vatican City State
   short: Vatican City
   emoji: "\U0001F1FB\U0001F1E6"
+  shortcode: ":flag-va:"
 VC:
   alpha2: VC
   alpha3: VCT
@@ -2474,6 +2710,7 @@ VC:
   official: Saint Vincent And The Grenadines
   short: Saint Vincent And The Grenadines
   emoji: "\U0001F1FB\U0001F1E8"
+  shortcode: ":flag-vc:"
 VE:
   alpha2: VE
   alpha3: VEN
@@ -2484,6 +2721,7 @@ VE:
   official: Bolivarian Republic of Venezuela
   short: Venezuela
   emoji: "\U0001F1FB\U0001F1EA"
+  shortcode: ":flag-ve:"
 VG:
   aliases:
   - BVI
@@ -2496,6 +2734,7 @@ VG:
   official: Virgin Islands
   short: British Virgin Islands
   emoji: "\U0001F1FB\U0001F1EC"
+  shortcode: ":flag-vg:"
 VI:
   aliases:
   - USVI
@@ -2510,6 +2749,7 @@ VI:
   official: Virgin Islands of the United States
   short: U.S. Virgin Islands
   emoji: "\U0001F1FB\U0001F1EE"
+  shortcode: ":flag-vi:"
 VN:
   aliases:
   - Viet Nam
@@ -2522,6 +2762,7 @@ VN:
   official: Socialist Republic of Vietnam
   short: Vietnam
   emoji: "\U0001F1FB\U0001F1F3"
+  shortcode: ":flag-vn:"
 VU:
   alpha2: VU
   alpha3: VUT
@@ -2532,6 +2773,7 @@ VU:
   official: Republic of Vanuatu
   short: Vanuatu
   emoji: "\U0001F1FB\U0001F1FA"
+  shortcode: ":flag-vu:"
 WF:
   alpha2: WF
   alpha3: WLF
@@ -2542,6 +2784,7 @@ WF:
   official: Territory of the Wallis and Futuna Islands
   short: Wallis and Futuna
   emoji: "\U0001F1FC\U0001F1EB"
+  shortcode: ":flag-wf:"
 WS:
   alpha2: WS
   alpha3: WSM
@@ -2552,6 +2795,7 @@ WS:
   official: Independent State of Samoa
   short: Samoa
   emoji: "\U0001F1FC\U0001F1F8"
+  shortcode: ":flag-ws:"
 YE:
   alpha2: YE
   alpha3: YEM
@@ -2562,6 +2806,7 @@ YE:
   official: Republic of Yemen
   short: Yemen
   emoji: "\U0001F1FE\U0001F1EA"
+  shortcode: ":flag-ye:"
 YT:
   alpha2: YT
   alpha3: MYT
@@ -2572,6 +2817,7 @@ YT:
   official: Department of Mayotte
   short: Mayotte
   emoji: "\U0001F1FE\U0001F1F9"
+  shortcode: ":flag-yt:"
 ZA:
   alpha2: ZA
   alpha3: ZAF
@@ -2582,6 +2828,7 @@ ZA:
   official: Republic of South Africa
   short: South Africa
   emoji: "\U0001F1FF\U0001F1E6"
+  shortcode: ":flag-za:"
 ZM:
   alpha2: ZM
   alpha3: ZMB
@@ -2592,6 +2839,7 @@ ZM:
   official: Republic of Zambia
   short: Zambia
   emoji: "\U0001F1FF\U0001F1F2"
+  shortcode: ":flag-zm:"
 ZW:
   alpha2: ZW
   alpha3: ZWE
@@ -2602,3 +2850,4 @@ ZW:
   official: Republic of Zimbabwe
   short: Zimbabwe
   emoji: "\U0001F1FF\U0001F1FC"
+  shortcode: ":flag-zw:"
