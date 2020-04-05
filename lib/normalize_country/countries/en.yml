@@ -2425,14 +2425,16 @@ SZ:
   aliases:
   - Ngwane
   - Swatini
+  - Swaziland
+  - Kingdom of Swaziland
   alpha2: SZ
   alpha3: SWZ
   fifa: SWZ
   ioc: SWZ
   iso_name: Swaziland
   numeric: "748"
-  official: Kingdom of Swaziland
-  short: Swaziland
+  official: Kingdom of Eswatini
+  short: Eswatini
   emoji: "\U0001F1F8\U0001F1FF"
   shortcode: ":flag-sz:"
 TC:
