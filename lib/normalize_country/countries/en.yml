@@ -1375,6 +1375,7 @@ KP:
   - DPRK
   - N Korea
   - N. Korea
+  - Korea, North
   alpha2: KP
   alpha3: PRK
   fifa: PRK
@@ -1389,6 +1390,7 @@ KR:
   aliases:
   - S Korea
   - S. Korea
+  - Korea, South
   alpha2: KR
   alpha3: KOR
   fifa: KOR
