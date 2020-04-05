@@ -1578,6 +1578,8 @@ MC:
   emoji: "\U0001F1F2\U0001F1E8"
   shortcode: ":flag-mc:"
 MD:
+  aliases:
+  - Moldova, Republic of
   alpha2: MD
   alpha3: MDA
   fifa: MDA
@@ -1585,7 +1587,7 @@ MD:
   iso_name: Moldova, Republic of
   numeric: "498"
   official: Republic of Moldova
-  short: Moldova, Republic of
+  short: Moldova
   emoji: "\U0001F1F2\U0001F1E9"
   shortcode: ":flag-md:"
 ME:
