@@ -454,11 +454,12 @@ CD:
   - Congo-Kinshasa
   - DRC
   - DR Congo
+  - Congo, The Democratic Republic Of The
   alpha2: CD
   alpha3: COD
   fifa: COD
   ioc: COD
-  iso_name: Congo, The Democratic Republic Of The
+  iso_name: Congo, Democratic Republic Of The
   numeric: "180"
   official: Democratic Republic of the Congo
   short: Congo, The Democratic Republic Of The
@@ -478,13 +479,15 @@ CF:
 CG:
   aliases:
   - Congo-Brazzaville
+  - Congo Republic
+  - Congo, Republic of the
   alpha2: CG
   alpha3: COG
   fifa: CGO
   ioc: CGO
   iso_name: Congo
   numeric: "178"
-  official: People's Republic of the Congo
+  official: Republic of the Congo
   short: Congo
   emoji: "\U0001F1E8\U0001F1EC"
   shortcode: ":flag-cg:"
