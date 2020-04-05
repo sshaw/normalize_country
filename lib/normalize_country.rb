@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require "yaml"
 
 module NormalizeCountry
-  VERSION = "0.2.3"
+  VERSION = "0.3.0"
   Countries = {}
 
   class << self

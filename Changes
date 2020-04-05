@@ -1,3 +1,16 @@
+v0.3.0    2020-04-05
+--------------------
+Changes:
+* Changed :offical and :short for Swaziland to Eswatini
+* Changed :offical for Republic of The Congo
+* Changed :short for Moldova
+
+Enhancements:
+* Added conversions to emoji shortname
+* Added aliases for South and North Korea
+* Added alias for Republic of The Congo
+* Added alias for Democratic Republic of The Congo
+
 v0.2.3    2020-01-18
 --------------------
 Enhancements:
