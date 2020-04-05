@@ -110,15 +110,9 @@ describe NormalizeCountry do
 
   describe ".formats" do
     it "returns a list of supported formats" do
-      expected = [:alpha2, :alpha3, :fifa, :ioc, :iso_name, :numeric, :official, :short, :simple, :emoji]
+      expected = [:alpha2, :alpha3, :fifa, :ioc, :iso_name, :numeric, :official, :short, :shortcode, :simple, :emoji]
       formats  = NormalizeCountry.formats
-
-      # Ugh, support this in 1.8.7 for a least one version
-      if Symbol < Comparable
-        formats.sort.must_equal(expected.sort)
-      else
-        formats.sort_by { |f| f.to_s }.must_equal(expected.sort_by { |f| f.to_s })
-      end
+      formats.sort.must_equal(expected.sort)
     end
   end
 
