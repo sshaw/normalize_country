@@ -2627,6 +2627,8 @@ TZ:
   emoji: "\U0001F1F9\U0001F1FF"
   shortcode: ":flag-tz:"
 UA:
+  aliases:
+  - The Ukraine
   alpha2: UA
   alpha3: UKR
   fifa: UKR
