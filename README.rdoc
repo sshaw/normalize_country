@@ -123,3 +123,7 @@ Upon further investigation I've found the following:
 * {country_codes}[https://github.com/SunDawg/country_codes] ISO country names and currency data
 * {i18n_data}[https://github.com/grosser/i18n_data]: ISO country names in different languages, includes alpha codes
 * {ModelUN}[https://github.com/uhhuhyeah/model_un]: Similar to this gem but with less support for conversion, it does include US states
+
+=== See Also
+
+* {National Colors}[https://github.com/sshaw/national_colors]
