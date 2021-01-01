@@ -7,7 +7,7 @@ module NormalizeCountry
   Countries = {}
 
   class << self
-    attr_accessor :to
+    attr_writer :to
 
     def to
       @to ||= :iso_name
