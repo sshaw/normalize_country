@@ -1897,6 +1897,8 @@ NI:
   emoji: "\U0001F1F3\U0001F1EE"
   shortcode: ":flag-ni:"
 NL:
+  aliases:
+  - Holland
   alpha2: NL
   alpha3: NLD
   fifa: NED
