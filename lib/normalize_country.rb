@@ -46,7 +46,7 @@ module NormalizeCountry
     end
   end
 
-  class Country
+  class Country   # :nodoc: all
     def initialize(config)
       raise ArgumentError, "country config must be a hash" unless Hash === config
 
