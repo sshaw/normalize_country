@@ -511,6 +511,11 @@ CH:
   emoji: "\U0001F1E8\U0001F1ED"
   shortcode: ":flag-ch:"
 CI:
+  aliases:
+  - Côte D'Ivoire
+  - Côte D’Ivoire
+  - Cote D'Ivoire
+  - Cote D’Ivoire
   alpha2: CI
   alpha3: CIV
   fifa: CIV
