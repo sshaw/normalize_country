@@ -2406,7 +2406,10 @@ SR:
   shortcode: ":flag-sr:"
 SS:
   aliases:
+  - South Sudan, Republic of
   - S. Sudan
+  - Republic of S. Sudan
+  - S. Sudan, Republic of
   alpha2: SS
   alpha3: SSD
   fifa:
