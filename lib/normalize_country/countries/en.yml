@@ -2263,6 +2263,12 @@ SC:
   emoji: "\U0001F1F8\U0001F1E8"
   shortcode: ":flag-sc:"
 SD:
+  aliases:
+  - The Sudan
+  - The Sudan, Republic of
+  - Republic of Sudan
+  - Sudan, Republic of
+  - Sudan, Republic of the
   alpha2: SD
   alpha3: SDN
   fifa: SDN
