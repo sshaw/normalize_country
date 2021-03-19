@@ -553,6 +553,9 @@ CL:
   emoji: "\U0001F1E8\U0001F1F1"
   shortcode: ":flag-cl:"
 CM:
+  aliases:
+  - Cameroun
+  - Cameroon, Republic of
   alpha2: CM
   alpha3: CMR
   fifa: CMR
