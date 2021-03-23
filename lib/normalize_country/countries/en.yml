@@ -459,9 +459,13 @@ CD:
   aliases:
   - Congo Kinshasa
   - Congo-Kinshasa
-  - DRC
-  - DR Congo
   - Congo, The Democratic Republic Of The
+  - Congo, Democratic Republic of
+  - Democratic Republic of Congo
+  - DR Congo
+  - RD Congo
+  - DROC
+  - DRC
   alpha2: CD
   alpha3: COD
   fifa: COD
@@ -549,6 +553,9 @@ CL:
   emoji: "\U0001F1E8\U0001F1F1"
   shortcode: ":flag-cl:"
 CM:
+  aliases:
+  - Cameroun
+  - Cameroon, Republic of
   alpha2: CM
   alpha3: CMR
   fifa: CMR
@@ -2256,6 +2263,12 @@ SC:
   emoji: "\U0001F1F8\U0001F1E8"
   shortcode: ":flag-sc:"
 SD:
+  aliases:
+  - The Sudan
+  - The Sudan, Republic of
+  - Republic of Sudan
+  - Sudan, Republic of
+  - Sudan, Republic of the
   alpha2: SD
   alpha3: SDN
   fifa: SDN
@@ -2393,7 +2406,10 @@ SR:
   shortcode: ":flag-sr:"
 SS:
   aliases:
+  - South Sudan, Republic of
   - S. Sudan
+  - Republic of S. Sudan
+  - S. Sudan, Republic of
   alpha2: SS
   alpha3: SSD
   fifa:
