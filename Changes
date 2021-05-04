@@ -1,3 +1,15 @@
+v0.3.2    2021-05-04
+--------------------
+Enhancements:
+* Added various aliases for South Sudan
+* Added aliases for Cameroon
+* Added various aliases for DR Congo
+* Added various aliases for Côte D'Ivoire
+* Various other aliases, mostly to deal with punctuation
+
+Changes:
+* Change Turks and Caicos Island's short to "Turks and Caicos"
+
 v0.3.1    2021-01-01
 --------------------
 Enhancements:
