@@ -1,3 +1,9 @@
+v0.3.3    2025-02-22
+--------------------
+Enhancements:
+* Added PRC alias for China
+* Added support for an alternative DB via the NORMALIZE_COUNTRY_DB environment variable
+
 v0.3.2    2021-05-04
 --------------------
 Enhancements:
