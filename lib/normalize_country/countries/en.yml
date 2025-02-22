@@ -567,6 +567,8 @@ CM:
   emoji: "\U0001F1E8\U0001F1F2"
   shortcode: ":flag-cm:"
 CN:
+  aliases:
+  - PRC
   alpha2: CN
   alpha3: CHN
   fifa: CHN
