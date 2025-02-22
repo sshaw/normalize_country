@@ -59,6 +59,11 @@ will convert to/from the following:
 
 A list of valid formats can be obtained by calling +NormalizeCountry.formats+.
 
+=== Custom Database
+
+Set the +NORMALIZE_COUNTRY_DB+ environment variable.
+See <code>lib/normalize_country/countries/en.yml</code> for the expected format.
+
 === Obtaining an Array or Hash
 
  NormalizeCountry.to_a                              # Defaults to NormalizeCountry.to
